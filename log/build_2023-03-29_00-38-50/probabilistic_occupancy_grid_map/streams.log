@@ -1,0 +1,148 @@
+[0.190s] Invoking command in '/home/sws/autoware/build/probabilistic_occupancy_grid_map': AMENT_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/pointcloud_to_laserscan:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/pointcloud_to_laserscan:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/pointcloud_to_laserscan/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/perception/probabilistic_occupancy_grid_map -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/probabilistic_occupancy_grid_map
+[10.235s] -- The C compiler identification is GNU 11.3.0
+[10.235s] -- The CXX compiler identification is GNU 11.3.0
+[10.235s] -- Detecting C compiler ABI info
+[10.235s] -- Detecting C compiler ABI info - done
+[10.235s] -- Check for working C compiler: /usr/bin/cc - skipped
+[10.236s] -- Detecting C compile features
+[10.236s] -- Detecting C compile features - done
+[10.236s] -- Detecting CXX compiler ABI info
+[10.236s] -- Detecting CXX compiler ABI info - done
+[10.236s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[10.236s] -- Detecting CXX compile features
+[10.236s] -- Detecting CXX compile features - done
+[10.236s] -- Found autoware_cmake: 0.1.0 (/home/sws/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[10.236s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[10.236s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[10.237s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[10.237s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[10.237s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[10.237s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.237s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.237s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.237s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.238s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[10.247s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.247s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.247s] -- Looking for pthread.h
+[10.247s] -- Looking for pthread.h - found
+[10.247s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.247s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.248s] -- Found Threads: TRUE  
+[10.248s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[10.248s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[10.248s] -- Checking for module 'eigen3'
+[10.248s] --   Found eigen3, version 3.4.0
+[10.248s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[10.248s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[10.248s] -- Checking for module 'flann'
+[10.248s] --   Found flann, version 1.9.1
+[10.248s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[10.248s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[11.065s] -- Checking for module 'libusb-1.0'
+[11.088s] --   Found libusb-1.0, version 1.0.25
+[11.148s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[11.149s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.243s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[11.534s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[11.545s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.554s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[11.795s] -- Found Qhull version 8.0.2
+[12.023s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.267s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[12.269s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[12.270s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[12.272s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[12.273s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[12.275s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[12.276s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[12.276s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[12.278s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[12.280s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[12.281s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[12.283s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[12.285s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[12.286s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[12.288s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[12.290s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[12.292s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[12.294s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[12.296s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[12.298s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[12.299s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[12.300s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[12.301s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[12.303s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[12.305s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[14.216s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[20.518s] -- Added test 'copyright' to check source files copyright and LICENSE
+[20.518s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[20.518s] -- Configured cppcheck include dirs: /home/sws/autoware/src/universe/autoware.universe/perception/probabilistic_occupancy_grid_map/include
+[20.519s] -- Configured cppcheck exclude dirs and/or files: 
+[20.519s] -- Added test 'lint_cmake' to check CMake code style
+[20.519s] -- Added test 'xmllint' to check XML markup files
+[20.538s] -- Configuring done
+[21.013s] -- Generating done
+[21.013s] -- Build files have been written to: /home/sws/autoware/build/probabilistic_occupancy_grid_map
+[21.086s] Invoked command in '/home/sws/autoware/build/probabilistic_occupancy_grid_map' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/pointcloud_to_laserscan:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/pointcloud_to_laserscan:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/pointcloud_to_laserscan/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/perception/probabilistic_occupancy_grid_map -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/probabilistic_occupancy_grid_map
+[21.172s] Invoking command in '/home/sws/autoware/build/probabilistic_occupancy_grid_map': AMENT_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/pointcloud_to_laserscan:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/pointcloud_to_laserscan:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/pointcloud_to_laserscan/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sws/autoware/build/probabilistic_occupancy_grid_map -- -j16 -l16
+[25.606s] [  7%] [32mBuilding CXX object CMakeFiles/pointcloud_based_occupancy_grid_map_node.dir/rclcpp_components/node_main_pointcloud_based_occupancy_grid_map_node.cpp.o[0m
+[25.607s] [ 14%] [32mBuilding CXX object CMakeFiles/pointcloud_based_occupancy_grid_map.dir/src/pointcloud_based_occupancy_grid_map/occupancy_grid_map.cpp.o[0m
+[25.607s] [ 21%] [32mBuilding CXX object CMakeFiles/pointcloud_based_occupancy_grid_map.dir/src/pointcloud_based_occupancy_grid_map/pointcloud_based_occupancy_grid_map_node.cpp.o[0m
+[27.802s] [ 28%] [32m[1mLinking CXX executable pointcloud_based_occupancy_grid_map_node[0m
+[28.076s] [ 28%] Built target pointcloud_based_occupancy_grid_map_node
+[57.233s] [ 35%] [32mBuilding CXX object CMakeFiles/pointcloud_based_occupancy_grid_map.dir/src/utils/utils.cpp.o[0m
+[76.577s] [ 42%] [32mBuilding CXX object CMakeFiles/pointcloud_based_occupancy_grid_map.dir/src/updater/occupancy_grid_map_binary_bayes_filter_updater.cpp.o[0m
+[78.282s] [ 50%] [32m[1mLinking CXX shared library libpointcloud_based_occupancy_grid_map.so[0m
+[79.219s] [ 50%] Built target pointcloud_based_occupancy_grid_map
+[79.249s] [ 57%] [32mBuilding CXX object CMakeFiles/laserscan_based_occupancy_grid_map_node.dir/rclcpp_components/node_main_laserscan_based_occupancy_grid_map_node.cpp.o[0m
+[82.734s] [ 64%] [32m[1mLinking CXX executable laserscan_based_occupancy_grid_map_node[0m
+[82.848s] [ 64%] Built target laserscan_based_occupancy_grid_map_node
+[82.873s] [ 71%] [32mBuilding CXX object CMakeFiles/laserscan_based_occupancy_grid_map.dir/src/laserscan_based_occupancy_grid_map/laserscan_based_occupancy_grid_map_node.cpp.o[0m
+[121.750s] [ 78%] [32mBuilding CXX object CMakeFiles/laserscan_based_occupancy_grid_map.dir/src/utils/utils.cpp.o[0m
+[142.877s] [ 85%] [32mBuilding CXX object CMakeFiles/laserscan_based_occupancy_grid_map.dir/src/updater/occupancy_grid_map_binary_bayes_filter_updater.cpp.o[0m
+[142.877s] [ 92%] [32mBuilding CXX object CMakeFiles/laserscan_based_occupancy_grid_map.dir/src/laserscan_based_occupancy_grid_map/occupancy_grid_map.cpp.o[0m
+[147.921s] [100%] [32m[1mLinking CXX shared library liblaserscan_based_occupancy_grid_map.so[0m
+[148.620s] [100%] Built target laserscan_based_occupancy_grid_map
+[148.633s] Invoked command in '/home/sws/autoware/build/probabilistic_occupancy_grid_map' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/pointcloud_to_laserscan:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/pointcloud_to_laserscan:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/pointcloud_to_laserscan/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sws/autoware/build/probabilistic_occupancy_grid_map -- -j16 -l16
+[148.678s] Invoking command in '/home/sws/autoware/build/probabilistic_occupancy_grid_map': AMENT_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/pointcloud_to_laserscan:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/pointcloud_to_laserscan:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/pointcloud_to_laserscan/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sws/autoware/build/probabilistic_occupancy_grid_map
+[156.243s] -- Install configuration: "Release"
+[156.243s] -- Execute custom install script
+[156.243s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/lib/probabilistic_occupancy_grid_map/pointcloud_based_occupancy_grid_map_node
+[156.243s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/lib/probabilistic_occupancy_grid_map/laserscan_based_occupancy_grid_map_node
+[156.243s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/include/cost_value.hpp
+[156.243s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/include/laserscan_based_occupancy_grid_map/laserscan_based_occupancy_grid_map_node.hpp
+[156.243s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/include/laserscan_based_occupancy_grid_map/occupancy_grid_map.hpp
+[156.244s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/include/pointcloud_based_occupancy_grid_map/occupancy_grid_map.hpp
+[156.244s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/include/pointcloud_based_occupancy_grid_map/pointcloud_based_occupancy_grid_map_node.hpp
+[156.244s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/include/updater/occupancy_grid_map_binary_bayes_filter_updater.hpp
+[156.244s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/include/updater/occupancy_grid_map_updater_interface.hpp
+[156.244s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/include/utils/utils.hpp
+[156.244s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/environment/library_path.sh
+[156.244s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/environment/library_path.dsv
+[156.244s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/lib/libpointcloud_based_occupancy_grid_map.so
+[156.244s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/lib/liblaserscan_based_occupancy_grid_map.so
+[156.244s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/launch/laserscan_based_occupancy_grid_map.launch.py
+[156.244s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/launch/pointcloud_based_occupancy_grid_map.launch.py
+[156.244s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/config/laserscan_based_occupancy_grid_map.param.yaml
+[156.245s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/config/pointcloud_based_occupancy_grid_map.param.yaml
+[156.245s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/ament_index/resource_index/package_run_dependencies/probabilistic_occupancy_grid_map
+[156.245s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/ament_index/resource_index/parent_prefix_path/probabilistic_occupancy_grid_map
+[156.245s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/environment/ament_prefix_path.sh
+[156.245s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/environment/ament_prefix_path.dsv
+[156.245s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/environment/path.sh
+[156.245s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/environment/path.dsv
+[156.245s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/local_setup.bash
+[156.245s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/local_setup.sh
+[156.245s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/local_setup.zsh
+[156.245s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/local_setup.dsv
+[156.246s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/package.dsv
+[156.246s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/ament_index/resource_index/packages/probabilistic_occupancy_grid_map
+[156.246s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/ament_index/resource_index/rclcpp_components/probabilistic_occupancy_grid_map
+[156.246s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/cmake/ament_cmake_export_dependencies-extras.cmake
+[156.260s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/cmake/ament_cmake_export_include_directories-extras.cmake
+[156.260s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/cmake/ament_cmake_export_libraries-extras.cmake
+[156.260s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/cmake/probabilistic_occupancy_grid_mapConfig.cmake
+[156.260s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/cmake/probabilistic_occupancy_grid_mapConfig-version.cmake
+[156.260s] -- Symlinking: /home/sws/autoware/install/probabilistic_occupancy_grid_map/share/probabilistic_occupancy_grid_map/package.xml
+[156.271s] Invoked command in '/home/sws/autoware/build/probabilistic_occupancy_grid_map' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/pointcloud_to_laserscan:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/pointcloud_to_laserscan:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/pointcloud_to_laserscan/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sws/autoware/build/probabilistic_occupancy_grid_map

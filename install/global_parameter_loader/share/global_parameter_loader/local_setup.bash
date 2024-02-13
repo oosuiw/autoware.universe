@@ -1,0 +1,1 @@
+/home/sws/autoware/build/global_parameter_loader/ament_cmake_environment_hooks/local_setup.bash

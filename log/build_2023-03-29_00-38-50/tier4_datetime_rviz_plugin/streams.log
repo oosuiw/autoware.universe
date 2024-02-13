@@ -1,0 +1,113 @@
+[0.034s] Invoking command in '/home/sws/autoware/build/tier4_datetime_rviz_plugin': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/common/tier4_datetime_rviz_plugin -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/tier4_datetime_rviz_plugin
+[35.838s] -- The C compiler identification is GNU 11.3.0
+[35.838s] -- The CXX compiler identification is GNU 11.3.0
+[35.838s] -- Detecting C compiler ABI info
+[35.838s] -- Detecting C compiler ABI info - done
+[35.838s] -- Check for working C compiler: /usr/bin/cc - skipped
+[35.838s] -- Detecting C compile features
+[35.838s] -- Detecting C compile features - done
+[35.838s] -- Detecting CXX compiler ABI info
+[35.839s] -- Detecting CXX compiler ABI info - done
+[35.839s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[35.839s] -- Detecting CXX compile features
+[35.839s] -- Detecting CXX compile features - done
+[35.839s] -- Found autoware_cmake: 0.1.0 (/home/sws/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[35.839s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[35.839s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[35.839s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[35.839s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[35.839s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[35.839s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[35.839s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[35.839s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[35.839s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[35.839s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[35.840s] -- Found FastRTPS: /opt/ros/humble/include  
+[35.840s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[35.840s] -- Looking for pthread.h
+[35.840s] -- Looking for pthread.h - found
+[35.840s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[35.840s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[35.840s] -- Found Threads: TRUE  
+[35.840s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[35.840s] -- Found OGRE
+[35.840s] --   static     : OFF
+[35.840s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[35.840s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[35.841s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[35.841s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[35.841s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[35.841s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[35.841s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[35.841s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[35.841s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[35.841s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[35.841s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[35.841s] -- Could not find freeimage library
+[35.841s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[35.841s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[35.842s] -- Found X11: /usr/include   
+[35.842s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[35.842s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[35.842s] -- Looking for gethostbyname
+[35.842s] -- Looking for gethostbyname - found
+[35.842s] -- Looking for connect
+[35.842s] -- Looking for connect - found
+[35.842s] -- Looking for remove
+[35.842s] -- Looking for remove - found
+[35.842s] -- Looking for shmat
+[35.842s] -- Looking for shmat - found
+[35.842s] -- Looking for IceConnectionNumber in ICE
+[35.843s] -- Looking for IceConnectionNumber in ICE - found
+[35.846s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[35.847s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[35.847s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[35.847s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[35.847s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[35.847s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[35.847s] -- Added test 'copyright' to check source files copyright and LICENSE
+[35.847s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[35.847s] -- Configured cppcheck include dirs: 
+[35.847s] -- Configured cppcheck exclude dirs and/or files: 
+[35.847s] -- Added test 'lint_cmake' to check CMake code style
+[35.847s] -- Added test 'xmllint' to check XML markup files
+[35.847s] -- Configuring done
+[35.848s] -- Generating done
+[35.848s] -- Build files have been written to: /home/sws/autoware/build/tier4_datetime_rviz_plugin
+[35.856s] Invoked command in '/home/sws/autoware/build/tier4_datetime_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/common/tier4_datetime_rviz_plugin -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/tier4_datetime_rviz_plugin
+[35.857s] Invoking command in '/home/sws/autoware/build/tier4_datetime_rviz_plugin': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/tier4_datetime_rviz_plugin -- -j16 -l16
+[41.452s] [ 25%] [34m[1mAutomatic MOC for target tier4_datetime_rviz_plugin[0m
+[41.453s] [ 25%] Built target tier4_datetime_rviz_plugin_autogen
+[41.453s] [ 75%] [32mBuilding CXX object CMakeFiles/tier4_datetime_rviz_plugin.dir/tier4_datetime_rviz_plugin_autogen/mocs_compilation.cpp.o[0m
+[41.453s] [ 75%] [32mBuilding CXX object CMakeFiles/tier4_datetime_rviz_plugin.dir/src/autoware_datetime_panel.cpp.o[0m
+[42.758s] [100%] [32m[1mLinking CXX shared library libtier4_datetime_rviz_plugin.so[0m
+[44.175s] [100%] Built target tier4_datetime_rviz_plugin
+[44.189s] Invoked command in '/home/sws/autoware/build/tier4_datetime_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/tier4_datetime_rviz_plugin -- -j16 -l16
+[44.276s] Invoking command in '/home/sws/autoware/build/tier4_datetime_rviz_plugin': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/tier4_datetime_rviz_plugin
+[47.235s] -- Install configuration: "Release"
+[47.235s] -- Execute custom install script
+[47.247s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/tier4_datetime_rviz_plugin/plugins/plugin_description.xml
+[47.247s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/tier4_datetime_rviz_plugin/environment/library_path.sh
+[47.248s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/tier4_datetime_rviz_plugin/environment/library_path.dsv
+[47.248s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/lib/libtier4_datetime_rviz_plugin.so
+[47.248s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/tier4_datetime_rviz_plugin/icons/classes/AutowareDateTimePanel.png
+[47.248s] -- Up-to-date symlink: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/tier4_datetime_rviz_plugin/plugins/plugin_description.xml
+[47.248s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/ament_index/resource_index/package_run_dependencies/tier4_datetime_rviz_plugin
+[47.248s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/ament_index/resource_index/parent_prefix_path/tier4_datetime_rviz_plugin
+[47.248s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/tier4_datetime_rviz_plugin/environment/ament_prefix_path.sh
+[47.248s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/tier4_datetime_rviz_plugin/environment/ament_prefix_path.dsv
+[47.248s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/tier4_datetime_rviz_plugin/environment/path.sh
+[47.248s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/tier4_datetime_rviz_plugin/environment/path.dsv
+[47.249s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/tier4_datetime_rviz_plugin/local_setup.bash
+[47.249s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/tier4_datetime_rviz_plugin/local_setup.sh
+[47.249s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/tier4_datetime_rviz_plugin/local_setup.zsh
+[47.249s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/tier4_datetime_rviz_plugin/local_setup.dsv
+[47.249s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/tier4_datetime_rviz_plugin/package.dsv
+[47.249s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/ament_index/resource_index/packages/tier4_datetime_rviz_plugin
+[47.249s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/ament_index/resource_index/rviz_common__pluginlib__plugin/tier4_datetime_rviz_plugin
+[47.249s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/tier4_datetime_rviz_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+[47.249s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/tier4_datetime_rviz_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[47.249s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/tier4_datetime_rviz_plugin/cmake/tier4_datetime_rviz_pluginConfig.cmake
+[47.249s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/tier4_datetime_rviz_plugin/cmake/tier4_datetime_rviz_pluginConfig-version.cmake
+[47.250s] -- Symlinking: /home/sws/autoware/install/tier4_datetime_rviz_plugin/share/tier4_datetime_rviz_plugin/package.xml
+[47.294s] Invoked command in '/home/sws/autoware/build/tier4_datetime_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/tier4_datetime_rviz_plugin

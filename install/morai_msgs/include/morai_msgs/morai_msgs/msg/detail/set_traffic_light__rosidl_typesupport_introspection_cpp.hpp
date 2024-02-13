@@ -1,0 +1,1 @@
+/home/sws/autoware/build/morai_msgs/rosidl_typesupport_introspection_cpp/morai_msgs/msg/detail/set_traffic_light__rosidl_typesupport_introspection_cpp.hpp

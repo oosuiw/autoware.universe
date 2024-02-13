@@ -1,0 +1,1 @@
+/home/sws/autoware/build/planning_validator/rosidl_generator_py/planning_validator/msg/__init__.py

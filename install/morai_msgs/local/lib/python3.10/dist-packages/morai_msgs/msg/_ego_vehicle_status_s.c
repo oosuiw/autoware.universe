@@ -1,0 +1,1 @@
+/home/sws/autoware/build/morai_msgs/rosidl_generator_py/morai_msgs/msg/_ego_vehicle_status_s.c

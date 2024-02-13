@@ -1,0 +1,42 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.3 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sws/autoware/build/vls_description
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/sws/autoware/install/vls_description/share/vls_description/urdf/VLS-128.urdf.xacro
+-- Symlinking: /home/sws/autoware/install/vls_description/share/vls_description/meshes/VLS128_base_1.dae
+-- Symlinking: /home/sws/autoware/install/vls_description/share/vls_description/meshes/VLS128_base_1.stl
+-- Symlinking: /home/sws/autoware/install/vls_description/share/vls_description/meshes/VLS128_base_2.dae
+-- Symlinking: /home/sws/autoware/install/vls_description/share/vls_description/meshes/VLS128_base_2.stl
+-- Symlinking: /home/sws/autoware/install/vls_description/share/vls_description/meshes/VLS128_scan.dae
+-- Symlinking: /home/sws/autoware/install/vls_description/share/vls_description/meshes/VLS128_scan.stl
+-- Symlinking: /home/sws/autoware/install/vls_description/share/ament_index/resource_index/package_run_dependencies/vls_description
+-- Symlinking: /home/sws/autoware/install/vls_description/share/ament_index/resource_index/parent_prefix_path/vls_description
+-- Symlinking: /home/sws/autoware/install/vls_description/share/vls_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/sws/autoware/install/vls_description/share/vls_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/sws/autoware/install/vls_description/share/vls_description/environment/path.sh
+-- Symlinking: /home/sws/autoware/install/vls_description/share/vls_description/environment/path.dsv
+-- Symlinking: /home/sws/autoware/install/vls_description/share/vls_description/local_setup.bash
+-- Symlinking: /home/sws/autoware/install/vls_description/share/vls_description/local_setup.sh
+-- Symlinking: /home/sws/autoware/install/vls_description/share/vls_description/local_setup.zsh
+-- Symlinking: /home/sws/autoware/install/vls_description/share/vls_description/local_setup.dsv
+-- Symlinking: /home/sws/autoware/install/vls_description/share/vls_description/package.dsv
+-- Symlinking: /home/sws/autoware/install/vls_description/share/ament_index/resource_index/packages/vls_description
+-- Symlinking: /home/sws/autoware/install/vls_description/share/vls_description/cmake/vls_descriptionConfig.cmake
+-- Symlinking: /home/sws/autoware/install/vls_description/share/vls_description/cmake/vls_descriptionConfig-version.cmake
+-- Symlinking: /home/sws/autoware/install/vls_description/share/vls_description/package.xml

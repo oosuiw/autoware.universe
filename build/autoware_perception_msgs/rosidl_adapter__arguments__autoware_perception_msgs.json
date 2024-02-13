@@ -1,0 +1,10 @@
+{
+  "package_name": "autoware_perception_msgs",
+  "non_idl_tuples": [
+    "/home/sws/autoware/src/core/autoware_msgs/autoware_perception_msgs:msg/TrafficLight.msg",
+    "/home/sws/autoware/src/core/autoware_msgs/autoware_perception_msgs:msg/TrafficLightArray.msg",
+    "/home/sws/autoware/src/core/autoware_msgs/autoware_perception_msgs:msg/TrafficLightElement.msg",
+    "/home/sws/autoware/src/core/autoware_msgs/autoware_perception_msgs:msg/TrafficSignal.msg",
+    "/home/sws/autoware/src/core/autoware_msgs/autoware_perception_msgs:msg/TrafficSignalArray.msg"
+  ]
+}

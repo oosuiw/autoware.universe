@@ -1,0 +1,79 @@
+[0.122s] Invoking command in '/home/sws/autoware/build/rtc_replayer': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_rtc_msgs:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_rtc_msgs:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_rtc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/planning/rtc_replayer -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/rtc_replayer
+[23.270s] -- The C compiler identification is GNU 11.3.0
+[23.270s] -- The CXX compiler identification is GNU 11.3.0
+[23.270s] -- Detecting C compiler ABI info
+[23.270s] -- Detecting C compiler ABI info - done
+[23.270s] -- Check for working C compiler: /usr/bin/cc - skipped
+[23.270s] -- Detecting C compile features
+[23.270s] -- Detecting C compile features - done
+[23.270s] -- Detecting CXX compiler ABI info
+[23.270s] -- Detecting CXX compiler ABI info - done
+[23.270s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[23.270s] -- Detecting CXX compile features
+[23.270s] -- Detecting CXX compile features - done
+[23.271s] -- Found autoware_cmake: 0.1.0 (/home/sws/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[23.271s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[23.271s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[23.271s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[23.271s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[23.271s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[23.271s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[23.271s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[23.271s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[23.271s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[23.271s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[23.271s] -- Found FastRTPS: /opt/ros/humble/include  
+[23.271s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[23.271s] -- Looking for pthread.h
+[23.272s] -- Looking for pthread.h - found
+[23.272s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[23.272s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[23.272s] -- Found Threads: TRUE  
+[23.272s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[23.272s] -- Added test 'copyright' to check source files copyright and LICENSE
+[23.272s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[23.272s] -- Configured cppcheck include dirs: /home/sws/autoware/src/universe/autoware.universe/planning/rtc_replayer/include
+[23.272s] -- Configured cppcheck exclude dirs and/or files: 
+[23.272s] -- Added test 'lint_cmake' to check CMake code style
+[23.272s] -- Added test 'xmllint' to check XML markup files
+[23.272s] -- Configuring done
+[23.272s] -- Generating done
+[23.280s] -- Build files have been written to: /home/sws/autoware/build/rtc_replayer
+[23.303s] Invoked command in '/home/sws/autoware/build/rtc_replayer' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_rtc_msgs:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_rtc_msgs:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_rtc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/planning/rtc_replayer -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/rtc_replayer
+[23.305s] Invoking command in '/home/sws/autoware/build/rtc_replayer': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_rtc_msgs:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_rtc_msgs:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_rtc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sws/autoware/build/rtc_replayer -- -j16 -l16
+[24.192s] [ 25%] [32mBuilding CXX object CMakeFiles/rtc_replayer.dir/src/rtc_replayer_node.cpp.o[0m
+[40.009s] [ 50%] [32m[1mLinking CXX shared library librtc_replayer.so[0m
+[40.226s] [ 50%] Built target rtc_replayer
+[40.250s] [ 75%] [32mBuilding CXX object CMakeFiles/rtc_replayer_node.dir/rclcpp_components/node_main_rtc_replayer_node.cpp.o[0m
+[45.238s] [100%] [32m[1mLinking CXX executable rtc_replayer_node[0m
+[45.394s] [100%] Built target rtc_replayer_node
+[45.410s] Invoked command in '/home/sws/autoware/build/rtc_replayer' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_rtc_msgs:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_rtc_msgs:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_rtc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sws/autoware/build/rtc_replayer -- -j16 -l16
+[45.448s] Invoking command in '/home/sws/autoware/build/rtc_replayer': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_rtc_msgs:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_rtc_msgs:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_rtc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sws/autoware/build/rtc_replayer
+[47.457s] -- Install configuration: "Release"
+[47.457s] -- Execute custom install script
+[47.457s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/lib/rtc_replayer/rtc_replayer_node
+[47.457s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/include/rtc_replayer/rtc_replayer_node.hpp
+[47.457s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/share/rtc_replayer/environment/library_path.sh
+[47.457s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/share/rtc_replayer/environment/library_path.dsv
+[47.457s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/lib/librtc_replayer.so
+[47.457s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/share/rtc_replayer/launch/rtc_replayer.launch.xml
+[47.457s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/share/ament_index/resource_index/package_run_dependencies/rtc_replayer
+[47.457s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/share/ament_index/resource_index/parent_prefix_path/rtc_replayer
+[47.457s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/share/rtc_replayer/environment/ament_prefix_path.sh
+[47.458s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/share/rtc_replayer/environment/ament_prefix_path.dsv
+[47.458s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/share/rtc_replayer/environment/path.sh
+[47.458s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/share/rtc_replayer/environment/path.dsv
+[47.458s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/share/rtc_replayer/local_setup.bash
+[47.458s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/share/rtc_replayer/local_setup.sh
+[47.458s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/share/rtc_replayer/local_setup.zsh
+[47.458s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/share/rtc_replayer/local_setup.dsv
+[47.458s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/share/rtc_replayer/package.dsv
+[47.458s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/share/ament_index/resource_index/packages/rtc_replayer
+[47.458s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/share/ament_index/resource_index/rclcpp_components/rtc_replayer
+[47.458s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/share/rtc_replayer/cmake/ament_cmake_export_dependencies-extras.cmake
+[47.458s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/share/rtc_replayer/cmake/ament_cmake_export_include_directories-extras.cmake
+[47.459s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/share/rtc_replayer/cmake/ament_cmake_export_libraries-extras.cmake
+[47.459s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/share/rtc_replayer/cmake/rtc_replayerConfig.cmake
+[47.459s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/share/rtc_replayer/cmake/rtc_replayerConfig-version.cmake
+[47.459s] -- Symlinking: /home/sws/autoware/install/rtc_replayer/share/rtc_replayer/package.xml
+[47.467s] Invoked command in '/home/sws/autoware/build/rtc_replayer' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_rtc_msgs:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_rtc_msgs:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_rtc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sws/autoware/build/rtc_replayer

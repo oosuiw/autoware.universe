@@ -1,0 +1,4 @@
+/home/sws/autoware/build/tier4_simulation_msgs/rosidl_adapter/tier4_simulation_msgs:msg/FaultInjectionEvent.idl
+/home/sws/autoware/build/tier4_simulation_msgs/rosidl_adapter/tier4_simulation_msgs:msg/SimulationEvents.idl
+/home/sws/autoware/build/tier4_simulation_msgs/rosidl_adapter/tier4_simulation_msgs:msg/UserDefinedValue.idl
+/home/sws/autoware/build/tier4_simulation_msgs/rosidl_adapter/tier4_simulation_msgs:msg/UserDefinedValueType.idl

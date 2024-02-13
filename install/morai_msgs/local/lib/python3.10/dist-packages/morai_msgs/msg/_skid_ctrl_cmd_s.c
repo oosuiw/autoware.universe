@@ -1,0 +1,1 @@
+/home/sws/autoware/build/morai_msgs/rosidl_generator_py/morai_msgs/msg/_skid_ctrl_cmd_s.c

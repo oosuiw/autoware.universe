@@ -1,0 +1,240 @@
+[0.040s] Invoking command in '/home/sws/autoware/build/planning_debug_tools': AMENT_PREFIX_PATH=/home/sws/autoware/install/motion_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_planning_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/motion_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_planning_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/motion_utils/lib:/home/sws/autoware/install/interpolation/lib:/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_planning_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/planning/planning_debug_tools -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/planning_debug_tools
+[9.480s] -- The C compiler identification is GNU 11.3.0
+[9.480s] -- The CXX compiler identification is GNU 11.3.0
+[9.480s] -- Detecting C compiler ABI info
+[9.481s] -- Detecting C compiler ABI info - done
+[9.481s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.481s] -- Detecting C compile features
+[9.481s] -- Detecting C compile features - done
+[9.481s] -- Detecting CXX compiler ABI info
+[9.481s] -- Detecting CXX compiler ABI info - done
+[9.481s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.481s] -- Detecting CXX compile features
+[9.481s] -- Detecting CXX compile features - done
+[9.481s] -- Found autoware_cmake: 0.1.0 (/home/sws/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[9.481s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[9.481s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.482s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.482s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.482s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.482s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.482s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.482s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.482s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.482s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.482s] -- Looking for pthread.h
+[9.482s] -- Looking for pthread.h - found
+[9.483s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.483s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.483s] -- Found Threads: TRUE  
+[9.483s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[9.483s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.483s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.483s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.483s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[9.483s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.483s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.484s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[9.484s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[9.484s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[9.484s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.484s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[9.484s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[9.484s] -- Found PythonExtra: .so  
+[15.025s] -- Added test 'copyright' to check source files copyright and LICENSE
+[15.029s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.030s] -- Configured cppcheck include dirs: /home/sws/autoware/src/universe/autoware.universe/planning/planning_debug_tools/include
+[15.030s] -- Configured cppcheck exclude dirs and/or files: 
+[15.031s] -- Added test 'lint_cmake' to check CMake code style
+[15.032s] -- Added test 'xmllint' to check XML markup files
+[15.041s] -- Configuring done
+[15.193s] -- Generating done
+[15.198s] -- Build files have been written to: /home/sws/autoware/build/planning_debug_tools
+[15.230s] Invoked command in '/home/sws/autoware/build/planning_debug_tools' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/motion_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_planning_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/motion_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_planning_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/motion_utils/lib:/home/sws/autoware/install/interpolation/lib:/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_planning_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/planning/planning_debug_tools -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/planning_debug_tools
+[15.230s] Invoking command in '/home/sws/autoware/build/planning_debug_tools': AMENT_PREFIX_PATH=/home/sws/autoware/install/motion_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_planning_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/motion_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_planning_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/motion_utils/lib:/home/sws/autoware/install/interpolation/lib:/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_planning_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sws/autoware/build/planning_debug_tools -- -j16 -l16
+[21.513s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[21.514s] [  2%] Built target planning_debug_tools__cpp
+[21.514s] [  5%] [32mBuilding CXX object CMakeFiles/stop_reason_visualizer_exe.dir/rclcpp_components/node_main_stop_reason_visualizer_exe.cpp.o[0m
+[21.514s] [  7%] [32m[1mLinking CXX executable stop_reason_visualizer_exe[0m
+[21.514s] [  7%] Built target stop_reason_visualizer_exe
+[21.514s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[21.717s] [ 12%] [32mBuilding CXX object CMakeFiles/planning_debug_tools__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/planning_debug_tools/msg/detail/trajectory_debug_info__type_support.cpp.o[0m
+[22.462s] [ 15%] [32m[1mLinking CXX shared library libplanning_debug_tools__rosidl_typesupport_introspection_cpp.so[0m
+[22.572s] [ 15%] Built target planning_debug_tools__rosidl_typesupport_introspection_cpp
+[22.587s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[23.041s] [ 20%] [32mBuilding CXX object CMakeFiles/planning_debug_tools__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/planning_debug_tools/msg/detail/dds_fastrtps/trajectory_debug_info__type_support.cpp.o[0m
+[23.765s] [ 23%] [32m[1mLinking CXX shared library libplanning_debug_tools__rosidl_typesupport_fastrtps_cpp.so[0m
+[23.872s] [ 23%] Built target planning_debug_tools__rosidl_typesupport_fastrtps_cpp
+[23.890s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[24.297s] [ 28%] [32mBuilding CXX object CMakeFiles/planning_debug_tools__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/planning_debug_tools/msg/trajectory_debug_info__type_support.cpp.o[0m
+[24.717s] [ 30%] [32m[1mLinking CXX shared library libplanning_debug_tools__rosidl_typesupport_cpp.so[0m
+[24.778s] [ 30%] Built target planning_debug_tools__rosidl_typesupport_cpp
+[24.811s] [ 33%] [32mBuilding CXX object CMakeFiles/trajectory_analyzer_exe.dir/rclcpp_components/node_main_trajectory_analyzer_exe.cpp.o[0m
+[30.147s] [ 35%] [32m[1mLinking CXX executable trajectory_analyzer_exe[0m
+[30.309s] [ 35%] Built target trajectory_analyzer_exe
+[30.343s] [ 38%] [32mBuilding CXX object CMakeFiles/trajectory_analyzer_node.dir/src/trajectory_analyzer.cpp.o[0m
+[69.275s] [ 41%] [32m[1mLinking CXX shared library libtrajectory_analyzer_node.so[0m
+[69.814s] [ 41%] Built target trajectory_analyzer_node
+[69.856s] [ 41%] Built target ament_cmake_python_symlink_planning_debug_tools
+[69.888s] [ 43%] [32mBuilding CXX object CMakeFiles/stop_reason_visualizer_node.dir/src/stop_reason_visualizer.cpp.o[0m
+[89.136s] [ 46%] [32m[1mLinking CXX shared library libstop_reason_visualizer_node.so[0m
+[89.582s] [ 46%] Built target stop_reason_visualizer_node
+[90.063s] running egg_info
+[90.064s] creating planning_debug_tools.egg-info
+[90.065s] writing planning_debug_tools.egg-info/PKG-INFO
+[90.065s] writing dependency_links to planning_debug_tools.egg-info/dependency_links.txt
+[90.066s] writing top-level names to planning_debug_tools.egg-info/top_level.txt
+[90.066s] writing manifest file 'planning_debug_tools.egg-info/SOURCES.txt'
+[90.071s] reading manifest file 'planning_debug_tools.egg-info/SOURCES.txt'
+[90.073s] writing manifest file 'planning_debug_tools.egg-info/SOURCES.txt'
+[90.112s] [ 46%] Built target ament_cmake_python_build_planning_debug_tools_egg
+[90.126s] [ 48%] [34m[1mGenerating C code for ROS interfaces[0m
+[90.636s] [ 51%] [32mBuilding C object CMakeFiles/planning_debug_tools__rosidl_generator_c.dir/rosidl_generator_c/planning_debug_tools/msg/detail/trajectory_debug_info__functions.c.o[0m
+[90.792s] [ 53%] [32m[1mLinking C shared library libplanning_debug_tools__rosidl_generator_c.so[0m
+[90.845s] [ 53%] Built target planning_debug_tools__rosidl_generator_c
+[90.860s] [ 56%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[91.327s] [ 58%] [32mBuilding CXX object CMakeFiles/planning_debug_tools__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/planning_debug_tools/msg/detail/trajectory_debug_info__type_support_c.cpp.o[0m
+[91.897s] [ 61%] [32m[1mLinking CXX shared library libplanning_debug_tools__rosidl_typesupport_fastrtps_c.so[0m
+[92.006s] [ 61%] Built target planning_debug_tools__rosidl_typesupport_fastrtps_c
+[92.021s] [ 64%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[92.421s] [ 66%] [32mBuilding CXX object CMakeFiles/planning_debug_tools__rosidl_typesupport_c.dir/rosidl_typesupport_c/planning_debug_tools/msg/trajectory_debug_info__type_support.cpp.o[0m
+[92.467s] [ 69%] [32m[1mLinking CXX shared library libplanning_debug_tools__rosidl_typesupport_c.so[0m
+[92.528s] [ 69%] Built target planning_debug_tools__rosidl_typesupport_c
+[92.543s] [ 71%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[92.975s] [ 74%] [32mBuilding C object CMakeFiles/planning_debug_tools__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/planning_debug_tools/msg/detail/trajectory_debug_info__type_support.c.o[0m
+[93.076s] [ 76%] [32m[1mLinking C shared library libplanning_debug_tools__rosidl_typesupport_introspection_c.so[0m
+[93.119s] [ 76%] Built target planning_debug_tools__rosidl_typesupport_introspection_c
+[93.153s] [ 76%] Built target planning_debug_tools
+[93.183s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[93.789s] [ 79%] Built target planning_debug_tools__py
+[93.820s] [ 82%] [32mBuilding C object CMakeFiles/planning_debug_tools__rosidl_generator_py.dir/rosidl_generator_py/planning_debug_tools/msg/_trajectory_debug_info_s.c.o[0m
+[94.224s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/planning_debug_tools/libplanning_debug_tools__rosidl_generator_py.so[0m
+[94.281s] [ 84%] Built target planning_debug_tools__rosidl_generator_py
+[94.312s] [ 87%] [32mBuilding C object CMakeFiles/planning_debug_tools__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/planning_debug_tools/_planning_debug_tools_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[94.502s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/planning_debug_tools/planning_debug_tools_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[94.554s] [ 89%] Built target planning_debug_tools__rosidl_typesupport_fastrtps_c__pyext
+[94.584s] [ 92%] [32mBuilding C object CMakeFiles/planning_debug_tools__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/planning_debug_tools/_planning_debug_tools_s.ep.rosidl_typesupport_c.c.o[0m
+[94.773s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/planning_debug_tools/planning_debug_tools_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[94.826s] [ 94%] Built target planning_debug_tools__rosidl_typesupport_c__pyext
+[94.856s] [ 97%] [32mBuilding C object CMakeFiles/planning_debug_tools__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/planning_debug_tools/_planning_debug_tools_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[95.040s] [100%] [32m[1mLinking C shared library rosidl_generator_py/planning_debug_tools/planning_debug_tools_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[95.092s] [100%] Built target planning_debug_tools__rosidl_typesupport_introspection_c__pyext
+[95.110s] Invoked command in '/home/sws/autoware/build/planning_debug_tools' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/motion_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_planning_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/motion_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_planning_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/motion_utils/lib:/home/sws/autoware/install/interpolation/lib:/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_planning_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sws/autoware/build/planning_debug_tools -- -j16 -l16
+[95.187s] Invoking command in '/home/sws/autoware/build/planning_debug_tools': AMENT_PREFIX_PATH=/home/sws/autoware/install/motion_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_planning_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/motion_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_planning_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/motion_utils/lib:/home/sws/autoware/install/interpolation/lib:/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_planning_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sws/autoware/build/planning_debug_tools
+[95.201s] -- Install configuration: "Release"
+[95.201s] -- Execute custom install script
+[95.201s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/ament_index/resource_index/rosidl_interfaces/planning_debug_tools
+[95.214s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/detail/trajectory_debug_info__functions.h
+[95.226s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/detail/trajectory_debug_info__struct.h
+[95.238s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/detail/trajectory_debug_info__type_support.h
+[95.250s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/rosidl_generator_c__visibility_control.h
+[95.262s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/trajectory_debug_info.h
+[95.274s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/environment/library_path.sh
+[95.287s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/environment/library_path.dsv
+[95.299s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/detail/trajectory_debug_info__rosidl_typesupport_fastrtps_c.h
+[95.312s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[95.325s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/detail/trajectory_debug_info__rosidl_typesupport_introspection_c.h
+[95.337s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[95.350s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/detail/trajectory_debug_info__builder.hpp
+[95.364s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/detail/trajectory_debug_info__struct.hpp
+[95.377s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/detail/trajectory_debug_info__traits.hpp
+[95.389s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/trajectory_debug_info.hpp
+[95.403s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/detail/trajectory_debug_info__rosidl_typesupport_fastrtps_cpp.hpp
+[95.416s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[95.429s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/include/planning_debug_tools/planning_debug_tools/msg/detail/trajectory_debug_info__rosidl_typesupport_introspection_cpp.hpp
+[95.441s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/environment/pythonpath.sh
+[95.455s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/environment/pythonpath.dsv
+[95.468s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools-0.1.0-py3.10.egg-info/PKG-INFO
+[95.481s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools-0.1.0-py3.10.egg-info/SOURCES.txt
+[95.494s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools-0.1.0-py3.10.egg-info/dependency_links.txt
+[95.507s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools-0.1.0-py3.10.egg-info/top_level.txt
+[95.521s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/__init__.py
+[95.533s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/_planning_debug_tools_s.ep.rosidl_typesupport_c.c
+[95.546s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/_planning_debug_tools_s.ep.rosidl_typesupport_fastrtps_c.c
+[95.561s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/_planning_debug_tools_s.ep.rosidl_typesupport_introspection_c.c
+[95.574s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/libplanning_debug_tools__rosidl_generator_py.so
+[95.587s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/msg/__init__.py
+[95.600s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/msg/_trajectory_debug_info.py
+[95.612s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/msg/_trajectory_debug_info_s.c
+[95.625s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/planning_debug_tools_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[95.639s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/planning_debug_tools_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[95.651s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/planning_debug_tools_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[95.665s] -- Up-to-date symlink: /home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/planning_debug_tools_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[95.666s] -- Up-to-date symlink: /home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/planning_debug_tools_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[95.667s] -- Up-to-date symlink: /home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/planning_debug_tools_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[95.667s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/msg/TrajectoryDebugInfo.idl
+[95.680s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/msg/TrajectoryDebugInfo.msg
+[95.693s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/lib/planning_debug_tools/trajectory_analyzer_exe
+[95.706s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/lib/planning_debug_tools/stop_reason_visualizer_exe
+[95.720s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/include/planning_debug_tools/trajectory_analyzer.hpp
+[95.733s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/include/planning_debug_tools/util.hpp
+[95.746s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/lib/libtrajectory_analyzer_node.so
+[95.760s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/lib/libstop_reason_visualizer_node.so
+[95.773s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/launch/behavior_velocity_analyzer.launch.xml
+[95.786s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/launch/stop_reason_visualizer.launch.xml
+[95.800s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/launch/trajectory_analyzer.launch.xml
+[95.813s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/ament_index/resource_index/package_run_dependencies/planning_debug_tools
+[95.826s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/ament_index/resource_index/parent_prefix_path/planning_debug_tools
+[95.838s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/environment/ament_prefix_path.sh
+[95.850s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/environment/ament_prefix_path.dsv
+[95.862s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/environment/path.sh
+[95.873s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/environment/path.dsv
+[95.885s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/local_setup.bash
+[95.896s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/local_setup.sh
+[95.908s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/local_setup.zsh
+[95.920s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/local_setup.dsv
+[95.931s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/package.dsv
+[95.944s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/ament_index/resource_index/packages/planning_debug_tools
+[95.956s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/ament_index/resource_index/rclcpp_components/planning_debug_tools
+[95.969s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/rosidl_cmake-extras.cmake
+[95.982s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[95.995s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/ament_cmake_export_include_directories-extras.cmake
+[96.008s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/ament_cmake_export_libraries-extras.cmake
+[96.021s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/ament_cmake_export_targets-extras.cmake
+[96.033s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[96.046s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[96.060s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/planning_debug_toolsConfig.cmake
+[96.073s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/planning_debug_toolsConfig-version.cmake
+[96.087s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/package.xml
+[96.100s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/lib/planning_debug_tools/trajectory_visualizer.py
+[96.112s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/lib/planning_debug_tools/closest_velocity_checker.py
+[96.125s] -- Symlinking: /home/sws/autoware/install/planning_debug_tools/lib/planning_debug_tools/perception_reproducer.py
+[96.139s] -- Installing: /home/sws/autoware/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_generator_c.so
+[96.140s] -- Set runtime path of "/home/sws/autoware/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_generator_c.so" to ""
+[96.140s] -- Installing: /home/sws/autoware/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_fastrtps_c.so
+[96.141s] -- Set runtime path of "/home/sws/autoware/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_fastrtps_c.so" to ""
+[96.141s] -- Installing: /home/sws/autoware/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_introspection_c.so
+[96.142s] -- Set runtime path of "/home/sws/autoware/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_introspection_c.so" to ""
+[96.142s] -- Installing: /home/sws/autoware/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_c.so
+[96.143s] -- Set runtime path of "/home/sws/autoware/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_c.so" to ""
+[96.143s] -- Installing: /home/sws/autoware/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_fastrtps_cpp.so
+[96.144s] -- Set runtime path of "/home/sws/autoware/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_fastrtps_cpp.so" to ""
+[96.144s] -- Installing: /home/sws/autoware/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_introspection_cpp.so
+[96.145s] -- Set runtime path of "/home/sws/autoware/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_introspection_cpp.so" to ""
+[96.145s] -- Installing: /home/sws/autoware/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_cpp.so
+[96.145s] -- Set runtime path of "/home/sws/autoware/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_typesupport_cpp.so" to ""
+[96.207s] Listing '/home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools'...
+[96.207s] Compiling '/home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/__init__.py'...
+[96.207s] Listing '/home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/msg'...
+[96.207s] Compiling '/home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/msg/__init__.py'...
+[96.207s] Compiling '/home/sws/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages/planning_debug_tools/msg/_trajectory_debug_info.py'...
+[96.214s] -- Installing: /home/sws/autoware/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_generator_py.so
+[96.216s] -- Set runtime path of "/home/sws/autoware/install/planning_debug_tools/lib/libplanning_debug_tools__rosidl_generator_py.so" to ""
+[96.217s] -- Installing: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/export_planning_debug_tools__rosidl_generator_cExport.cmake
+[96.217s] -- Installing: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/export_planning_debug_tools__rosidl_generator_cExport-release.cmake
+[96.217s] -- Installing: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/export_planning_debug_tools__rosidl_typesupport_fastrtps_cExport.cmake
+[96.218s] -- Installing: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/export_planning_debug_tools__rosidl_typesupport_fastrtps_cExport-release.cmake
+[96.218s] -- Installing: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/planning_debug_tools__rosidl_typesupport_introspection_cExport.cmake
+[96.219s] -- Installing: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/planning_debug_tools__rosidl_typesupport_introspection_cExport-release.cmake
+[96.219s] -- Installing: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/planning_debug_tools__rosidl_typesupport_cExport.cmake
+[96.220s] -- Installing: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/planning_debug_tools__rosidl_typesupport_cExport-release.cmake
+[96.220s] -- Installing: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/export_planning_debug_tools__rosidl_generator_cppExport.cmake
+[96.220s] -- Installing: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/export_planning_debug_tools__rosidl_typesupport_fastrtps_cppExport.cmake
+[96.221s] -- Installing: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/export_planning_debug_tools__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[96.221s] -- Installing: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/planning_debug_tools__rosidl_typesupport_introspection_cppExport.cmake
+[96.222s] -- Installing: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/planning_debug_tools__rosidl_typesupport_introspection_cppExport-release.cmake
+[96.222s] -- Installing: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/planning_debug_tools__rosidl_typesupport_cppExport.cmake
+[96.222s] -- Installing: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/planning_debug_tools__rosidl_typesupport_cppExport-release.cmake
+[96.223s] -- Installing: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/export_planning_debug_tools__rosidl_generator_pyExport.cmake
+[96.223s] -- Installing: /home/sws/autoware/install/planning_debug_tools/share/planning_debug_tools/cmake/export_planning_debug_tools__rosidl_generator_pyExport-release.cmake
+[96.239s] Invoked command in '/home/sws/autoware/build/planning_debug_tools' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/motion_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_planning_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/motion_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_planning_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/motion_utils/lib:/home/sws/autoware/install/interpolation/lib:/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_planning_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sws/autoware/build/planning_debug_tools

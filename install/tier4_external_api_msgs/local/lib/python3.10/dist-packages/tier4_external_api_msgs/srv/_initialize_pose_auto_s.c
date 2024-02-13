@@ -1,0 +1,1 @@
+/home/sws/autoware/build/tier4_external_api_msgs/rosidl_generator_py/tier4_external_api_msgs/srv/_initialize_pose_auto_s.c

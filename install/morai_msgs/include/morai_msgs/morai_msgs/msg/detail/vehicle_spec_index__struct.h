@@ -1,0 +1,1 @@
+/home/sws/autoware/build/morai_msgs/rosidl_generator_c/morai_msgs/msg/detail/vehicle_spec_index__struct.h

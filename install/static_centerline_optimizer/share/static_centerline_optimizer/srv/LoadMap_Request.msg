@@ -1,0 +1,1 @@
+/home/sws/autoware/build/static_centerline_optimizer/rosidl_cmake/srv/LoadMap_Request.msg

@@ -1,0 +1,220 @@
+[0.017s] Invoking command in '/home/sws/autoware/build/trtexec_vendor': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/common/trtexec_vendor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/trtexec_vendor
+[0.684s] -- The C compiler identification is GNU 11.3.0
+[0.684s] -- The CXX compiler identification is GNU 11.3.0
+[0.684s] -- Detecting C compiler ABI info
+[0.684s] -- Detecting C compiler ABI info - done
+[0.685s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.685s] -- Detecting C compile features
+[0.685s] -- Detecting C compile features - done
+[0.685s] -- Detecting CXX compiler ABI info
+[0.685s] -- Detecting CXX compiler ABI info - done
+[0.685s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.685s] -- Detecting CXX compile features
+[0.685s] -- Detecting CXX compile features - done
+[0.685s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.689s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.781s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.839s] -- Looking for pthread.h
+[0.929s] -- Looking for pthread.h - found
+[0.929s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.022s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.024s] -- Found Threads: TRUE  
+[1.047s] -- Found CUDA: /usr/local/cuda (found version "11.6") 
+[1.050s] -- Found cudnn_cmake_module: 0.0.1 (/opt/ros/humble/share/cudnn_cmake_module/cmake)
+[1.054s] -- Found CUDNN: /usr/lib/x86_64-linux-gnu/libcudnn.so (found version "8.4.1") 
+[1.056s] -- Found tensorrt_cmake_module: 0.0.3 (/opt/ros/humble/share/tensorrt_cmake_module/cmake)
+[1.058s] -- Found TensorRT headers at /usr/include/x86_64-linux-gnu
+[1.064s] -- Found TensorRT libs at /usr/lib/x86_64-linux-gnu/libnvinfer.so;/usr/lib/x86_64-linux-gnu/libnvinfer_plugin.so;/usr/lib/x86_64-linux-gnu/libnvparsers.so;/usr/lib/x86_64-linux-gnu/libnvonnxparser.so
+[1.064s] -- Found TENSORRT: /usr/include/x86_64-linux-gnu (found version "8.4.2") 
+[9.463s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.554s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.554s] -- Added test 'lint_cmake' to check CMake code style
+[9.554s] -- Added test 'xmllint' to check XML markup files
+[9.556s] -- Configuring done
+[9.566s] -- Generating done
+[9.566s] -- Build files have been written to: /home/sws/autoware/build/trtexec_vendor
+[9.598s] Invoked command in '/home/sws/autoware/build/trtexec_vendor' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/common/trtexec_vendor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/trtexec_vendor
+[9.599s] Invoking command in '/home/sws/autoware/build/trtexec_vendor': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/trtexec_vendor -- -j16 -l16
+[20.782s] [ 12%] [32mBuilding CXX object CMakeFiles/trtexec_vendor.dir/_deps/tensorrt-src/samples/trtexec/trtexec.cpp.o[0m
+[20.782s] [ 25%] [32mBuilding CXX object CMakeFiles/trtexec_vendor.dir/_deps/tensorrt-src/samples/common/sampleUtils.cpp.o[0m
+[20.782s] [ 37%] [32mBuilding CXX object CMakeFiles/trtexec_vendor.dir/_deps/tensorrt-src/samples/common/logger.cpp.o[0m
+[20.783s] [ 50%] [32mBuilding CXX object CMakeFiles/trtexec_vendor.dir/_deps/tensorrt-src/samples/common/sampleReporting.cpp.o[0m
+[20.783s] [ 62%] [32mBuilding CXX object CMakeFiles/trtexec_vendor.dir/_deps/tensorrt-src/samples/common/sampleInference.cpp.o[0m
+[20.783s] [ 75%] [32mBuilding CXX object CMakeFiles/trtexec_vendor.dir/_deps/tensorrt-src/samples/common/sampleOptions.cpp.o[0m
+[20.783s] In file included from [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/trtexec/trtexec.cpp:39[m[K:
+[20.783s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleDevice.h:[m[K In member function ‘[01m[Kvirtual void sample::UnifiedMirroredBuffer::hostToDevice(sample::TrtCudaStream&)[m[K’:
+[20.783s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleDevice.h:452:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.783s]   452 |     void hostToDevice([01;35m[KTrtCudaStream& stream[m[K)
+[20.783s]       |                       [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[20.783s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleDevice.h:[m[K In member function ‘[01m[Kvirtual void sample::UnifiedMirroredBuffer::deviceToHost(sample::TrtCudaStream&)[m[K’:
+[20.783s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleDevice.h:457:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.784s]   457 |     void deviceToHost([01;35m[KTrtCudaStream& stream[m[K)
+[20.784s]       |                       [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[20.784s] In file included from [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/trtexec/trtexec.cpp:41[m[K:
+[20.784s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.h:[m[K In lambda function:
+[20.784s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.h:155:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.784s]   155 |         auto all = []([01;35m[KBinding const& b[m[K) { return true; };
+[20.784s]       |                       [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[20.784s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.h:[m[K In lambda function:
+[20.785s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.h:176:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.785s]   176 |         auto all = []([01;35m[KBinding const& b[m[K) { return true; };
+[20.785s]       |                       [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[20.785s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleUtils.cpp:314:32:[m[K [01;35m[Kwarning: [m[K‘[01m[KIFullyConnectedLayer[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[20.785s]   314 | template void setSparseWeights<[01;35m[KIFullyConnectedLayer[m[K>(
+[20.785s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[20.785s] In file included from [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleUtils.h:32[m[K,
+[20.785s]                  from [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleUtils.cpp:18[m[K:
+[20.785s] [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:1443:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[20.785s]  1443 | class TRT_DEPRECATED [01;36m[KIFullyConnectedLayer[m[K : public ILayer
+[20.786s]       |                      [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[20.786s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleUtils.cpp:315:87:[m[K [01;35m[Kwarning: [m[K‘[01m[KIFullyConnectedLayer[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[20.786s]   315 |     IFullyConnectedLayer& l, int32_t k, int32_t rs, std::vector<int8_t>& sparseWeights[01;35m[K)[m[K;
+[20.786s]       |                                                                                       [01;35m[K^[m[K
+[20.786s] In file included from [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleUtils.h:32[m[K,
+[20.786s]                  from [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleUtils.cpp:18[m[K:
+[20.786s] [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:1443:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[20.786s]  1443 | class TRT_DEPRECATED [01;36m[KIFullyConnectedLayer[m[K : public ILayer
+[20.786s]       |                      [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[20.786s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleUtils.cpp:[m[K In function ‘[01m[Kvoid sample::sparsify(nvinfer1::INetworkDefinition&, std::vector<std::vector<signed char> >&)[m[K’:
+[20.786s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleUtils.cpp:338:67:[m[K [01;35m[Kwarning: [m[K‘[01m[KIFullyConnectedLayer[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[20.786s]   338 |             auto& fc = *static_cast<nvinfer1::IFullyConnectedLayer[01;35m[K*[m[K>(layer);
+[20.787s]       |                                                                   [01;35m[K^[m[K
+[20.787s] In file included from [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleUtils.h:32[m[K,
+[20.787s]                  from [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleUtils.cpp:18[m[K:
+[20.787s] [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:1443:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[20.787s]  1443 | class TRT_DEPRECATED [01;36m[KIFullyConnectedLayer[m[K : public ILayer
+[20.787s]       |                      [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[20.787s] In file included from [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleReporting.h:27[m[K,
+[20.787s]                  from [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.h:22[m[K,
+[20.787s]                  from [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleReporting.cpp:26[m[K:
+[20.787s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleDevice.h:[m[K In member function ‘[01m[Kvirtual void sample::UnifiedMirroredBuffer::hostToDevice(sample::TrtCudaStream&)[m[K’:
+[20.787s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleDevice.h:452:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.788s]   452 |     void hostToDevice([01;35m[KTrtCudaStream& stream[m[K)
+[20.788s]       |                       [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[20.788s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleDevice.h:[m[K In member function ‘[01m[Kvirtual void sample::UnifiedMirroredBuffer::deviceToHost(sample::TrtCudaStream&)[m[K’:
+[20.788s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleDevice.h:457:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.788s]   457 |     void deviceToHost([01;35m[KTrtCudaStream& stream[m[K)
+[20.788s]       |                       [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[20.788s] In file included from [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleReporting.cpp:26[m[K:
+[20.788s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.h:[m[K In lambda function:
+[20.788s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.h:155:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.789s]   155 |         auto all = []([01;35m[KBinding const& b[m[K) { return true; };
+[20.789s]       |                       [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[20.789s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.h:[m[K In lambda function:
+[20.789s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.h:176:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.789s]   176 |         auto all = []([01;35m[KBinding const& b[m[K) { return true; };
+[20.789s]       |                       [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[21.189s] In file included from [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.cpp:40[m[K:
+[21.189s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleDevice.h:[m[K In member function ‘[01m[Kvirtual void sample::UnifiedMirroredBuffer::hostToDevice(sample::TrtCudaStream&)[m[K’:
+[21.190s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleDevice.h:452:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.190s]   452 |     void hostToDevice([01;35m[KTrtCudaStream& stream[m[K)
+[21.190s]       |                       [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[21.190s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleDevice.h:[m[K In member function ‘[01m[Kvirtual void sample::UnifiedMirroredBuffer::deviceToHost(sample::TrtCudaStream&)[m[K’:
+[21.190s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleDevice.h:457:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.190s]   457 |     void deviceToHost([01;35m[KTrtCudaStream& stream[m[K)
+[21.190s]       |                       [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[21.363s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleOptions.cpp:[m[K In function ‘[01m[KT sample::{anonymous}::stringToValue(const string&) [with T = bool; std::string = std::__cxx11::basic_string<char>][m[K’:
+[21.363s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleOptions.cpp:81:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koption[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.363s]    81 | bool stringToValue<bool>([01;35m[Kconst std::string& option[m[K)
+[21.363s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[21.567s] In file included from [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.cpp:42[m[K:
+[21.567s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.h:[m[K In lambda function:
+[21.567s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.h:155:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.567s]   155 |         auto all = []([01;35m[KBinding const& b[m[K) { return true; };
+[21.567s]       |                       [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[21.571s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.h:[m[K In lambda function:
+[21.571s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.h:176:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.571s]   176 |         auto all = []([01;35m[KBinding const& b[m[K) { return true; };
+[21.572s]       |                       [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[21.590s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.cpp:[m[K In member function ‘[01m[Kbool sample::{anonymous}::EnqueueImplicit::operator()(sample::TrtCudaStream&) const[m[K’:
+[21.590s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.cpp:394:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool nvinfer1::IExecutionContext::enqueue(int32_t, void* const*, cudaStream_t, CUevent_st**)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[21.590s]   394 |         if ([01;35m[KmContext.enqueue(mBatch, mBuffers, stream.get(), nullptr)[m[K)
+[21.590s]       |             [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.590s] In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:17[m[K,
+[21.590s]                  from [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.cpp:36[m[K:
+[21.590s] [01m[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:1948:25:[m[K [01;36m[Knote: [m[Kdeclared here
+[21.590s]  1948 |     TRT_DEPRECATED bool [01;36m[Kenqueue[m[K(
+[21.590s]       |                         [01;36m[K^~~~~~~[m[K
+[21.636s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.cpp:[m[K In lambda function:
+[21.637s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.cpp:977:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Knvinfer1::ICudaEngine* nvinfer1::IRuntime::deserializeCudaEngine(const void*, std::size_t, nvinfer1::IPluginFactory*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[21.637s]   977 |             engine.reset([01;35m[Krt->deserializeCudaEngine(iEnv.engine.getBlob().data(), iEnv.engine.getBlob().size(), nullptr)[m[K);
+[21.637s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.637s] In file included from [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:17[m[K,
+[21.637s]                  from [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.cpp:36[m[K:
+[21.637s] [01m[K/usr/include/x86_64-linux-gnu/NvInferRuntime.h:637:43:[m[K [01;36m[Knote: [m[Kdeclared here
+[21.637s]   637 |     TRT_DEPRECATED nvinfer1::ICudaEngine* [01;36m[KdeserializeCudaEngine[m[K(
+[21.637s]       |                                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[21.977s] /home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.cpp: In instantiation of ‘[01m[Kvoid sample::{anonymous}::Iteration<ContextType>::createEnqueueFunction(const sample::InferenceOptions&, nvinfer1::IExecutionContext&, sample::Bindings&) [with ContextType = nvinfer1::IExecutionContext][m[K’:
+[21.977s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.cpp:569:30:[m[K   required from ‘[01m[Ksample::{anonymous}::Iteration<ContextType>::Iteration(int32_t, const sample::InferenceOptions&, ContextType&, sample::Bindings&) [with ContextType = nvinfer1::IExecutionContext; int32_t = int][m[K’
+[21.977s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.cpp:840:27:[m[K   required from ‘[01m[Kvoid sample::{anonymous}::inferenceExecution(const sample::InferenceOptions&, sample::InferenceEnvironment&, sample::{anonymous}::SyncStruct&, int32_t, int32_t, int32_t, std::vector<sample::InferenceTrace>&) [with ContextType = nvinfer1::IExecutionContext; int32_t = int][m[K’
+[21.977s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.cpp:886:77:[m[K   required from here
+[21.977s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.cpp:724:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[21.977s]   724 |             auto const [01;35m[Kret[m[K = mEnqueue(stream);
+[21.977s]       |                        [01;35m[K^~~[m[K
+[21.977s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleInference.cpp:709:92:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbindings[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.977s]   709 |         InferenceOptions const& inference, nvinfer1::IExecutionContext& context, [01;35m[KBindings& bindings[m[K)
+[21.977s]       |                                                                                  [01;35m[K~~~~~~~~~~^~~~~~~~[m[K
+[25.123s] [ 87%] [32mBuilding CXX object CMakeFiles/trtexec_vendor.dir/_deps/tensorrt-src/samples/common/sampleEngines.cpp.o[0m
+[26.990s] In file included from [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleEngines.cpp:38[m[K:
+[26.990s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleDevice.h:[m[K In member function ‘[01m[Kvirtual void sample::UnifiedMirroredBuffer::hostToDevice(sample::TrtCudaStream&)[m[K’:
+[26.990s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleDevice.h:452:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.990s]   452 |     void hostToDevice([01;35m[KTrtCudaStream& stream[m[K)
+[26.990s]       |                       [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[26.991s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleDevice.h:[m[K In member function ‘[01m[Kvirtual void sample::UnifiedMirroredBuffer::deviceToHost(sample::TrtCudaStream&)[m[K’:
+[26.991s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleDevice.h:457:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstream[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.991s]   457 |     void deviceToHost([01;35m[KTrtCudaStream& stream[m[K)
+[26.991s]       |                       [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[27.087s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleEngines.cpp:[m[K In function ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, float> sample::{anonymous}::readScalesFromCalibrationCache(const string&)[m[K’:
+[27.087s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleEngines.cpp:89:41:[m[K [01;35m[Kwarning: [m[Kdereferencing type-punned pointer will break strict-aliasing rules [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstrict-aliasing-Wstrict-aliasing]8;;[m[K]
+[27.087s]    89 |             tensorScales[tensorName] = *[01;35m[Kreinterpret_cast<float*>(&scalesAsInt)[m[K;
+[27.087s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[27.189s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleEngines.cpp:[m[K In function ‘[01m[Kbool sample::setupNetworkAndConfig(const sample::BuildOptions&, const sample::SystemOptions&, nvinfer1::IBuilder&, nvinfer1::INetworkDefinition&, nvinfer1::IBuilderConfig&, std::unique_ptr<nvinfer1::IInt8Calibrator>&, std::ostream&, std::vector<std::vector<signed char> >&)[m[K’:
+[27.189s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleEngines.cpp:593:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::IBuilder::setMaxBatchSize(int32_t)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[27.189s]   593 |         [01;35m[Kbuilder.setMaxBatchSize(build.maxBatch)[m[K;
+[27.189s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[27.190s] In file included from [01m[K/usr/include/x86_64-linux-gnu/NvCaffeParser.h:16[m[K,
+[27.190s]                  from [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleEngines.cpp:29[m[K:
+[27.190s] [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:8795:25:[m[K [01;36m[Knote: [m[Kdeclared here
+[27.190s]  8795 |     TRT_DEPRECATED void [01;36m[KsetMaxBatchSize[m[K(int32_t batchSize) noexcept
+[27.190s]       |                         [01;36m[K^~~~~~~~~~~~~~~[m[K
+[27.211s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleEngines.cpp:796:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void nvinfer1::IBuilderConfig::setMinTimingIterations(int32_t)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[27.211s]   796 |     [01;35m[Kconfig.setMinTimingIterations(build.minTiming)[m[K;
+[27.211s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[27.211s] In file included from [01m[K/usr/include/x86_64-linux-gnu/NvCaffeParser.h:16[m[K,
+[27.211s]                  from [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleEngines.cpp:29[m[K:
+[27.211s] [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:8095:33:[m[K [01;36m[Knote: [m[Kdeclared here
+[27.211s]  8095 |     TRT_DEPRECATED virtual void [01;36m[KsetMinTimingIterations[m[K(int32_t minTiming) noexcept
+[27.211s]       |                                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[27.291s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleEngines.cpp:[m[K In function ‘[01m[Kstd::vector<std::pair<nvinfer1::WeightsRole, nvinfer1::Weights> > sample::getAllRefitWeightsForLayer(const nvinfer1::ILayer&)[m[K’:
+[27.291s] [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleEngines.cpp:1213:77:[m[K [01;35m[Kwarning: [m[K‘[01m[KIFullyConnectedLayer[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[27.291s]  1213 |         auto const& layer = static_cast<const nvinfer1::IFullyConnectedLayer[01;35m[K&[m[K>(l);
+[27.291s]       |                                                                             [01;35m[K^[m[K
+[27.291s] In file included from [01m[K/usr/include/x86_64-linux-gnu/NvCaffeParser.h:16[m[K,
+[27.291s]                  from [01m[K/home/sws/autoware/build/trtexec_vendor/_deps/tensorrt-src/samples/common/sampleEngines.cpp:29[m[K:
+[27.291s] [01m[K/usr/include/x86_64-linux-gnu/NvInfer.h:1443:22:[m[K [01;36m[Knote: [m[Kdeclared here
+[27.291s]  1443 | class TRT_DEPRECATED [01;36m[KIFullyConnectedLayer[m[K : public ILayer
+[27.291s]       |                      [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[31.583s] [100%] [32m[1mLinking CXX executable trtexec[0m
+[31.752s] [100%] Built target trtexec_vendor
+[31.765s] Invoked command in '/home/sws/autoware/build/trtexec_vendor' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/trtexec_vendor -- -j16 -l16
+[31.799s] Invoking command in '/home/sws/autoware/build/trtexec_vendor': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/trtexec_vendor
+[41.112s] -- Install configuration: "Release"
+[41.114s] -- Execute custom install script
+[41.114s] -- Symlinking: /home/sws/autoware/install/trtexec_vendor/bin/trtexec
+[41.115s] -- Symlinking: /home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/environment/trtexec_vendor.sh
+[41.115s] -- Symlinking: /home/sws/autoware/install/trtexec_vendor/share/ament_index/resource_index/package_run_dependencies/trtexec_vendor
+[41.115s] -- Symlinking: /home/sws/autoware/install/trtexec_vendor/share/ament_index/resource_index/parent_prefix_path/trtexec_vendor
+[41.115s] -- Symlinking: /home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/environment/ament_prefix_path.sh
+[41.115s] -- Symlinking: /home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/environment/ament_prefix_path.dsv
+[41.115s] -- Symlinking: /home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/environment/path.sh
+[41.115s] -- Symlinking: /home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/environment/path.dsv
+[41.117s] -- Symlinking: /home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/local_setup.bash
+[41.117s] -- Symlinking: /home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/local_setup.sh
+[41.117s] -- Symlinking: /home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/local_setup.zsh
+[41.117s] -- Symlinking: /home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/local_setup.dsv
+[41.121s] -- Symlinking: /home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/package.dsv
+[41.121s] -- Symlinking: /home/sws/autoware/install/trtexec_vendor/share/ament_index/resource_index/packages/trtexec_vendor
+[41.121s] -- Symlinking: /home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/cmake/trtexec_vendorConfig.cmake
+[41.122s] -- Symlinking: /home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/cmake/trtexec_vendorConfig-version.cmake
+[41.122s] -- Symlinking: /home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/package.xml
+[41.127s] Invoked command in '/home/sws/autoware/build/trtexec_vendor' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/trtexec_vendor

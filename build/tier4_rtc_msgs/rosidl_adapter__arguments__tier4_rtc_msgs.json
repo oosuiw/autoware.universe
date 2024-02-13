@@ -1,0 +1,16 @@
+{
+  "package_name": "tier4_rtc_msgs",
+  "non_idl_tuples": [
+    "/home/sws/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs:msg/Command.msg",
+    "/home/sws/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs:msg/CooperateCommand.msg",
+    "/home/sws/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs:msg/CooperateResponse.msg",
+    "/home/sws/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs:msg/CooperateStatus.msg",
+    "/home/sws/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs:msg/CooperateStatusArray.msg",
+    "/home/sws/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs:msg/AutoModeStatus.msg",
+    "/home/sws/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs:msg/AutoModeStatusArray.msg",
+    "/home/sws/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs:msg/Module.msg",
+    "/home/sws/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs:srv/AutoMode.srv",
+    "/home/sws/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs:srv/AutoModeWithModule.srv",
+    "/home/sws/autoware/src/universe/external/tier4_autoware_msgs/tier4_rtc_msgs:srv/CooperateCommands.srv"
+  ]
+}

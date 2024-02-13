@@ -1,0 +1,1 @@
+/home/sws/autoware/src/universe/autoware.universe/control/trajectory_follower_base/include/trajectory_follower_base/sync_data.hpp

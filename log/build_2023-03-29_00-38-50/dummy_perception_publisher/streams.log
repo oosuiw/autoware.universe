@@ -1,0 +1,288 @@
+[0.051s] Invoking command in '/home/sws/autoware/build/dummy_perception_publisher': AMENT_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tier4_perception_msgs:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tier4_perception_msgs:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/tier4_perception_msgs/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/simulator/dummy_perception_publisher -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/dummy_perception_publisher
+[13.556s] -- The C compiler identification is GNU 11.3.0
+[13.557s] -- The CXX compiler identification is GNU 11.3.0
+[13.557s] -- Detecting C compiler ABI info
+[13.557s] -- Detecting C compiler ABI info - done
+[13.557s] -- Check for working C compiler: /usr/bin/cc - skipped
+[13.557s] -- Detecting C compile features
+[13.557s] -- Detecting C compile features - done
+[13.557s] -- Detecting CXX compiler ABI info
+[13.557s] -- Detecting CXX compiler ABI info - done
+[13.557s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[13.557s] -- Detecting CXX compile features
+[13.558s] -- Detecting CXX compile features - done
+[13.558s] -- Found autoware_cmake: 0.1.0 (/home/sws/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[13.558s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[13.558s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[13.558s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.558s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[13.558s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.558s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[13.559s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[13.559s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[13.559s] -- Found FastRTPS: /opt/ros/humble/include  
+[13.559s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.559s] -- Looking for pthread.h
+[13.559s] -- Looking for pthread.h - found
+[13.559s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.559s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[13.559s] -- Found Threads: TRUE  
+[13.559s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[13.559s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[13.559s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[13.560s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.560s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.560s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.560s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[13.560s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[13.560s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[13.560s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[13.560s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[13.560s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[13.560s] -- Found PythonExtra: .so  
+[13.560s] -- Checking for module 'eigen3'
+[13.560s] --   Found eigen3, version 3.4.0
+[13.561s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[13.561s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[13.561s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[13.561s] -- Checking for module 'flann'
+[13.561s] --   Found flann, version 1.9.1
+[13.561s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[13.561s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[13.561s] -- looking for PCL_COMMON
+[13.561s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[13.561s] -- looking for PCL_KDTREE
+[13.561s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[13.561s] -- looking for PCL_OCTREE
+[13.562s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[13.562s] -- looking for PCL_SEARCH
+[13.562s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[13.564s] -- looking for PCL_SAMPLE_CONSENSUS
+[13.564s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[13.564s] -- looking for PCL_FILTERS
+[13.564s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[13.564s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;FLANN::FLANN  
+[13.564s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[13.564s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.565s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.565s] -- Configured cppcheck include dirs: /home/sws/autoware/src/universe/autoware.universe/simulator/dummy_perception_publisher/include;$<BUILD_INTERFACE:/home/sws/autoware/src/universe/autoware.universe/simulator/dummy_perception_publisher/include>
+[13.565s] -- Configured cppcheck exclude dirs and/or files: 
+[13.565s] -- Added test 'lint_cmake' to check CMake code style
+[13.565s] -- Added test 'xmllint' to check XML markup files
+[13.565s] -- Configuring done
+[13.565s] -- Generating done
+[13.565s] -- Build files have been written to: /home/sws/autoware/build/dummy_perception_publisher
+[13.575s] Invoked command in '/home/sws/autoware/build/dummy_perception_publisher' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tier4_perception_msgs:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tier4_perception_msgs:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/tier4_perception_msgs/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/simulator/dummy_perception_publisher -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/dummy_perception_publisher
+[13.575s] Invoking command in '/home/sws/autoware/build/dummy_perception_publisher': AMENT_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tier4_perception_msgs:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tier4_perception_msgs:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/tier4_perception_msgs/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sws/autoware/build/dummy_perception_publisher -- -j16 -l16
+[18.295s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[18.295s] [  1%] Built target dummy_perception_publisher__cpp
+[18.295s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[26.148s] [  5%] [32m[1mLinking CXX static library libgtest.a[0m
+[26.205s] [  5%] Built target gtest
+[26.222s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[26.768s] [  9%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dummy_perception_publisher/msg/detail/initial_state__type_support.cpp.o[0m
+[27.426s] [ 11%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dummy_perception_publisher/msg/detail/object__type_support.cpp.o[0m
+[28.135s] [ 13%] [32m[1mLinking CXX shared library libdummy_perception_publisher__rosidl_typesupport_introspection_cpp.so[0m
+[28.246s] [ 13%] Built target dummy_perception_publisher__rosidl_typesupport_introspection_cpp
+[28.262s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[28.790s] [ 16%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dummy_perception_publisher/msg/detail/dds_fastrtps/initial_state__type_support.cpp.o[0m
+[29.500s] [ 18%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dummy_perception_publisher/msg/detail/dds_fastrtps/object__type_support.cpp.o[0m
+[30.119s] [ 20%] [32m[1mLinking CXX shared library libdummy_perception_publisher__rosidl_typesupport_fastrtps_cpp.so[0m
+[30.238s] [ 20%] Built target dummy_perception_publisher__rosidl_typesupport_fastrtps_cpp
+[30.255s] [ 22%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[30.689s] [ 24%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dummy_perception_publisher/msg/initial_state__type_support.cpp.o[0m
+[31.147s] [ 26%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dummy_perception_publisher/msg/object__type_support.cpp.o[0m
+[31.550s] [ 28%] [32m[1mLinking CXX shared library libdummy_perception_publisher__rosidl_typesupport_cpp.so[0m
+[31.610s] [ 28%] Built target dummy_perception_publisher__rosidl_typesupport_cpp
+[31.637s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[32.816s] [ 32%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[32.858s] [ 32%] Built target gtest_main
+[32.896s] [ 33%] [32mBuilding CXX object CMakeFiles/signed_distance_function.dir/src/signed_distance_function.cpp.o[0m
+[33.815s] [ 35%] [32m[1mLinking CXX shared library libsigned_distance_function.so[0m
+[40.398s] [ 35%] Built target signed_distance_function
+[40.424s] [ 35%] Built target ament_cmake_python_symlink_dummy_perception_publisher
+[40.445s] [ 37%] [32mBuilding CXX object CMakeFiles/signed_distance_function-test.dir/test/src/test_signed_distance_function.cpp.o[0m
+[42.571s] [ 39%] [32m[1mLinking CXX executable signed_distance_function-test[0m
+[45.448s] [ 39%] Built target signed_distance_function-test
+[45.908s] running egg_info
+[45.909s] creating dummy_perception_publisher.egg-info
+[45.909s] writing dummy_perception_publisher.egg-info/PKG-INFO
+[45.910s] writing dependency_links to dummy_perception_publisher.egg-info/dependency_links.txt
+[45.910s] writing top-level names to dummy_perception_publisher.egg-info/top_level.txt
+[45.910s] writing manifest file 'dummy_perception_publisher.egg-info/SOURCES.txt'
+[45.915s] reading manifest file 'dummy_perception_publisher.egg-info/SOURCES.txt'
+[45.916s] writing manifest file 'dummy_perception_publisher.egg-info/SOURCES.txt'
+[45.953s] [ 39%] Built target ament_cmake_python_build_dummy_perception_publisher_egg
+[45.986s] [ 41%] [32mBuilding CXX object CMakeFiles/empty_objects_publisher.dir/src/empty_objects_publisher.cpp.o[0m
+[53.943s] [ 43%] [32m[1mLinking CXX executable empty_objects_publisher[0m
+[54.270s] [ 43%] Built target empty_objects_publisher
+[54.314s] [ 45%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher_node.dir/src/main.cpp.o[0m
+[64.805s] [ 47%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher_node.dir/src/pointcloud_creator.cpp.o[0m
+[76.541s] [ 49%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher_node.dir/src/node.cpp.o[0m
+[108.474s] [ 50%] [32m[1mLinking CXX executable dummy_perception_publisher_node[0m
+[109.676s] [ 50%] Built target dummy_perception_publisher_node
+[109.691s] [ 52%] [34m[1mGenerating C code for ROS interfaces[0m
+[110.339s] [ 56%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_generator_c.dir/rosidl_generator_c/dummy_perception_publisher/msg/detail/object__functions.c.o[0m
+[110.340s] [ 56%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_generator_c.dir/rosidl_generator_c/dummy_perception_publisher/msg/detail/initial_state__functions.c.o[0m
+[110.502s] [ 58%] [32m[1mLinking C shared library libdummy_perception_publisher__rosidl_generator_c.so[0m
+[110.569s] [ 58%] Built target dummy_perception_publisher__rosidl_generator_c
+[110.583s] [ 60%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[110.585s] [ 62%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[111.071s] [ 64%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dummy_perception_publisher/msg/detail/initial_state__type_support_c.cpp.o[0m
+[111.075s] [ 66%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dummy_perception_publisher/msg/detail/object__type_support_c.cpp.o[0m
+[111.129s] [ 67%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dummy_perception_publisher/msg/detail/object__type_support.c.o[0m
+[111.138s] [ 69%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dummy_perception_publisher/msg/detail/initial_state__type_support.c.o[0m
+[111.199s] [ 71%] [32m[1mLinking C shared library libdummy_perception_publisher__rosidl_typesupport_introspection_c.so[0m
+[111.242s] [ 71%] Built target dummy_perception_publisher__rosidl_typesupport_introspection_c
+[111.259s] [ 73%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[111.685s] [ 75%] [32m[1mLinking CXX shared library libdummy_perception_publisher__rosidl_typesupport_fastrtps_c.so[0m
+[111.733s] [ 77%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_c.dir/rosidl_typesupport_c/dummy_perception_publisher/msg/initial_state__type_support.cpp.o[0m
+[111.734s] [ 79%] [32mBuilding CXX object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_c.dir/rosidl_typesupport_c/dummy_perception_publisher/msg/object__type_support.cpp.o[0m
+[111.780s] [ 79%] Built target dummy_perception_publisher__rosidl_typesupport_fastrtps_c
+[111.788s] [ 81%] [32m[1mLinking CXX shared library libdummy_perception_publisher__rosidl_typesupport_c.so[0m
+[111.830s] [ 81%] Built target dummy_perception_publisher__rosidl_typesupport_c
+[111.850s] [ 81%] Built target dummy_perception_publisher
+[111.870s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[112.677s] [ 83%] Built target dummy_perception_publisher__py
+[112.709s] [ 84%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_generator_py.dir/rosidl_generator_py/dummy_perception_publisher/msg/_object_s.c.o[0m
+[112.709s] [ 86%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_generator_py.dir/rosidl_generator_py/dummy_perception_publisher/msg/_initial_state_s.c.o[0m
+[112.940s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/dummy_perception_publisher/libdummy_perception_publisher__rosidl_generator_py.so[0m
+[112.989s] [ 88%] Built target dummy_perception_publisher__rosidl_generator_py
+[113.011s] [ 90%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dummy_perception_publisher/_dummy_perception_publisher_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[113.012s] [ 92%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dummy_perception_publisher/_dummy_perception_publisher_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[113.235s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[113.240s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[113.314s] [ 96%] Built target dummy_perception_publisher__rosidl_typesupport_introspection_c__pyext
+[113.331s] [ 96%] Built target dummy_perception_publisher__rosidl_typesupport_fastrtps_c__pyext
+[113.341s] [ 98%] [32mBuilding C object CMakeFiles/dummy_perception_publisher__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dummy_perception_publisher/_dummy_perception_publisher_s.ep.rosidl_typesupport_c.c.o[0m
+[113.517s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[113.593s] [100%] Built target dummy_perception_publisher__rosidl_typesupport_c__pyext
+[113.637s] Invoked command in '/home/sws/autoware/build/dummy_perception_publisher' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tier4_perception_msgs:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tier4_perception_msgs:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/tier4_perception_msgs/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sws/autoware/build/dummy_perception_publisher -- -j16 -l16
+[113.762s] Invoking command in '/home/sws/autoware/build/dummy_perception_publisher': AMENT_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tier4_perception_msgs:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tier4_perception_msgs:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/tier4_perception_msgs/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sws/autoware/build/dummy_perception_publisher
+[121.385s] -- Install configuration: "Release"
+[121.385s] -- Execute custom install script
+[121.385s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/ament_index/resource_index/rosidl_interfaces/dummy_perception_publisher
+[121.385s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/initial_state__functions.h
+[121.385s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/initial_state__struct.h
+[121.385s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/initial_state__type_support.h
+[121.385s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/object__functions.h
+[121.386s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/object__struct.h
+[121.386s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/object__type_support.h
+[121.386s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/initial_state.h
+[121.386s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/object.h
+[121.386s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/rosidl_generator_c__visibility_control.h
+[121.386s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/library_path.sh
+[121.386s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/library_path.dsv
+[121.386s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/initial_state__rosidl_typesupport_fastrtps_c.h
+[121.386s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+[121.386s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[121.387s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/initial_state__rosidl_typesupport_introspection_c.h
+[121.387s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/object__rosidl_typesupport_introspection_c.h
+[121.387s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[121.387s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/initial_state__builder.hpp
+[121.387s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/initial_state__struct.hpp
+[121.387s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/initial_state__traits.hpp
+[121.387s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/object__builder.hpp
+[121.387s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/object__struct.hpp
+[121.387s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/object__traits.hpp
+[121.387s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/initial_state.hpp
+[121.388s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/object.hpp
+[121.388s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/initial_state__rosidl_typesupport_fastrtps_cpp.hpp
+[121.388s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+[121.388s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[121.388s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/initial_state__rosidl_typesupport_introspection_cpp.hpp
+[121.388s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/dummy_perception_publisher/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+[121.388s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/pythonpath.sh
+[121.388s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/pythonpath.dsv
+[121.388s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher-0.1.0-py3.10.egg-info/PKG-INFO
+[121.388s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher-0.1.0-py3.10.egg-info/SOURCES.txt
+[121.388s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher-0.1.0-py3.10.egg-info/dependency_links.txt
+[121.389s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher-0.1.0-py3.10.egg-info/top_level.txt
+[121.389s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/__init__.py
+[121.389s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/_dummy_perception_publisher_s.ep.rosidl_typesupport_c.c
+[121.389s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/_dummy_perception_publisher_s.ep.rosidl_typesupport_fastrtps_c.c
+[121.389s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/_dummy_perception_publisher_s.ep.rosidl_typesupport_introspection_c.c
+[121.389s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[121.389s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[121.389s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[121.389s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/libdummy_perception_publisher__rosidl_generator_py.so
+[121.389s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/msg/__init__.py
+[121.389s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/msg/_initial_state.py
+[121.393s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/msg/_initial_state_s.c
+[121.394s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/msg/_object.py
+[121.394s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/msg/_object_s.c
+[121.394s] -- Up-to-date symlink: /home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[121.394s] -- Up-to-date symlink: /home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[121.394s] -- Up-to-date symlink: /home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/dummy_perception_publisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[121.394s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/msg/InitialState.idl
+[121.394s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/msg/Object.idl
+[121.394s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/msg/InitialState.msg
+[121.394s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/msg/Object.msg
+[121.395s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/node.hpp
+[121.395s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/include/dummy_perception_publisher/signed_distance_function.hpp
+[121.395s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/lib/libsigned_distance_function.so
+[121.395s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/lib/dummy_perception_publisher/dummy_perception_publisher_node
+[121.395s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/lib/dummy_perception_publisher/empty_objects_publisher
+[121.395s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/launch/dummy_perception_publisher.launch.xml
+[121.395s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/ament_index/resource_index/package_run_dependencies/dummy_perception_publisher
+[121.396s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/ament_index/resource_index/parent_prefix_path/dummy_perception_publisher
+[121.396s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/ament_prefix_path.sh
+[121.396s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/ament_prefix_path.dsv
+[121.396s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/path.sh
+[121.396s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/environment/path.dsv
+[121.396s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/local_setup.bash
+[121.396s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/local_setup.sh
+[121.396s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/local_setup.zsh
+[121.396s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/local_setup.dsv
+[121.396s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/package.dsv
+[121.396s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/ament_index/resource_index/packages/dummy_perception_publisher
+[121.397s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/rosidl_cmake-extras.cmake
+[121.397s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/ament_cmake_export_dependencies-extras.cmake
+[121.397s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/ament_cmake_export_include_directories-extras.cmake
+[121.397s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/ament_cmake_export_libraries-extras.cmake
+[121.397s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/ament_cmake_export_targets-extras.cmake
+[121.397s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[121.397s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[121.397s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisherConfig.cmake
+[121.397s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisherConfig-version.cmake
+[121.397s] -- Symlinking: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/package.xml
+[121.398s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_generator_c.so
+[121.400s] -- Set runtime path of "/home/sws/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_generator_c.so" to ""
+[121.400s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_fastrtps_c.so
+[121.400s] -- Set runtime path of "/home/sws/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_fastrtps_c.so" to ""
+[121.400s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_introspection_c.so
+[121.400s] -- Set runtime path of "/home/sws/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_introspection_c.so" to ""
+[121.400s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_c.so
+[121.400s] -- Set runtime path of "/home/sws/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_c.so" to ""
+[121.400s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_fastrtps_cpp.so
+[121.400s] -- Set runtime path of "/home/sws/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_fastrtps_cpp.so" to ""
+[121.400s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_introspection_cpp.so
+[121.400s] -- Set runtime path of "/home/sws/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_introspection_cpp.so" to ""
+[121.401s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_cpp.so
+[121.401s] -- Set runtime path of "/home/sws/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_typesupport_cpp.so" to ""
+[121.401s] Listing '/home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher'...
+[121.401s] Compiling '/home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/__init__.py'...
+[121.401s] Listing '/home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/msg'...
+[121.401s] Compiling '/home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/msg/__init__.py'...
+[121.401s] Compiling '/home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/msg/_initial_state.py'...
+[121.401s] Compiling '/home/sws/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages/dummy_perception_publisher/msg/_object.py'...
+[121.401s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_generator_py.so
+[121.401s] -- Set runtime path of "/home/sws/autoware/install/dummy_perception_publisher/lib/libdummy_perception_publisher__rosidl_generator_py.so" to ""
+[121.401s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/export_dummy_perception_publisher__rosidl_generator_cExport.cmake
+[121.402s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/export_dummy_perception_publisher__rosidl_generator_cExport-release.cmake
+[121.402s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/export_dummy_perception_publisher__rosidl_typesupport_fastrtps_cExport.cmake
+[121.402s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/export_dummy_perception_publisher__rosidl_typesupport_fastrtps_cExport-release.cmake
+[121.402s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_introspection_cExport.cmake
+[121.402s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_introspection_cExport-release.cmake
+[121.403s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_cExport.cmake
+[121.403s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_cExport-release.cmake
+[121.403s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/export_dummy_perception_publisher__rosidl_generator_cppExport.cmake
+[121.403s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/export_dummy_perception_publisher__rosidl_typesupport_fastrtps_cppExport.cmake
+[121.403s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/export_dummy_perception_publisher__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[121.403s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_introspection_cppExport.cmake
+[121.403s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_introspection_cppExport-release.cmake
+[121.403s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_cppExport.cmake
+[121.403s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/dummy_perception_publisher__rosidl_typesupport_cppExport-release.cmake
+[121.403s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/export_dummy_perception_publisher__rosidl_generator_pyExport.cmake
+[121.403s] -- Installing: /home/sws/autoware/install/dummy_perception_publisher/share/dummy_perception_publisher/cmake/export_dummy_perception_publisher__rosidl_generator_pyExport-release.cmake
+[121.438s] Invoked command in '/home/sws/autoware/build/dummy_perception_publisher' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tier4_perception_msgs:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tier4_perception_msgs:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/tier4_perception_msgs/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sws/autoware/build/dummy_perception_publisher

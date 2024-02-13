@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/sws/autoware/build/component_interface_tools/service_log_checker" "TARGETS" "service_log_checker" "DESTINATION" "lib/component_interface_tools")

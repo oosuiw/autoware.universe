@@ -1,0 +1,1 @@
+/home/sws/autoware/build/tier4_autoware_api_launch/ament_cmake_environment_hooks/local_setup.bash

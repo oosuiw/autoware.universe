@@ -1,0 +1,212 @@
+[0.185s] Invoking command in '/home/sws/autoware/build/map_tf_generator': AMENT_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/lanelet2_extension/lib:/home/sws/autoware/install/autoware_utils/lib:/home/sws/autoware/install/autoware_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_common_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/map/map_tf_generator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/map_tf_generator
+[38.097s] -- The C compiler identification is GNU 11.3.0
+[38.097s] -- The CXX compiler identification is GNU 11.3.0
+[38.097s] -- Detecting C compiler ABI info
+[38.097s] -- Detecting C compiler ABI info - done
+[38.097s] -- Check for working C compiler: /usr/bin/cc - skipped
+[38.097s] -- Detecting C compile features
+[38.097s] -- Detecting C compile features - done
+[38.097s] -- Detecting CXX compiler ABI info
+[38.097s] -- Detecting CXX compiler ABI info - done
+[38.097s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[38.097s] -- Detecting CXX compile features
+[38.097s] -- Detecting CXX compile features - done
+[38.098s] -- Found autoware_cmake: 0.1.0 (/home/sws/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[38.098s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[38.098s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[38.116s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[38.117s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[38.117s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[38.117s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[38.117s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[38.117s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[38.117s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[38.117s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[38.117s] -- Found FastRTPS: /opt/ros/humble/include  
+[38.117s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[38.118s] -- Looking for pthread.h
+[38.118s] -- Looking for pthread.h - found
+[38.118s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[38.118s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[38.118s] -- Found Threads: TRUE  
+[38.118s] -- Found mrt_cmake_modules: 1.0.9 (/opt/ros/humble/share/mrt_cmake_modules/cmake)
+[38.118s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: wserialization thread random serialization log_setup prg_exec_monitor wave system chrono filesystem locale timer date_time regex graph program_options unit_test_framework log atomic iostreams 
+[38.118s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[38.118s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[38.118s] -- Found OpenMP: TRUE (found version "4.5")  
+[38.118s] -- Found pugixml: /usr/lib/x86_64-linux-gnu/libpugixml.so  
+[38.118s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[38.119s] -- Found GeographicLib: /usr/lib/x86_64-linux-gnu/libGeographic.so  
+[38.119s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[38.119s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[38.119s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[38.119s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[38.119s] -- Checking for module 'eigen3'
+[38.119s] --   Found eigen3, version 3.4.0
+[38.120s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[38.120s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[38.120s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[38.120s] -- Checking for module 'flann'
+[38.120s] --   Found flann, version 1.9.1
+[38.120s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[38.120s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[38.120s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[38.120s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[38.120s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[38.121s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[38.121s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[38.121s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[38.121s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[38.121s] -- Found X11: /usr/include   
+[38.121s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[38.131s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[38.131s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[38.131s] -- Looking for gethostbyname
+[38.131s] -- Looking for gethostbyname - found
+[38.131s] -- Looking for connect
+[38.131s] -- Looking for connect - found
+[38.131s] -- Looking for remove
+[38.131s] -- Looking for remove - found
+[38.131s] -- Looking for shmat
+[38.131s] -- Looking for shmat - found
+[38.131s] -- Looking for IceConnectionNumber in ICE
+[38.132s] -- Looking for IceConnectionNumber in ICE - found
+[38.132s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[38.132s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[38.132s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[38.136s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[38.137s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[38.137s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[38.137s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[38.137s] -- Found utf8cpp: /usr/include/utf8cpp  
+[38.137s] -- Checking for module 'libusb-1.0'
+[38.137s] --   Found libusb-1.0, version 1.0.25
+[38.137s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[38.137s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[38.137s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[38.137s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[38.137s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[38.137s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[38.138s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[38.138s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[38.138s] -- Found Qhull version 8.0.2
+[38.138s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[38.138s] -- looking for PCL_COMMON
+[38.138s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[38.138s] -- looking for PCL_KDTREE
+[38.138s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[38.138s] -- looking for PCL_OCTREE
+[38.138s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[38.138s] -- looking for PCL_SEARCH
+[38.138s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[38.138s] -- looking for PCL_SAMPLE_CONSENSUS
+[38.139s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[38.139s] -- looking for PCL_FILTERS
+[38.139s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[38.139s] -- looking for PCL_2D
+[38.139s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[38.139s] -- looking for PCL_GEOMETRY
+[38.139s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[38.139s] -- looking for PCL_IO
+[38.139s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[38.139s] -- looking for PCL_FEATURES
+[38.139s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[38.140s] -- looking for PCL_ML
+[38.140s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[38.140s] -- looking for PCL_SEGMENTATION
+[38.140s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[38.140s] -- looking for PCL_VISUALIZATION
+[38.140s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[38.140s] -- looking for PCL_SURFACE
+[38.140s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[38.140s] -- looking for PCL_REGISTRATION
+[38.140s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[38.141s] -- looking for PCL_KEYPOINTS
+[38.141s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[38.141s] -- looking for PCL_TRACKING
+[38.141s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[38.141s] -- looking for PCL_RECOGNITION
+[38.141s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[38.141s] -- looking for PCL_STEREO
+[38.141s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[38.141s] -- looking for PCL_APPS
+[38.141s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[38.142s] -- looking for PCL_IN_HAND_SCANNER
+[38.142s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[38.142s] -- looking for PCL_MODELER
+[38.142s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[38.142s] -- looking for PCL_POINT_CLOUD_EDITOR
+[38.142s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[38.142s] -- looking for PCL_OUTOFCORE
+[38.142s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[38.142s] -- looking for PCL_PEOPLE
+[38.142s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[38.143s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[38.143s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[38.143s] -- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[38.143s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[38.143s] -- Added test 'copyright' to check source files copyright and LICENSE
+[38.143s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[38.143s] -- Configured cppcheck include dirs: /home/sws/autoware/src/universe/autoware.universe/map/map_tf_generator/include
+[38.143s] -- Configured cppcheck exclude dirs and/or files: 
+[38.143s] -- Added test 'lint_cmake' to check CMake code style
+[38.143s] -- Added test 'xmllint' to check XML markup files
+[38.143s] -- Configuring done
+[38.144s] -- Generating done
+[38.144s] -- Build files have been written to: /home/sws/autoware/build/map_tf_generator
+[38.202s] Invoked command in '/home/sws/autoware/build/map_tf_generator' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/lanelet2_extension/lib:/home/sws/autoware/install/autoware_utils/lib:/home/sws/autoware/install/autoware_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_common_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/map/map_tf_generator -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/map_tf_generator
+[38.203s] Invoking command in '/home/sws/autoware/build/map_tf_generator': AMENT_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/lanelet2_extension/lib:/home/sws/autoware/install/autoware_utils/lib:/home/sws/autoware/install/autoware_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_common_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sws/autoware/build/map_tf_generator -- -j16 -l16
+[43.540s] [  6%] [32mBuilding CXX object CMakeFiles/pcd_map_tf_generator_node.dir/src/pcd_map_tf_generator_node.cpp.o[0m
+[62.722s] [ 13%] [32m[1mLinking CXX shared library libpcd_map_tf_generator_node.so[0m
+[63.722s] [ 13%] Built target pcd_map_tf_generator_node
+[63.821s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[77.932s] [ 26%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[82.218s] [ 33%] [32m[1mLinking CXX static library libgmock.a[0m
+[82.256s] [ 33%] Built target gmock
+[82.279s] [ 40%] [32mBuilding CXX object CMakeFiles/vector_map_tf_generator_node.dir/src/vector_map_tf_generator_node.cpp.o[0m
+[105.088s] [ 46%] [32m[1mLinking CXX shared library libvector_map_tf_generator_node.so[0m
+[105.757s] [ 46%] Built target vector_map_tf_generator_node
+[105.775s] [ 53%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[107.754s] [ 60%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[107.802s] [ 60%] Built target gmock_main
+[107.843s] [ 66%] [32mBuilding CXX object CMakeFiles/vector_map_tf_generator.dir/rclcpp_components/node_main_vector_map_tf_generator.cpp.o[0m
+[113.569s] [ 73%] [32m[1mLinking CXX executable vector_map_tf_generator[0m
+[113.738s] [ 73%] Built target vector_map_tf_generator
+[113.768s] [ 80%] [32mBuilding CXX object CMakeFiles/test_uniform_random.dir/test/test_uniform_random.cpp.o[0m
+[116.940s] [ 86%] [32m[1mLinking CXX executable test_uniform_random[0m
+[118.319s] [ 86%] Built target test_uniform_random
+[118.347s] [ 93%] [32mBuilding CXX object CMakeFiles/pcd_map_tf_generator.dir/rclcpp_components/node_main_pcd_map_tf_generator.cpp.o[0m
+[122.160s] [100%] [32m[1mLinking CXX executable pcd_map_tf_generator[0m
+[122.261s] [100%] Built target pcd_map_tf_generator
+[122.275s] Invoked command in '/home/sws/autoware/build/map_tf_generator' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/lanelet2_extension/lib:/home/sws/autoware/install/autoware_utils/lib:/home/sws/autoware/install/autoware_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_common_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sws/autoware/build/map_tf_generator -- -j16 -l16
+[122.320s] Invoking command in '/home/sws/autoware/build/map_tf_generator': AMENT_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/lanelet2_extension/lib:/home/sws/autoware/install/autoware_utils/lib:/home/sws/autoware/install/autoware_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_common_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sws/autoware/build/map_tf_generator
+[137.244s] -- Install configuration: "Release"
+[137.244s] -- Execute custom install script
+[137.244s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/lib/map_tf_generator/pcd_map_tf_generator
+[137.244s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/lib/map_tf_generator/vector_map_tf_generator
+[137.244s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/include/map_tf_generator/uniform_random.hpp
+[137.244s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/share/map_tf_generator/environment/library_path.sh
+[137.244s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/share/map_tf_generator/environment/library_path.dsv
+[137.245s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/lib/libpcd_map_tf_generator_node.so
+[137.245s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/lib/libvector_map_tf_generator_node.so
+[137.245s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/share/map_tf_generator/launch/map_tf_generator.launch.xml
+[137.245s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/share/ament_index/resource_index/package_run_dependencies/map_tf_generator
+[137.245s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/share/ament_index/resource_index/parent_prefix_path/map_tf_generator
+[137.245s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/share/map_tf_generator/environment/ament_prefix_path.sh
+[137.245s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/share/map_tf_generator/environment/ament_prefix_path.dsv
+[137.245s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/share/map_tf_generator/environment/path.sh
+[137.245s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/share/map_tf_generator/environment/path.dsv
+[137.245s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/share/map_tf_generator/local_setup.bash
+[137.245s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/share/map_tf_generator/local_setup.sh
+[137.245s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/share/map_tf_generator/local_setup.zsh
+[137.245s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/share/map_tf_generator/local_setup.dsv
+[137.246s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/share/map_tf_generator/package.dsv
+[137.246s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/share/ament_index/resource_index/packages/map_tf_generator
+[137.246s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/share/ament_index/resource_index/rclcpp_components/map_tf_generator
+[137.246s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/share/map_tf_generator/cmake/ament_cmake_export_dependencies-extras.cmake
+[137.246s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/share/map_tf_generator/cmake/ament_cmake_export_include_directories-extras.cmake
+[137.246s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/share/map_tf_generator/cmake/ament_cmake_export_libraries-extras.cmake
+[137.246s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/share/map_tf_generator/cmake/map_tf_generatorConfig.cmake
+[137.246s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/share/map_tf_generator/cmake/map_tf_generatorConfig-version.cmake
+[137.246s] -- Symlinking: /home/sws/autoware/install/map_tf_generator/share/map_tf_generator/package.xml
+[137.365s] Invoked command in '/home/sws/autoware/build/map_tf_generator' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/lanelet2_extension/lib:/home/sws/autoware/install/autoware_utils/lib:/home/sws/autoware/install/autoware_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_common_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sws/autoware/build/map_tf_generator

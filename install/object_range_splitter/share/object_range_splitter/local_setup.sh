@@ -1,0 +1,1 @@
+/home/sws/autoware/build/object_range_splitter/ament_cmake_environment_hooks/local_setup.sh

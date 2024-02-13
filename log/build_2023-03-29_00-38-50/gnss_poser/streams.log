@@ -1,0 +1,86 @@
+[0.082s] Invoking command in '/home/sws/autoware/build/gnss_poser': AMENT_PREFIX_PATH=/home/sws/autoware/install/geo_pos_conv:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_sensing_msgs:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/geo_pos_conv:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_sensing_msgs:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/geo_pos_conv/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_sensing_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_sensing_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/sensing/gnss_poser -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/gnss_poser
+[0.818s] -- The C compiler identification is GNU 11.3.0
+[0.818s] -- The CXX compiler identification is GNU 11.3.0
+[0.818s] -- Detecting C compiler ABI info
+[0.818s] -- Detecting C compiler ABI info - done
+[0.819s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.819s] -- Detecting C compile features
+[0.819s] -- Detecting C compile features - done
+[0.819s] -- Detecting CXX compiler ABI info
+[0.819s] -- Detecting CXX compiler ABI info - done
+[0.819s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.819s] -- Detecting CXX compile features
+[0.819s] -- Detecting CXX compile features - done
+[0.819s] -- Found autoware_cmake: 0.1.0 (/home/sws/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.819s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.906s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.124s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.133s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.147s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.208s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.643s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.646s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.771s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.820s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.889s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.903s] -- Looking for pthread.h
+[1.990s] -- Looking for pthread.h - found
+[1.990s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.070s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.072s] -- Found Threads: TRUE  
+[2.558s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.560s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.560s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.114s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.134s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[3.161s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.162s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.163s] -- Configured cppcheck include dirs: /home/sws/autoware/src/universe/autoware.universe/sensing/gnss_poser/include
+[3.163s] -- Configured cppcheck exclude dirs and/or files: 
+[3.164s] -- Added test 'lint_cmake' to check CMake code style
+[3.164s] -- Added test 'xmllint' to check XML markup files
+[3.168s] -- Configuring done
+[3.196s] -- Generating done
+[3.198s] -- Build files have been written to: /home/sws/autoware/build/gnss_poser
+[3.215s] Invoked command in '/home/sws/autoware/build/gnss_poser' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/geo_pos_conv:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_sensing_msgs:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/geo_pos_conv:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_sensing_msgs:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/geo_pos_conv/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_sensing_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_sensing_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/sensing/gnss_poser -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/gnss_poser
+[3.219s] Invoking command in '/home/sws/autoware/build/gnss_poser': AMENT_PREFIX_PATH=/home/sws/autoware/install/geo_pos_conv:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_sensing_msgs:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/geo_pos_conv:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_sensing_msgs:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/geo_pos_conv/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_sensing_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_sensing_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sws/autoware/build/gnss_poser -- -j16 -l16
+[22.529s] [ 25%] [32mBuilding CXX object CMakeFiles/gnss_poser_node.dir/src/gnss_poser_core.cpp.o[0m
+[31.867s] [ 50%] [32m[1mLinking CXX shared library libgnss_poser_node.so[0m
+[32.113s] [ 50%] Built target gnss_poser_node
+[32.130s] [ 75%] [32mBuilding CXX object CMakeFiles/gnss_poser.dir/rclcpp_components/node_main_gnss_poser.cpp.o[0m
+[35.731s] [100%] [32m[1mLinking CXX executable gnss_poser[0m
+[35.840s] [100%] Built target gnss_poser
+[35.851s] Invoked command in '/home/sws/autoware/build/gnss_poser' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/geo_pos_conv:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_sensing_msgs:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/geo_pos_conv:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_sensing_msgs:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/geo_pos_conv/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_sensing_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_sensing_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sws/autoware/build/gnss_poser -- -j16 -l16
+[35.878s] Invoking command in '/home/sws/autoware/build/gnss_poser': AMENT_PREFIX_PATH=/home/sws/autoware/install/geo_pos_conv:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_sensing_msgs:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/geo_pos_conv:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_sensing_msgs:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/geo_pos_conv/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_sensing_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_sensing_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sws/autoware/build/gnss_poser
+[37.125s] -- Install configuration: "Release"
+[37.125s] -- Execute custom install script
+[37.125s] -- Symlinking: /home/sws/autoware/install/gnss_poser/lib/gnss_poser/gnss_poser
+[37.125s] -- Symlinking: /home/sws/autoware/install/gnss_poser/include/gnss_poser/convert.hpp
+[37.125s] -- Symlinking: /home/sws/autoware/install/gnss_poser/include/gnss_poser/gnss_poser_core.hpp
+[37.125s] -- Symlinking: /home/sws/autoware/install/gnss_poser/include/gnss_poser/gnss_stat.hpp
+[37.125s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/gnss_poser/environment/library_path.sh
+[37.125s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/gnss_poser/environment/library_path.dsv
+[37.125s] -- Symlinking: /home/sws/autoware/install/gnss_poser/lib/libgnss_poser_node.so
+[37.125s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/gnss_poser/launch/gnss_poser.launch.xml
+[37.125s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/gnss_poser/config/set_local_origin.param.yaml
+[37.125s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/ament_index/resource_index/package_run_dependencies/gnss_poser
+[37.125s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/ament_index/resource_index/parent_prefix_path/gnss_poser
+[37.126s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/gnss_poser/environment/ament_prefix_path.sh
+[37.126s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/gnss_poser/environment/ament_prefix_path.dsv
+[37.126s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/gnss_poser/environment/path.sh
+[37.126s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/gnss_poser/environment/path.dsv
+[37.126s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/gnss_poser/local_setup.bash
+[37.126s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/gnss_poser/local_setup.sh
+[37.126s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/gnss_poser/local_setup.zsh
+[37.126s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/gnss_poser/local_setup.dsv
+[37.126s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/gnss_poser/package.dsv
+[37.126s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/ament_index/resource_index/packages/gnss_poser
+[37.126s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/ament_index/resource_index/rclcpp_components/gnss_poser
+[37.126s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/gnss_poser/cmake/ament_cmake_export_dependencies-extras.cmake
+[37.126s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/gnss_poser/cmake/ament_cmake_export_include_directories-extras.cmake
+[37.126s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/gnss_poser/cmake/ament_cmake_export_libraries-extras.cmake
+[37.126s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/gnss_poser/cmake/gnss_poserConfig.cmake
+[37.127s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/gnss_poser/cmake/gnss_poserConfig-version.cmake
+[37.127s] -- Symlinking: /home/sws/autoware/install/gnss_poser/share/gnss_poser/package.xml
+[37.167s] Invoked command in '/home/sws/autoware/build/gnss_poser' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/geo_pos_conv:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_sensing_msgs:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/geo_pos_conv:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_sensing_msgs:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/geo_pos_conv/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_sensing_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_sensing_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sws/autoware/build/gnss_poser

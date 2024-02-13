@@ -1,0 +1,9 @@
+/home/sws/autoware/build/tier4_perception_msgs/rosidl_adapter/tier4_perception_msgs:msg/DetectedObjectWithFeature.idl
+/home/sws/autoware/build/tier4_perception_msgs/rosidl_adapter/tier4_perception_msgs:msg/DetectedObjectsWithFeature.idl
+/home/sws/autoware/build/tier4_perception_msgs/rosidl_adapter/tier4_perception_msgs:msg/DynamicObject.idl
+/home/sws/autoware/build/tier4_perception_msgs/rosidl_adapter/tier4_perception_msgs:msg/DynamicObjectArray.idl
+/home/sws/autoware/build/tier4_perception_msgs/rosidl_adapter/tier4_perception_msgs:msg/Feature.idl
+/home/sws/autoware/build/tier4_perception_msgs/rosidl_adapter/tier4_perception_msgs:msg/PredictedPath.idl
+/home/sws/autoware/build/tier4_perception_msgs/rosidl_adapter/tier4_perception_msgs:msg/Semantic.idl
+/home/sws/autoware/build/tier4_perception_msgs/rosidl_adapter/tier4_perception_msgs:msg/Shape.idl
+/home/sws/autoware/build/tier4_perception_msgs/rosidl_adapter/tier4_perception_msgs:msg/State.idl

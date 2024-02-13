@@ -1,0 +1,143 @@
+[0.430s] Invoking command in '/home/sws/autoware/build/lanelet2_map_preprocessor': AMENT_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/lanelet2_extension/lib:/home/sws/autoware/install/autoware_utils/lib:/home/sws/autoware/install/autoware_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_common_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/map/util/lanelet2_map_preprocessor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/lanelet2_map_preprocessor
+[7.154s] -- The C compiler identification is GNU 11.3.0
+[7.154s] -- The CXX compiler identification is GNU 11.3.0
+[7.154s] -- Detecting C compiler ABI info
+[7.154s] -- Detecting C compiler ABI info - done
+[7.154s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.154s] -- Detecting C compile features
+[7.154s] -- Detecting C compile features - done
+[7.154s] -- Detecting CXX compiler ABI info
+[7.154s] -- Detecting CXX compiler ABI info - done
+[7.154s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.155s] -- Detecting CXX compile features
+[7.155s] -- Detecting CXX compile features - done
+[7.157s] -- Found autoware_cmake: 0.1.0 (/home/sws/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[7.157s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[7.157s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.157s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.157s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.157s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.157s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.157s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.157s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.158s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.158s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.158s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.158s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.158s] -- Looking for pthread.h
+[7.158s] -- Looking for pthread.h - found
+[7.158s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.158s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.158s] -- Found Threads: TRUE  
+[7.158s] -- Found mrt_cmake_modules: 1.0.9 (/opt/ros/humble/share/mrt_cmake_modules/cmake)
+[7.159s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: wserialization thread random serialization log_setup prg_exec_monitor wave system chrono filesystem locale timer date_time regex graph program_options unit_test_framework log atomic iostreams 
+[7.159s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[7.159s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[7.159s] -- Found OpenMP: TRUE (found version "4.5")  
+[7.159s] -- Found pugixml: /usr/lib/x86_64-linux-gnu/libpugixml.so  
+[7.159s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[7.159s] -- Found GeographicLib: /usr/lib/x86_64-linux-gnu/libGeographic.so  
+[7.159s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[7.159s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.159s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.773s] -- Checking for module 'eigen3'
+[7.789s] --   Found eigen3, version 3.4.0
+[7.832s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[7.832s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.866s] -- Checking for module 'flann'
+[7.885s] --   Found flann, version 1.9.1
+[7.930s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[9.013s] -- Checking for module 'libusb-1.0'
+[9.030s] --   Found libusb-1.0, version 1.0.25
+[9.071s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[9.073s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.130s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.292s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[9.299s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.306s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.479s] -- Found Qhull version 8.0.2
+[9.718s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.892s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[9.893s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[9.895s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[9.896s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[9.897s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[9.898s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[9.899s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[9.900s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[9.901s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[9.902s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[9.903s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[9.905s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[9.906s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[9.907s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[9.909s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[9.911s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[9.912s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[9.913s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[9.919s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[9.919s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[9.919s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[9.919s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[9.919s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[9.920s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[9.922s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[9.945s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.895s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.896s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.898s] -- Configured cppcheck include dirs: /home/sws/autoware/src/universe/autoware.universe/map/util/lanelet2_map_preprocessor/include
+[14.898s] -- Configured cppcheck exclude dirs and/or files: 
+[14.898s] -- Added test 'lint_cmake' to check CMake code style
+[14.899s] -- Added test 'xmllint' to check XML markup files
+[14.901s] -- Configuring done
+[15.187s] -- Generating done
+[15.191s] -- Build files have been written to: /home/sws/autoware/build/lanelet2_map_preprocessor
+[15.240s] Invoked command in '/home/sws/autoware/build/lanelet2_map_preprocessor' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/lanelet2_extension/lib:/home/sws/autoware/install/autoware_utils/lib:/home/sws/autoware/install/autoware_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_common_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/map/util/lanelet2_map_preprocessor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/lanelet2_map_preprocessor
+[15.270s] Invoking command in '/home/sws/autoware/build/lanelet2_map_preprocessor': AMENT_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/lanelet2_extension/lib:/home/sws/autoware/install/autoware_utils/lib:/home/sws/autoware/install/autoware_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_common_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sws/autoware/build/lanelet2_map_preprocessor -- -j16 -l16
+[15.317s] [  8%] [32mBuilding CXX object CMakeFiles/fix_z_value_by_pcd.dir/src/fix_z_value_by_pcd.cpp.o[0m
+[30.474s] [ 16%] [32m[1mLinking CXX executable fix_z_value_by_pcd[0m
+[31.302s] [ 16%] Built target fix_z_value_by_pcd
+[31.323s] [ 25%] [32mBuilding CXX object CMakeFiles/fix_lane_change_tags.dir/src/fix_lane_change_tags.cpp.o[0m
+[41.598s] [ 33%] [32m[1mLinking CXX executable fix_lane_change_tags[0m
+[42.098s] [ 33%] Built target fix_lane_change_tags
+[42.121s] [ 41%] [32mBuilding CXX object CMakeFiles/remove_unreferenced_geometry.dir/src/remove_unreferenced_geometry.cpp.o[0m
+[56.384s] [ 50%] [32m[1mLinking CXX executable remove_unreferenced_geometry[0m
+[57.106s] [ 50%] Built target remove_unreferenced_geometry
+[57.138s] [ 58%] [32mBuilding CXX object CMakeFiles/merge_close_points.dir/src/merge_close_points.cpp.o[0m
+[67.943s] [ 66%] [32m[1mLinking CXX executable merge_close_points[0m
+[68.702s] [ 66%] Built target merge_close_points
+[68.752s] [ 75%] [32mBuilding CXX object CMakeFiles/transform_maps.dir/src/transform_maps.cpp.o[0m
+[68.768s] [ 83%] [32mBuilding CXX object CMakeFiles/merge_close_lines.dir/src/merge_close_lines.cpp.o[0m
+[90.570s] [ 91%] [32m[1mLinking CXX executable transform_maps[0m
+[92.032s] [ 91%] Built target transform_maps
+[93.846s] [100%] [32m[1mLinking CXX executable merge_close_lines[0m
+[94.775s] [100%] Built target merge_close_lines
+[94.805s] Invoked command in '/home/sws/autoware/build/lanelet2_map_preprocessor' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/lanelet2_extension/lib:/home/sws/autoware/install/autoware_utils/lib:/home/sws/autoware/install/autoware_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_common_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sws/autoware/build/lanelet2_map_preprocessor -- -j16 -l16
+[95.521s] Invoking command in '/home/sws/autoware/build/lanelet2_map_preprocessor': AMENT_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/lanelet2_extension/lib:/home/sws/autoware/install/autoware_utils/lib:/home/sws/autoware/install/autoware_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_common_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sws/autoware/build/lanelet2_map_preprocessor
+[101.240s] -- Install configuration: "Release"
+[101.240s] -- Execute custom install script
+[101.243s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/lib/lanelet2_map_preprocessor/fix_z_value_by_pcd
+[101.243s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/lib/lanelet2_map_preprocessor/transform_maps
+[101.243s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/lib/lanelet2_map_preprocessor/merge_close_lines
+[101.244s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/lib/lanelet2_map_preprocessor/merge_close_points
+[101.244s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/lib/lanelet2_map_preprocessor/remove_unreferenced_geometry
+[101.244s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/lib/lanelet2_map_preprocessor/fix_lane_change_tags
+[101.244s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/launch/fix_z_value_by_pcd.launch.xml
+[101.244s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/launch/transform_maps.launch.xml
+[101.244s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/share/ament_index/resource_index/package_run_dependencies/lanelet2_map_preprocessor
+[101.244s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/share/ament_index/resource_index/parent_prefix_path/lanelet2_map_preprocessor
+[101.244s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/environment/ament_prefix_path.sh
+[101.244s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/environment/ament_prefix_path.dsv
+[101.244s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/environment/path.sh
+[101.245s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/environment/path.dsv
+[101.245s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/local_setup.bash
+[101.245s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/local_setup.sh
+[101.245s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/local_setup.zsh
+[101.245s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/local_setup.dsv
+[101.245s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/package.dsv
+[101.245s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/share/ament_index/resource_index/packages/lanelet2_map_preprocessor
+[101.245s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/cmake/ament_cmake_export_dependencies-extras.cmake
+[101.245s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/cmake/lanelet2_map_preprocessorConfig.cmake
+[101.245s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/cmake/lanelet2_map_preprocessorConfig-version.cmake
+[101.246s] -- Symlinking: /home/sws/autoware/install/lanelet2_map_preprocessor/share/lanelet2_map_preprocessor/package.xml
+[101.280s] Invoked command in '/home/sws/autoware/build/lanelet2_map_preprocessor' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/lanelet2_extension/lib:/home/sws/autoware/install/autoware_utils/lib:/home/sws/autoware/install/autoware_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_common_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sws/autoware/build/lanelet2_map_preprocessor

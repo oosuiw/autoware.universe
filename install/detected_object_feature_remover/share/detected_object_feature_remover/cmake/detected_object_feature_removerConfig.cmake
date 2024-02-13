@@ -1,0 +1,1 @@
+/home/sws/autoware/build/detected_object_feature_remover/ament_cmake_core/detected_object_feature_removerConfig.cmake

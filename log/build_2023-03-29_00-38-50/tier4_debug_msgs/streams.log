@@ -1,0 +1,474 @@
+[0.054s] Invoking command in '/home/sws/autoware/build/tier4_debug_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/universe/external/tier4_autoware_msgs/tier4_debug_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/tier4_debug_msgs
+[0.716s] -- The C compiler identification is GNU 11.3.0
+[1.436s] -- The CXX compiler identification is GNU 11.3.0
+[1.529s] -- Detecting C compiler ABI info
+[1.809s] -- Detecting C compiler ABI info - done
+[1.821s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.822s] -- Detecting C compile features
+[1.822s] -- Detecting C compile features - done
+[1.828s] -- Detecting CXX compiler ABI info
+[2.259s] -- Detecting CXX compiler ABI info - done
+[2.274s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.275s] -- Detecting CXX compile features
+[2.275s] -- Detecting CXX compile features - done
+[2.286s] -- Found ament_cmake_auto: 1.3.3 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.546s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.646s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.956s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.983s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.263s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.677s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.946s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.287s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.320s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[4.324s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.359s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[4.359s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.359s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.359s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.385s] -- Found PythonExtra: .so  
+[4.441s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.490s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.497s] -- Added test 'lint_cmake' to check CMake code style
+[4.502s] -- Added test 'xmllint' to check XML markup files
+[4.519s] -- Configuring done
+[4.582s] -- Generating done
+[4.586s] -- Build files have been written to: /home/sws/autoware/build/tier4_debug_msgs
+[4.603s] Invoked command in '/home/sws/autoware/build/tier4_debug_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/universe/external/tier4_autoware_msgs/tier4_debug_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/tier4_debug_msgs
+[4.604s] Invoking command in '/home/sws/autoware/build/tier4_debug_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/tier4_debug_msgs -- -j16 -l16
+[4.849s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.849s] [  1%] Built target ament_cmake_python_symlink_tier4_debug_msgs
+[4.849s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.610s] running egg_info
+[5.611s] creating tier4_debug_msgs.egg-info
+[5.611s] writing tier4_debug_msgs.egg-info/PKG-INFO
+[5.612s] writing dependency_links to tier4_debug_msgs.egg-info/dependency_links.txt
+[5.612s] writing top-level names to tier4_debug_msgs.egg-info/top_level.txt
+[5.613s] writing manifest file 'tier4_debug_msgs.egg-info/SOURCES.txt'
+[5.622s] reading manifest file 'tier4_debug_msgs.egg-info/SOURCES.txt'
+[5.624s] writing manifest file 'tier4_debug_msgs.egg-info/SOURCES.txt'
+[5.713s] [  1%] Built target ament_cmake_python_build_tier4_debug_msgs_egg
+[9.234s] [  1%] Built target tier4_debug_msgs__cpp
+[9.375s] [  2%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.421s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.431s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.318s] [  4%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_debug_msgs/msg/detail/multi_array_dimension__functions.c.o[0m
+[10.348s] [  5%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_debug_msgs/msg/detail/multi_array_layout__functions.c.o[0m
+[10.363s] [  6%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_debug_msgs/msg/detail/bool_stamped__functions.c.o[0m
+[10.404s] [  6%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_debug_msgs/msg/detail/float32_stamped__functions.c.o[0m
+[10.456s] [  7%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_debug_msgs/msg/detail/float32_multi_array_stamped__functions.c.o[0m
+[10.490s] [  8%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_debug_msgs/msg/detail/float64_stamped__functions.c.o[0m
+[10.529s] [  9%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_debug_msgs/msg/detail/float64_multi_array_stamped__functions.c.o[0m
+[10.657s] [ 10%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_debug_msgs/msg/detail/int32_multi_array_stamped__functions.c.o[0m
+[10.658s] [ 11%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_debug_msgs/msg/detail/int32_stamped__functions.c.o[0m
+[10.712s] [ 12%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_debug_msgs/msg/detail/int64_stamped__functions.c.o[0m
+[10.735s] [ 12%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_debug_msgs/msg/detail/int64_multi_array_stamped__functions.c.o[0m
+[10.775s] [ 13%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_debug_msgs/msg/detail/string_stamped__functions.c.o[0m
+[11.648s] [ 14%] [32m[1mLinking C shared library libtier4_debug_msgs__rosidl_generator_c.so[0m
+[11.895s] [ 14%] Built target tier4_debug_msgs__rosidl_generator_c
+[12.049s] [ 15%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.049s] [ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.066s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.359s] [ 17%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_debug_msgs/msg/detail/multi_array_dimension__type_support.cpp.o[0m
+[12.361s] [ 18%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_debug_msgs/msg/detail/multi_array_layout__type_support.cpp.o[0m
+[12.413s] [ 19%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_debug_msgs/msg/detail/float32_stamped__type_support.cpp.o[0m
+[12.421s] [ 20%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_debug_msgs/msg/detail/bool_stamped__type_support.cpp.o[0m
+[12.424s] [ 21%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_debug_msgs/msg/detail/float32_multi_array_stamped__type_support.cpp.o[0m
+[12.497s] [ 22%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_debug_msgs/msg/detail/float64_stamped__type_support.cpp.o[0m
+[12.608s] [ 22%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_debug_msgs/msg/detail/float64_multi_array_stamped__type_support.cpp.o[0m
+[12.668s] [ 23%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_debug_msgs/msg/detail/int32_multi_array_stamped__type_support.cpp.o[0m
+[12.730s] [ 24%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_debug_msgs/msg/detail/int32_stamped__type_support.cpp.o[0m
+[12.730s] [ 25%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_debug_msgs/msg/detail/int64_multi_array_stamped__type_support.cpp.o[0m
+[12.731s] [ 26%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_debug_msgs/msg/detail/int64_stamped__type_support.cpp.o[0m
+[13.569s] [ 27%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_debug_msgs/msg/multi_array_dimension__type_support.cpp.o[0m
+[14.391s] [ 28%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_debug_msgs/msg/detail/string_stamped__type_support.cpp.o[0m
+[14.605s] [ 29%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_debug_msgs/msg/multi_array_layout__type_support.cpp.o[0m
+[14.863s] [ 30%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_debug_msgs/msg/bool_stamped__type_support.cpp.o[0m
+[15.004s] [ 31%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_debug_msgs/msg/float32_stamped__type_support.cpp.o[0m
+[15.587s] [ 31%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_debug_msgs/msg/float32_multi_array_stamped__type_support.cpp.o[0m
+[15.866s] [ 32%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_debug_msgs/msg/float64_stamped__type_support.cpp.o[0m
+[16.009s] [ 33%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_debug_msgs/msg/float64_multi_array_stamped__type_support.cpp.o[0m
+[17.310s] [ 34%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_debug_msgs/msg/detail/dds_fastrtps/multi_array_dimension__type_support.cpp.o[0m
+[17.665s] [ 35%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_debug_msgs/msg/multi_array_dimension__type_support.cpp.o[0m
+[17.683s] [ 36%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_debug_msgs/msg/detail/multi_array_dimension__type_support_c.cpp.o[0m
+[17.818s] [ 36%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_debug_msgs/msg/multi_array_layout__type_support.cpp.o[0m
+[17.956s] [ 37%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_debug_msgs/msg/bool_stamped__type_support.cpp.o[0m
+[18.171s] [ 38%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_debug_msgs/msg/float32_stamped__type_support.cpp.o[0m
+[18.270s] [ 39%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_debug_msgs/msg/float32_multi_array_stamped__type_support.cpp.o[0m
+[18.282s] [ 40%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_debug_msgs/msg/detail/dds_fastrtps/multi_array_layout__type_support.cpp.o[0m
+[18.362s] [ 41%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_debug_msgs/msg/float64_stamped__type_support.cpp.o[0m
+[18.477s] [ 42%] [32m[1mLinking CXX shared library libtier4_debug_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[18.532s] [ 43%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_debug_msgs/msg/float64_multi_array_stamped__type_support.cpp.o[0m
+[18.617s] [ 43%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_debug_msgs/msg/detail/bool_stamped__type_support_c.cpp.o[0m
+[18.623s] [ 44%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_debug_msgs/msg/string_stamped__type_support.cpp.o[0m
+[18.643s] [ 44%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_debug_msgs/msg/int32_stamped__type_support.cpp.o[0m
+[18.730s] [ 44%] Built target tier4_debug_msgs__rosidl_typesupport_introspection_cpp
+[18.802s] [ 45%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_debug_msgs/msg/int32_multi_array_stamped__type_support.cpp.o[0m
+[18.915s] [ 46%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_debug_msgs/msg/int64_stamped__type_support.cpp.o[0m
+[19.034s] [ 47%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_debug_msgs/msg/int64_multi_array_stamped__type_support.cpp.o[0m
+[19.259s] [ 48%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_debug_msgs/msg/string_stamped__type_support.cpp.o[0m
+[19.413s] [ 49%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_debug_msgs/msg/detail/dds_fastrtps/float32_multi_array_stamped__type_support.cpp.o[0m
+[19.491s] [ 50%] [32m[1mLinking CXX shared library libtier4_debug_msgs__rosidl_typesupport_c.so[0m
+[19.716s] [ 50%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_debug_msgs/msg/int64_multi_array_stamped__type_support.cpp.o[0m
+[19.717s] [ 50%] Built target tier4_debug_msgs__rosidl_typesupport_c
+[19.802s] [ 50%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_debug_msgs/msg/detail/int32_multi_array_stamped__type_support_c.cpp.o[0m
+[20.387s] [ 51%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_debug_msgs/msg/detail/multi_array_dimension__type_support.c.o[0m
+[20.535s] [ 52%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_debug_msgs/msg/detail/multi_array_layout__type_support.c.o[0m
+[20.543s] [ 53%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_debug_msgs/msg/int64_stamped__type_support.cpp.o[0m
+[20.674s] [ 54%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_debug_msgs/msg/detail/bool_stamped__type_support.c.o[0m
+[20.696s] [ 54%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_debug_msgs/msg/detail/dds_fastrtps/float64_stamped__type_support.cpp.o[0m
+[20.860s] [ 54%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_debug_msgs/msg/detail/float32_stamped__type_support.c.o[0m
+[20.952s] [ 55%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_debug_msgs/msg/detail/float32_multi_array_stamped__type_support.c.o[0m
+[20.954s] [ 56%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_debug_msgs/msg/detail/int64_stamped__type_support_c.cpp.o[0m
+[21.110s] [ 57%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_debug_msgs/msg/detail/float64_stamped__type_support.c.o[0m
+[21.208s] [ 58%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_debug_msgs/msg/detail/float64_multi_array_stamped__type_support.c.o[0m
+[21.367s] [ 59%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_debug_msgs/msg/detail/int32_stamped__type_support.c.o[0m
+[21.525s] [ 60%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_debug_msgs/msg/detail/int32_multi_array_stamped__type_support.c.o[0m
+[21.703s] [ 61%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_debug_msgs/msg/detail/int64_stamped__type_support.c.o[0m
+[21.766s] [ 62%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_debug_msgs/msg/int32_multi_array_stamped__type_support.cpp.o[0m
+[21.870s] [ 62%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_debug_msgs/msg/detail/int64_multi_array_stamped__type_support.c.o[0m
+[21.930s] [ 63%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_debug_msgs/msg/detail/string_stamped__type_support_c.cpp.o[0m
+[22.054s] [ 64%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_debug_msgs/msg/detail/string_stamped__type_support.c.o[0m
+[22.202s] [ 65%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_debug_msgs/msg/detail/dds_fastrtps/int32_stamped__type_support.cpp.o[0m
+[22.216s] [ 66%] [32m[1mLinking C shared library libtier4_debug_msgs__rosidl_typesupport_introspection_c.so[0m
+[22.346s] [ 66%] Built target tier4_debug_msgs__rosidl_typesupport_introspection_c
+[22.644s] [ 67%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_debug_msgs/msg/int32_stamped__type_support.cpp.o[0m
+[22.892s] [ 68%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_debug_msgs/msg/detail/int64_multi_array_stamped__type_support_c.cpp.o[0m
+[23.119s] [ 68%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_debug_msgs/msg/detail/dds_fastrtps/string_stamped__type_support.cpp.o[0m
+[23.499s] [ 69%] [32m[1mLinking CXX shared library libtier4_debug_msgs__rosidl_typesupport_cpp.so[0m
+[23.584s] [ 69%] Built target tier4_debug_msgs__rosidl_typesupport_cpp
+[23.603s] [ 70%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_debug_msgs/msg/detail/int32_stamped__type_support_c.cpp.o[0m
+[24.081s] [ 71%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_debug_msgs/msg/detail/dds_fastrtps/int64_multi_array_stamped__type_support.cpp.o[0m
+[24.192s] [ 72%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_debug_msgs/msg/detail/float64_multi_array_stamped__type_support_c.cpp.o[0m
+[24.842s] [ 73%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_debug_msgs/msg/detail/float64_stamped__type_support_c.cpp.o[0m
+[24.893s] [ 74%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_debug_msgs/msg/detail/dds_fastrtps/int64_stamped__type_support.cpp.o[0m
+[25.438s] [ 75%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_debug_msgs/msg/detail/float32_multi_array_stamped__type_support_c.cpp.o[0m
+[25.665s] [ 76%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_debug_msgs/msg/detail/dds_fastrtps/int32_multi_array_stamped__type_support.cpp.o[0m
+[26.007s] [ 77%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_debug_msgs/msg/detail/float32_stamped__type_support_c.cpp.o[0m
+[26.428s] [ 78%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_debug_msgs/msg/detail/dds_fastrtps/float64_multi_array_stamped__type_support.cpp.o[0m
+[26.690s] [ 79%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_debug_msgs/msg/detail/multi_array_layout__type_support_c.cpp.o[0m
+[27.161s] [ 80%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_debug_msgs/msg/detail/dds_fastrtps/float32_stamped__type_support.cpp.o[0m
+[27.263s] [ 81%] [32m[1mLinking CXX shared library libtier4_debug_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[27.383s] [ 81%] Built target tier4_debug_msgs__rosidl_typesupport_fastrtps_c
+[27.802s] [ 82%] [32mBuilding CXX object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_debug_msgs/msg/detail/dds_fastrtps/bool_stamped__type_support.cpp.o[0m
+[28.390s] [ 83%] [32m[1mLinking CXX shared library libtier4_debug_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[28.480s] [ 83%] Built target tier4_debug_msgs__rosidl_typesupport_fastrtps_cpp
+[28.505s] [ 83%] Built target tier4_debug_msgs
+[28.530s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[31.599s] [ 84%] Built target tier4_debug_msgs__py
+[31.625s] [ 85%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_debug_msgs/msg/_multi_array_dimension_s.c.o[0m
+[31.837s] [ 86%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_debug_msgs/msg/_string_stamped_s.c.o[0m
+[32.049s] [ 87%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_debug_msgs/msg/_int64_multi_array_stamped_s.c.o[0m
+[32.353s] [ 87%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_debug_msgs/msg/_int64_stamped_s.c.o[0m
+[32.542s] [ 88%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_debug_msgs/msg/_int32_multi_array_stamped_s.c.o[0m
+[32.856s] [ 89%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_debug_msgs/msg/_int32_stamped_s.c.o[0m
+[33.086s] [ 90%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_debug_msgs/msg/_float64_multi_array_stamped_s.c.o[0m
+[33.509s] [ 91%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_debug_msgs/msg/_float64_stamped_s.c.o[0m
+[33.709s] [ 92%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_debug_msgs/msg/_float32_multi_array_stamped_s.c.o[0m
+[34.009s] [ 93%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_debug_msgs/msg/_float32_stamped_s.c.o[0m
+[34.223s] [ 93%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_debug_msgs/msg/_bool_stamped_s.c.o[0m
+[34.449s] [ 94%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_generator_py.dir/rosidl_generator_py/tier4_debug_msgs/msg/_multi_array_layout_s.c.o[0m
+[34.720s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/tier4_debug_msgs/libtier4_debug_msgs__rosidl_generator_py.so[0m
+[34.797s] [ 95%] Built target tier4_debug_msgs__rosidl_generator_py
+[34.831s] [ 96%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tier4_debug_msgs/_tier4_debug_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[35.334s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/tier4_debug_msgs/tier4_debug_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[35.394s] [ 97%] Built target tier4_debug_msgs__rosidl_typesupport_fastrtps_c__pyext
+[35.419s] [ 97%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tier4_debug_msgs/_tier4_debug_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[35.874s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/tier4_debug_msgs/tier4_debug_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[35.940s] [ 98%] Built target tier4_debug_msgs__rosidl_typesupport_c__pyext
+[35.966s] [ 99%] [32mBuilding C object CMakeFiles/tier4_debug_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tier4_debug_msgs/_tier4_debug_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[36.385s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tier4_debug_msgs/tier4_debug_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[36.438s] [100%] Built target tier4_debug_msgs__rosidl_typesupport_introspection_c__pyext
+[36.455s] Invoked command in '/home/sws/autoware/build/tier4_debug_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/tier4_debug_msgs -- -j16 -l16
+[36.838s] Invoking command in '/home/sws/autoware/build/tier4_debug_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/tier4_debug_msgs
+[58.177s] -- Install configuration: "Release"
+[58.177s] -- Execute custom install script
+[58.177s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/ament_index/resource_index/rosidl_interfaces/tier4_debug_msgs
+[58.177s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/bool_stamped.h
+[58.178s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/bool_stamped__functions.h
+[58.178s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/bool_stamped__struct.h
+[58.178s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/bool_stamped__type_support.h
+[58.178s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float32_multi_array_stamped__functions.h
+[58.178s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float32_multi_array_stamped__struct.h
+[58.178s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float32_multi_array_stamped__type_support.h
+[58.178s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float32_stamped__functions.h
+[58.178s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float32_stamped__struct.h
+[58.179s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float32_stamped__type_support.h
+[58.179s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float64_multi_array_stamped__functions.h
+[58.179s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float64_multi_array_stamped__struct.h
+[58.179s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float64_multi_array_stamped__type_support.h
+[58.179s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float64_stamped__functions.h
+[58.179s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float64_stamped__struct.h
+[58.179s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float64_stamped__type_support.h
+[58.179s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int32_multi_array_stamped__functions.h
+[58.179s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int32_multi_array_stamped__struct.h
+[58.179s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int32_multi_array_stamped__type_support.h
+[58.180s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int32_stamped__functions.h
+[58.180s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int32_stamped__struct.h
+[58.180s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int32_stamped__type_support.h
+[58.180s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int64_multi_array_stamped__functions.h
+[58.180s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int64_multi_array_stamped__struct.h
+[58.180s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int64_multi_array_stamped__type_support.h
+[58.180s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int64_stamped__functions.h
+[58.180s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int64_stamped__struct.h
+[58.180s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int64_stamped__type_support.h
+[58.180s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/multi_array_dimension__functions.h
+[58.181s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/multi_array_dimension__struct.h
+[58.181s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/multi_array_dimension__type_support.h
+[58.181s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/multi_array_layout__functions.h
+[58.181s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/multi_array_layout__struct.h
+[58.181s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/multi_array_layout__type_support.h
+[58.181s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/string_stamped__functions.h
+[58.181s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/string_stamped__struct.h
+[58.181s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/string_stamped__type_support.h
+[58.181s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/float32_multi_array_stamped.h
+[58.182s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/float32_stamped.h
+[58.182s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/float64_multi_array_stamped.h
+[58.182s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/float64_stamped.h
+[58.182s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/int32_multi_array_stamped.h
+[58.182s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/int32_stamped.h
+[58.182s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/int64_multi_array_stamped.h
+[58.182s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/int64_stamped.h
+[58.182s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/multi_array_dimension.h
+[58.182s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/multi_array_layout.h
+[58.182s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/rosidl_generator_c__visibility_control.h
+[58.183s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/string_stamped.h
+[58.183s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/environment/library_path.sh
+[58.183s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/environment/library_path.dsv
+[58.183s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/bool_stamped__rosidl_typesupport_fastrtps_c.h
+[58.183s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float32_multi_array_stamped__rosidl_typesupport_fastrtps_c.h
+[58.183s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float32_stamped__rosidl_typesupport_fastrtps_c.h
+[58.183s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float64_multi_array_stamped__rosidl_typesupport_fastrtps_c.h
+[58.184s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float64_stamped__rosidl_typesupport_fastrtps_c.h
+[58.184s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int32_multi_array_stamped__rosidl_typesupport_fastrtps_c.h
+[58.185s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int32_stamped__rosidl_typesupport_fastrtps_c.h
+[58.185s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int64_multi_array_stamped__rosidl_typesupport_fastrtps_c.h
+[58.185s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int64_stamped__rosidl_typesupport_fastrtps_c.h
+[58.185s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/multi_array_dimension__rosidl_typesupport_fastrtps_c.h
+[58.185s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/multi_array_layout__rosidl_typesupport_fastrtps_c.h
+[58.185s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/string_stamped__rosidl_typesupport_fastrtps_c.h
+[58.185s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[58.185s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/bool_stamped__rosidl_typesupport_introspection_c.h
+[58.185s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float32_multi_array_stamped__rosidl_typesupport_introspection_c.h
+[58.185s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float32_stamped__rosidl_typesupport_introspection_c.h
+[58.186s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float64_multi_array_stamped__rosidl_typesupport_introspection_c.h
+[58.186s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float64_stamped__rosidl_typesupport_introspection_c.h
+[58.186s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int32_multi_array_stamped__rosidl_typesupport_introspection_c.h
+[58.186s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int32_stamped__rosidl_typesupport_introspection_c.h
+[58.186s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int64_multi_array_stamped__rosidl_typesupport_introspection_c.h
+[58.186s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int64_stamped__rosidl_typesupport_introspection_c.h
+[58.186s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/multi_array_dimension__rosidl_typesupport_introspection_c.h
+[58.186s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/multi_array_layout__rosidl_typesupport_introspection_c.h
+[58.186s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/string_stamped__rosidl_typesupport_introspection_c.h
+[58.187s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[58.187s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/bool_stamped.hpp
+[58.187s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/bool_stamped__builder.hpp
+[58.187s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/bool_stamped__struct.hpp
+[58.187s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/bool_stamped__traits.hpp
+[58.187s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float32_multi_array_stamped__builder.hpp
+[58.188s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float32_multi_array_stamped__struct.hpp
+[58.188s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float32_multi_array_stamped__traits.hpp
+[58.188s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float32_stamped__builder.hpp
+[58.188s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float32_stamped__struct.hpp
+[58.188s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float32_stamped__traits.hpp
+[58.188s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float64_multi_array_stamped__builder.hpp
+[58.188s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float64_multi_array_stamped__struct.hpp
+[58.188s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float64_multi_array_stamped__traits.hpp
+[58.188s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float64_stamped__builder.hpp
+[58.189s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float64_stamped__struct.hpp
+[58.189s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float64_stamped__traits.hpp
+[58.189s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int32_multi_array_stamped__builder.hpp
+[58.189s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int32_multi_array_stamped__struct.hpp
+[58.189s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int32_multi_array_stamped__traits.hpp
+[58.189s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int32_stamped__builder.hpp
+[58.189s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int32_stamped__struct.hpp
+[58.189s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int32_stamped__traits.hpp
+[58.189s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int64_multi_array_stamped__builder.hpp
+[58.189s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int64_multi_array_stamped__struct.hpp
+[58.189s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int64_multi_array_stamped__traits.hpp
+[58.189s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int64_stamped__builder.hpp
+[58.190s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int64_stamped__struct.hpp
+[58.190s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int64_stamped__traits.hpp
+[58.190s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/multi_array_dimension__builder.hpp
+[58.190s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/multi_array_dimension__struct.hpp
+[58.190s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/multi_array_dimension__traits.hpp
+[58.190s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/multi_array_layout__builder.hpp
+[58.190s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/multi_array_layout__struct.hpp
+[58.190s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/multi_array_layout__traits.hpp
+[58.190s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/string_stamped__builder.hpp
+[58.190s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/string_stamped__struct.hpp
+[58.190s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/string_stamped__traits.hpp
+[58.191s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/float32_multi_array_stamped.hpp
+[58.191s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/float32_stamped.hpp
+[58.191s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/float64_multi_array_stamped.hpp
+[58.191s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/float64_stamped.hpp
+[58.191s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/int32_multi_array_stamped.hpp
+[58.191s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/int32_stamped.hpp
+[58.194s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/int64_multi_array_stamped.hpp
+[58.202s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/int64_stamped.hpp
+[58.213s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/multi_array_dimension.hpp
+[58.221s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/multi_array_layout.hpp
+[58.231s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/string_stamped.hpp
+[58.240s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/bool_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[58.248s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float32_multi_array_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[58.255s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float32_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[58.262s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float64_multi_array_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[58.270s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float64_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[58.277s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int32_multi_array_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[58.285s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int32_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[58.292s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int64_multi_array_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[58.299s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int64_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[58.306s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/multi_array_dimension__rosidl_typesupport_fastrtps_cpp.hpp
+[58.313s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/multi_array_layout__rosidl_typesupport_fastrtps_cpp.hpp
+[58.323s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/string_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[58.330s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[58.338s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/bool_stamped__rosidl_typesupport_introspection_cpp.hpp
+[58.345s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float32_multi_array_stamped__rosidl_typesupport_introspection_cpp.hpp
+[58.353s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float32_stamped__rosidl_typesupport_introspection_cpp.hpp
+[58.360s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float64_multi_array_stamped__rosidl_typesupport_introspection_cpp.hpp
+[58.367s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/float64_stamped__rosidl_typesupport_introspection_cpp.hpp
+[58.375s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int32_multi_array_stamped__rosidl_typesupport_introspection_cpp.hpp
+[58.382s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int32_stamped__rosidl_typesupport_introspection_cpp.hpp
+[58.389s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int64_multi_array_stamped__rosidl_typesupport_introspection_cpp.hpp
+[58.397s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/int64_stamped__rosidl_typesupport_introspection_cpp.hpp
+[58.403s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/multi_array_dimension__rosidl_typesupport_introspection_cpp.hpp
+[58.410s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/multi_array_layout__rosidl_typesupport_introspection_cpp.hpp
+[58.417s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/include/tier4_debug_msgs/tier4_debug_msgs/msg/detail/string_stamped__rosidl_typesupport_introspection_cpp.hpp
+[58.424s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/environment/pythonpath.sh
+[58.431s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/environment/pythonpath.dsv
+[58.439s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[58.445s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[58.452s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[58.458s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[58.467s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/__init__.py
+[58.475s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/_tier4_debug_msgs_s.ep.rosidl_typesupport_c.c
+[58.482s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/_tier4_debug_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[58.492s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/_tier4_debug_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[58.500s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/libtier4_debug_msgs__rosidl_generator_py.so
+[58.511s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/__init__.py
+[58.521s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_bool_stamped.py
+[58.530s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_bool_stamped_s.c
+[58.539s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_float32_multi_array_stamped.py
+[58.548s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_float32_multi_array_stamped_s.c
+[58.554s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_float32_stamped.py
+[58.562s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_float32_stamped_s.c
+[58.625s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_float64_multi_array_stamped.py
+[58.635s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_float64_multi_array_stamped_s.c
+[58.643s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_float64_stamped.py
+[58.648s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_float64_stamped_s.c
+[58.656s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_int32_multi_array_stamped.py
+[58.663s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_int32_multi_array_stamped_s.c
+[58.670s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_int32_stamped.py
+[58.678s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_int32_stamped_s.c
+[58.686s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_int64_multi_array_stamped.py
+[58.694s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_int64_multi_array_stamped_s.c
+[58.701s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_int64_stamped.py
+[58.709s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_int64_stamped_s.c
+[58.716s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_multi_array_dimension.py
+[58.722s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_multi_array_dimension_s.c
+[58.730s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_multi_array_layout.py
+[58.739s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_multi_array_layout_s.c
+[58.748s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_string_stamped.py
+[58.757s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_string_stamped_s.c
+[58.767s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/tier4_debug_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[58.777s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/tier4_debug_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[58.787s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/tier4_debug_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[58.797s] -- Up-to-date symlink: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/tier4_debug_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[58.797s] -- Up-to-date symlink: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/tier4_debug_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[58.797s] -- Up-to-date symlink: /home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/tier4_debug_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[58.798s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/MultiArrayDimension.idl
+[58.808s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/MultiArrayLayout.idl
+[58.817s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/BoolStamped.idl
+[58.828s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/Float32Stamped.idl
+[58.839s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/Float32MultiArrayStamped.idl
+[58.849s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/Float64Stamped.idl
+[58.859s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/Float64MultiArrayStamped.idl
+[58.867s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/Int32Stamped.idl
+[58.876s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/Int32MultiArrayStamped.idl
+[58.886s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/Int64Stamped.idl
+[58.895s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/Int64MultiArrayStamped.idl
+[58.902s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/StringStamped.idl
+[58.913s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/MultiArrayDimension.msg
+[58.922s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/MultiArrayLayout.msg
+[58.930s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/BoolStamped.msg
+[58.949s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/Float32Stamped.msg
+[58.951s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/Float32MultiArrayStamped.msg
+[58.960s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/Float64Stamped.msg
+[58.969s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/Float64MultiArrayStamped.msg
+[58.979s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/Int32Stamped.msg
+[58.987s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/Int32MultiArrayStamped.msg
+[58.994s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/Int64Stamped.msg
+[59.001s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/Int64MultiArrayStamped.msg
+[59.009s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/msg/StringStamped.msg
+[59.017s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/ament_index/resource_index/package_run_dependencies/tier4_debug_msgs
+[59.026s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/ament_index/resource_index/parent_prefix_path/tier4_debug_msgs
+[59.035s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/environment/ament_prefix_path.sh
+[59.044s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/environment/ament_prefix_path.dsv
+[59.053s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/environment/path.sh
+[59.063s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/environment/path.dsv
+[59.072s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/local_setup.bash
+[59.083s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/local_setup.sh
+[59.092s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/local_setup.zsh
+[59.102s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/local_setup.dsv
+[59.111s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/package.dsv
+[59.122s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/ament_index/resource_index/packages/tier4_debug_msgs
+[59.132s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/rosidl_cmake-extras.cmake
+[59.140s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[59.149s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[59.160s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[59.170s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[59.178s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[59.188s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[59.199s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/tier4_debug_msgsConfig.cmake
+[59.209s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/tier4_debug_msgsConfig-version.cmake
+[59.219s] -- Symlinking: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/package.xml
+[59.230s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/lib/libtier4_debug_msgs__rosidl_generator_c.so
+[59.231s] -- Set runtime path of "/home/sws/autoware/install/tier4_debug_msgs/lib/libtier4_debug_msgs__rosidl_generator_c.so" to ""
+[59.231s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/lib/libtier4_debug_msgs__rosidl_typesupport_fastrtps_c.so
+[59.231s] -- Set runtime path of "/home/sws/autoware/install/tier4_debug_msgs/lib/libtier4_debug_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[59.231s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/lib/libtier4_debug_msgs__rosidl_typesupport_introspection_c.so
+[59.232s] -- Set runtime path of "/home/sws/autoware/install/tier4_debug_msgs/lib/libtier4_debug_msgs__rosidl_typesupport_introspection_c.so" to ""
+[59.232s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/lib/libtier4_debug_msgs__rosidl_typesupport_c.so
+[59.234s] -- Set runtime path of "/home/sws/autoware/install/tier4_debug_msgs/lib/libtier4_debug_msgs__rosidl_typesupport_c.so" to ""
+[59.234s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/lib/libtier4_debug_msgs__rosidl_typesupport_fastrtps_cpp.so
+[59.234s] -- Set runtime path of "/home/sws/autoware/install/tier4_debug_msgs/lib/libtier4_debug_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[59.234s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/lib/libtier4_debug_msgs__rosidl_typesupport_introspection_cpp.so
+[59.235s] -- Set runtime path of "/home/sws/autoware/install/tier4_debug_msgs/lib/libtier4_debug_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[59.235s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/lib/libtier4_debug_msgs__rosidl_typesupport_cpp.so
+[59.235s] -- Set runtime path of "/home/sws/autoware/install/tier4_debug_msgs/lib/libtier4_debug_msgs__rosidl_typesupport_cpp.so" to ""
+[59.307s] Listing '/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs'...
+[59.308s] Compiling '/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/__init__.py'...
+[59.308s] Listing '/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg'...
+[59.308s] Compiling '/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/__init__.py'...
+[59.308s] Compiling '/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_bool_stamped.py'...
+[59.308s] Compiling '/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_float32_multi_array_stamped.py'...
+[59.308s] Compiling '/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_float32_stamped.py'...
+[59.308s] Compiling '/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_float64_multi_array_stamped.py'...
+[59.308s] Compiling '/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_float64_stamped.py'...
+[59.308s] Compiling '/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_int32_multi_array_stamped.py'...
+[59.308s] Compiling '/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_int32_stamped.py'...
+[59.308s] Compiling '/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_int64_multi_array_stamped.py'...
+[59.309s] Compiling '/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_int64_stamped.py'...
+[59.309s] Compiling '/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_multi_array_dimension.py'...
+[59.309s] Compiling '/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_multi_array_layout.py'...
+[59.309s] Compiling '/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages/tier4_debug_msgs/msg/_string_stamped.py'...
+[59.315s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/lib/libtier4_debug_msgs__rosidl_generator_py.so
+[59.319s] -- Set runtime path of "/home/sws/autoware/install/tier4_debug_msgs/lib/libtier4_debug_msgs__rosidl_generator_py.so" to ""
+[59.319s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/export_tier4_debug_msgs__rosidl_generator_cExport.cmake
+[59.319s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/export_tier4_debug_msgs__rosidl_generator_cExport-release.cmake
+[59.319s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/export_tier4_debug_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[59.319s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/export_tier4_debug_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[59.319s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/tier4_debug_msgs__rosidl_typesupport_introspection_cExport.cmake
+[59.319s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/tier4_debug_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[59.319s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/tier4_debug_msgs__rosidl_typesupport_cExport.cmake
+[59.319s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/tier4_debug_msgs__rosidl_typesupport_cExport-release.cmake
+[59.319s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/export_tier4_debug_msgs__rosidl_generator_cppExport.cmake
+[59.320s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/export_tier4_debug_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[59.320s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/export_tier4_debug_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[59.320s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/tier4_debug_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[59.320s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/tier4_debug_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[59.320s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/tier4_debug_msgs__rosidl_typesupport_cppExport.cmake
+[59.320s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/tier4_debug_msgs__rosidl_typesupport_cppExport-release.cmake
+[59.320s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/export_tier4_debug_msgs__rosidl_generator_pyExport.cmake
+[59.323s] -- Installing: /home/sws/autoware/install/tier4_debug_msgs/share/tier4_debug_msgs/cmake/export_tier4_debug_msgs__rosidl_generator_pyExport-release.cmake
+[59.336s] Invoked command in '/home/sws/autoware/build/tier4_debug_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/tier4_debug_msgs

@@ -1,0 +1,205 @@
+[0.215s] Invoking command in '/home/sws/autoware/build/lidar_centerpoint': AMENT_PREFIX_PATH=/home/sws/autoware/install/perception_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tensorrt_common:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/perception_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tensorrt_common:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/perception_utils/lib:/home/sws/autoware/install/interpolation/lib:/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/tensorrt_common/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/perception/lidar_centerpoint -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/lidar_centerpoint
+[22.794s] -- The C compiler identification is GNU 11.3.0
+[22.796s] -- The CXX compiler identification is GNU 11.3.0
+[22.796s] -- Detecting C compiler ABI info
+[22.796s] -- Detecting C compiler ABI info - done
+[22.796s] -- Check for working C compiler: /usr/bin/cc - skipped
+[22.796s] -- Detecting C compile features
+[22.796s] -- Detecting C compile features - done
+[22.796s] -- Detecting CXX compiler ABI info
+[22.796s] -- Detecting CXX compiler ABI info - done
+[22.796s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[22.797s] -- Detecting CXX compile features
+[22.797s] -- Detecting CXX compile features - done
+[22.797s] -- Found autoware_cmake: 0.1.0 (/home/sws/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[22.797s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[22.797s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[22.797s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[22.797s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[22.797s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[22.797s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[22.797s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[22.798s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[22.798s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[22.798s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[22.798s] -- Found FastRTPS: /opt/ros/humble/include  
+[22.798s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[22.798s] -- Looking for pthread.h
+[22.798s] -- Looking for pthread.h - found
+[22.798s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[22.798s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[22.798s] -- Found Threads: TRUE  
+[22.798s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[22.799s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[22.799s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[22.799s] -- Checking for module 'eigen3'
+[22.799s] --   Found eigen3, version 3.4.0
+[22.799s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[22.799s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[22.799s] -- Checking for module 'flann'
+[22.799s] --   Found flann, version 1.9.1
+[22.799s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[22.799s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[22.800s] -- Checking for module 'libusb-1.0'
+[22.800s] --   Found libusb-1.0, version 1.0.25
+[22.800s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[22.800s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[22.800s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[22.800s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[22.800s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[22.800s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[22.800s] -- Found Qhull version 8.0.2
+[22.800s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[22.800s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[22.801s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[22.801s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[22.801s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[22.801s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[22.801s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[22.801s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[22.801s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[22.801s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[22.801s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[22.801s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[22.801s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[22.802s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[22.802s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[22.802s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[22.802s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[22.802s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[22.802s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[22.802s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[22.802s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[22.802s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[22.802s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[22.802s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[22.803s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[22.803s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[22.803s] -- Found TensorRT headers at /usr/include/x86_64-linux-gnu
+[22.803s] -- Found TensorRT libs at /usr/lib/x86_64-linux-gnu/libnvinfer.so;/usr/lib/x86_64-linux-gnu/libnvinfer_plugin.so;/usr/lib/x86_64-linux-gnu/libnvparsers.so;/usr/lib/x86_64-linux-gnu/libnvonnxparser.so
+[22.803s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[22.803s] -- Found CUDA: /usr/local/cuda (found version "11.6") 
+[22.803s] -- start to download
+[22.803s] -- Checking and downloading pts_voxel_encoder_centerpoint.onnx 
+[22.803s] -- start pts_voxel_encoder_centerpoint.onnx
+[22.803s] -- not found pts_voxel_encoder_centerpoint.onnx
+[22.803s] -- File doesn't exists. Downloading now ...
+[22.803s] -- Download completed successfully!
+[22.804s] -- Checking and downloading pts_backbone_neck_head_centerpoint.onnx 
+[22.804s] -- start pts_backbone_neck_head_centerpoint.onnx
+[22.804s] -- not found pts_backbone_neck_head_centerpoint.onnx
+[22.804s] -- File doesn't exists. Downloading now ...
+[22.804s] -- Download completed successfully!
+[22.804s] -- Checking and downloading pts_voxel_encoder_centerpoint_tiny.onnx 
+[22.804s] -- start pts_voxel_encoder_centerpoint_tiny.onnx
+[22.804s] -- not found pts_voxel_encoder_centerpoint_tiny.onnx
+[22.804s] -- File doesn't exists. Downloading now ...
+[22.804s] -- Download completed successfully!
+[22.804s] -- Checking and downloading pts_backbone_neck_head_centerpoint_tiny.onnx 
+[22.805s] -- start pts_backbone_neck_head_centerpoint_tiny.onnx
+[22.805s] -- not found pts_backbone_neck_head_centerpoint_tiny.onnx
+[22.805s] -- File doesn't exists. Downloading now ...
+[22.805s] -- Download completed successfully!
+[39.363s] -- Added test 'copyright' to check source files copyright and LICENSE
+[39.368s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[39.371s] -- Configured cppcheck include dirs: /home/sws/autoware/src/universe/autoware.universe/perception/lidar_centerpoint/include;$<BUILD_INTERFACE:/home/sws/autoware/src/universe/autoware.universe/perception/lidar_centerpoint/include>
+[39.372s] -- Configured cppcheck exclude dirs and/or files: 
+[39.374s] -- Added test 'lint_cmake' to check CMake code style
+[39.376s] -- Added test 'xmllint' to check XML markup files
+[39.383s] -- Configuring done
+[39.715s] -- Generating done
+[39.721s] -- Build files have been written to: /home/sws/autoware/build/lidar_centerpoint
+[39.763s] Invoked command in '/home/sws/autoware/build/lidar_centerpoint' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/perception_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tensorrt_common:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/perception_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tensorrt_common:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/perception_utils/lib:/home/sws/autoware/install/interpolation/lib:/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/tensorrt_common/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/perception/lidar_centerpoint -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/lidar_centerpoint
+[39.764s] Invoking command in '/home/sws/autoware/build/lidar_centerpoint': AMENT_PREFIX_PATH=/home/sws/autoware/install/perception_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tensorrt_common:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/perception_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tensorrt_common:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/perception_utils/lib:/home/sws/autoware/install/interpolation/lib:/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/tensorrt_common/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sws/autoware/build/lidar_centerpoint -- -j16 -l16
+[57.513s] [  4%] [34m[1mBuilding NVCC (Device) object CMakeFiles/centerpoint_cuda_lib.dir/lib/preprocess/centerpoint_cuda_lib_generated_preprocess_kernel.cu.o[0m
+[57.514s] [  8%] [34m[1mBuilding NVCC (Device) object CMakeFiles/centerpoint_cuda_lib.dir/lib/postprocess/centerpoint_cuda_lib_generated_postprocess_kernel.cu.o[0m
+[57.514s] [ 13%] [34m[1mBuilding NVCC (Device) object CMakeFiles/centerpoint_cuda_lib.dir/lib/postprocess/centerpoint_cuda_lib_generated_circle_nms_kernel.cu.o[0m
+[65.460s] [ 17%] [34m[1mBuilding NVCC (Device) object CMakeFiles/centerpoint_cuda_lib.dir/lib/network/centerpoint_cuda_lib_generated_scatter_kernel.cu.o[0m
+[68.487s] [ 21%] [32m[1mLinking CXX shared library libcenterpoint_cuda_lib.so[0m
+[68.798s] [ 21%] Built target centerpoint_cuda_lib
+[68.914s] [ 26%] [32mBuilding CXX object CMakeFiles/lidar_centerpoint_node.dir/rclcpp_components/node_main_lidar_centerpoint_node.cpp.o[0m
+[68.923s] [ 30%] [32mBuilding CXX object CMakeFiles/single_inference_lidar_centerpoint_node.dir/rclcpp_components/node_main_single_inference_lidar_centerpoint_node.cpp.o[0m
+[75.219s] [ 34%] [32m[1mLinking CXX executable single_inference_lidar_centerpoint_node[0m
+[75.451s] [ 34%] Built target single_inference_lidar_centerpoint_node
+[75.469s] [ 39%] [32m[1mLinking CXX executable lidar_centerpoint_node[0m
+[75.671s] [ 39%] Built target lidar_centerpoint_node
+[75.714s] [ 43%] [32mBuilding CXX object CMakeFiles/centerpoint_lib.dir/lib/centerpoint_trt.cpp.o[0m
+[85.644s] [ 47%] [32mBuilding CXX object CMakeFiles/centerpoint_lib.dir/lib/preprocess/voxel_generator.cpp.o[0m
+[94.444s] [ 52%] [32mBuilding CXX object CMakeFiles/centerpoint_lib.dir/lib/preprocess/pointcloud_densification.cpp.o[0m
+[109.345s] [ 56%] [32mBuilding CXX object CMakeFiles/centerpoint_lib.dir/lib/postprocess/non_maximum_suppression.cpp.o[0m
+[137.467s] [ 60%] [32mBuilding CXX object CMakeFiles/centerpoint_lib.dir/lib/network/network_trt.cpp.o[0m
+[137.470s] [ 65%] [32mBuilding CXX object CMakeFiles/centerpoint_lib.dir/lib/ros_utils.cpp.o[0m
+[137.476s] [ 69%] [32mBuilding CXX object CMakeFiles/centerpoint_lib.dir/lib/network/tensorrt_wrapper.cpp.o[0m
+[154.647s] [ 73%] [32mBuilding CXX object CMakeFiles/centerpoint_lib.dir/lib/utils.cpp.o[0m
+[155.059s] [ 78%] [32mBuilding CXX object CMakeFiles/centerpoint_lib.dir/lib/detection_class_remapper.cpp.o[0m
+[157.264s] [ 82%] [32m[1mLinking CXX shared library libcenterpoint_lib.so[0m
+[158.127s] [ 82%] Built target centerpoint_lib
+[158.177s] [ 86%] [32mBuilding CXX object CMakeFiles/lidar_centerpoint_component.dir/src/node.cpp.o[0m
+[183.774s] [ 91%] [32m[1mLinking CXX shared library liblidar_centerpoint_component.so[0m
+[184.330s] [ 91%] Built target lidar_centerpoint_component
+[184.352s] [ 95%] [32mBuilding CXX object CMakeFiles/single_inference_lidar_centerpoint_component.dir/src/single_inference_node.cpp.o[0m
+[203.871s] [100%] [32m[1mLinking CXX shared library libsingle_inference_lidar_centerpoint_component.so[0m
+[204.614s] [100%] Built target single_inference_lidar_centerpoint_component
+[204.630s] Invoked command in '/home/sws/autoware/build/lidar_centerpoint' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/perception_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tensorrt_common:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/perception_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tensorrt_common:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/perception_utils/lib:/home/sws/autoware/install/interpolation/lib:/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/tensorrt_common/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sws/autoware/build/lidar_centerpoint -- -j16 -l16
+[204.850s] Invoking command in '/home/sws/autoware/build/lidar_centerpoint': AMENT_PREFIX_PATH=/home/sws/autoware/install/perception_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tensorrt_common:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/perception_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tensorrt_common:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/perception_utils/lib:/home/sws/autoware/install/interpolation/lib:/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/tensorrt_common/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sws/autoware/build/lidar_centerpoint
+[263.365s] -- Install configuration: "Release"
+[263.365s] -- Execute custom install script
+[263.365s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/lib/lidar_centerpoint/lidar_centerpoint_node
+[263.365s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/lib/lidar_centerpoint/single_inference_lidar_centerpoint_node
+[263.365s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/lib/lidar_centerpoint/lidar_centerpoint_visualizer.py
+[263.365s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/include/lidar_centerpoint/centerpoint_config.hpp
+[263.365s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/include/lidar_centerpoint/centerpoint_trt.hpp
+[263.366s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/include/lidar_centerpoint/cuda_utils.hpp
+[263.366s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/include/lidar_centerpoint/detection_class_remapper.hpp
+[263.366s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/include/lidar_centerpoint/network/network_trt.hpp
+[263.366s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/include/lidar_centerpoint/network/scatter_kernel.hpp
+[263.366s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/include/lidar_centerpoint/network/tensorrt_wrapper.hpp
+[263.366s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/include/lidar_centerpoint/node.hpp
+[263.366s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/include/lidar_centerpoint/postprocess/circle_nms_kernel.hpp
+[263.366s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/include/lidar_centerpoint/postprocess/non_maximum_suppression.hpp
+[263.366s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/include/lidar_centerpoint/postprocess/postprocess_kernel.hpp
+[263.366s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/include/lidar_centerpoint/preprocess/pointcloud_densification.hpp
+[263.367s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/include/lidar_centerpoint/preprocess/preprocess_kernel.hpp
+[263.367s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/include/lidar_centerpoint/preprocess/voxel_generator.hpp
+[263.367s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/include/lidar_centerpoint/ros_utils.hpp
+[263.367s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/include/lidar_centerpoint/single_inference_node.hpp
+[263.367s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/include/lidar_centerpoint/utils.hpp
+[263.367s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/environment/library_path.sh
+[263.367s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/environment/library_path.dsv
+[263.367s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/lib/libcenterpoint_lib.so
+[263.367s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/lib/liblidar_centerpoint_component.so
+[263.367s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/lib/libsingle_inference_lidar_centerpoint_component.so
+[263.368s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/launch/centerpoint_vs_centerpoint-tiny/README.md
+[263.368s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/launch/centerpoint_vs_centerpoint-tiny/centerpoint_vs_centerpoint-tiny.launch.xml
+[263.368s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/launch/centerpoint_vs_centerpoint-tiny/rviz/centerpoint.rviz
+[263.368s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/launch/centerpoint_vs_centerpoint-tiny/rviz/centerpoint_tiny.rviz
+[263.368s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/launch/lidar_centerpoint.launch.xml
+[263.368s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/launch/single_inference_lidar_centerpoint.launch.xml
+[263.368s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/data/pts_backbone_neck_head_centerpoint.onnx
+[263.368s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/data/pts_backbone_neck_head_centerpoint_tiny.onnx
+[263.368s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/data/pts_voxel_encoder_centerpoint.onnx
+[263.368s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/data/pts_voxel_encoder_centerpoint_tiny.onnx
+[263.368s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/config/centerpoint.param.yaml
+[263.369s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/config/centerpoint_tiny.param.yaml
+[263.369s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/config/detection_class_remapper.param.yaml
+[263.369s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/ament_index/resource_index/package_run_dependencies/lidar_centerpoint
+[263.369s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/ament_index/resource_index/parent_prefix_path/lidar_centerpoint
+[263.369s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/environment/ament_prefix_path.sh
+[263.369s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/environment/ament_prefix_path.dsv
+[263.369s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/environment/path.sh
+[263.369s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/environment/path.dsv
+[263.369s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/local_setup.bash
+[263.369s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/local_setup.sh
+[263.370s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/local_setup.zsh
+[263.370s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/local_setup.dsv
+[263.370s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/package.dsv
+[263.370s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/ament_index/resource_index/packages/lidar_centerpoint
+[263.370s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/ament_index/resource_index/rclcpp_components/lidar_centerpoint
+[263.370s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/cmake/ament_cmake_export_dependencies-extras.cmake
+[263.370s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/cmake/ament_cmake_export_include_directories-extras.cmake
+[263.370s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/cmake/ament_cmake_export_libraries-extras.cmake
+[263.370s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/cmake/lidar_centerpointConfig.cmake
+[263.370s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/cmake/lidar_centerpointConfig-version.cmake
+[263.370s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/share/lidar_centerpoint/package.xml
+[263.371s] -- Symlinking: /home/sws/autoware/install/lidar_centerpoint/lib/libcenterpoint_cuda_lib.so
+[263.394s] Invoked command in '/home/sws/autoware/build/lidar_centerpoint' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/perception_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tensorrt_common:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/perception_utils:/home/sws/autoware/install/interpolation:/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/tensorrt_common:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/perception_utils/lib:/home/sws/autoware/install/interpolation/lib:/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/tensorrt_common/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sws/autoware/build/lidar_centerpoint

@@ -1,0 +1,1 @@
+/home/sws/autoware/src/vehicle/external/pacmod_interface/pacmod_interface/include/pacmod_interface/pacmod_diag_publisher.hpp

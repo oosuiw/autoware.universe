@@ -1,0 +1,1 @@
+/home/sws/autoware/build/planning_validator/rosidl_generator_cpp/planning_validator/msg/detail/planning_validator_status__struct.hpp

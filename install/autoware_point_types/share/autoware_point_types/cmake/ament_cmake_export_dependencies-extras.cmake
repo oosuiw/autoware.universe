@@ -1,0 +1,1 @@
+/home/sws/autoware/build/autoware_point_types/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake

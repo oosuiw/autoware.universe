@@ -1,0 +1,6 @@
+/home/sws/autoware/build/tier4_control_msgs/rosidl_adapter/tier4_control_msgs:msg/GateMode.idl
+/home/sws/autoware/build/tier4_control_msgs/rosidl_adapter/tier4_control_msgs:msg/ExternalCommandSelectorMode.idl
+/home/sws/autoware/build/tier4_control_msgs/rosidl_adapter/tier4_control_msgs:srv/ExternalCommandSelect.idl
+/home/sws/autoware/build/tier4_control_msgs/rosidl_adapter/tier4_control_msgs:msg/IsStartRequested.idl
+/home/sws/autoware/build/tier4_control_msgs/rosidl_adapter/tier4_control_msgs:msg/IsPaused.idl
+/home/sws/autoware/build/tier4_control_msgs/rosidl_adapter/tier4_control_msgs:srv/SetPause.idl

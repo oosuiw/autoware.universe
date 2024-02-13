@@ -1,0 +1,1 @@
+/home/sws/autoware/build/tier4_system_msgs/ament_cmake_core/tier4_system_msgsConfig-version.cmake

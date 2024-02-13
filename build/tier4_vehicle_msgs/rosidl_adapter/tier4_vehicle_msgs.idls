@@ -1,0 +1,12 @@
+/home/sws/autoware/build/tier4_vehicle_msgs/rosidl_adapter/tier4_vehicle_msgs:msg/ActuationCommand.idl
+/home/sws/autoware/build/tier4_vehicle_msgs/rosidl_adapter/tier4_vehicle_msgs:msg/ActuationCommandStamped.idl
+/home/sws/autoware/build/tier4_vehicle_msgs/rosidl_adapter/tier4_vehicle_msgs:msg/ActuationStatus.idl
+/home/sws/autoware/build/tier4_vehicle_msgs/rosidl_adapter/tier4_vehicle_msgs:msg/ActuationStatusStamped.idl
+/home/sws/autoware/build/tier4_vehicle_msgs/rosidl_adapter/tier4_vehicle_msgs:msg/BatteryStatus.idl
+/home/sws/autoware/build/tier4_vehicle_msgs/rosidl_adapter/tier4_vehicle_msgs:msg/Shift.idl
+/home/sws/autoware/build/tier4_vehicle_msgs/rosidl_adapter/tier4_vehicle_msgs:msg/ShiftStamped.idl
+/home/sws/autoware/build/tier4_vehicle_msgs/rosidl_adapter/tier4_vehicle_msgs:msg/TurnSignal.idl
+/home/sws/autoware/build/tier4_vehicle_msgs/rosidl_adapter/tier4_vehicle_msgs:msg/Steering.idl
+/home/sws/autoware/build/tier4_vehicle_msgs/rosidl_adapter/tier4_vehicle_msgs:msg/SteeringWheelStatusStamped.idl
+/home/sws/autoware/build/tier4_vehicle_msgs/rosidl_adapter/tier4_vehicle_msgs:msg/VehicleEmergencyStamped.idl
+/home/sws/autoware/build/tier4_vehicle_msgs/rosidl_adapter/tier4_vehicle_msgs:srv/UpdateAccelBrakeMap.idl

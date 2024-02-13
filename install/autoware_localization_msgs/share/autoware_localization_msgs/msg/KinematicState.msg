@@ -1,0 +1,1 @@
+/home/sws/autoware/src/core/autoware_msgs/autoware_localization_msgs/msg/KinematicState.msg

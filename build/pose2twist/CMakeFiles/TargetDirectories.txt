@@ -1,0 +1,10 @@
+/home/sws/autoware/build/pose2twist/CMakeFiles/uninstall.dir
+/home/sws/autoware/build/pose2twist/CMakeFiles/pose2twist_uninstall.dir
+/home/sws/autoware/build/pose2twist/CMakeFiles/pose2twist.dir
+/home/sws/autoware/build/pose2twist/CMakeFiles/test.dir
+/home/sws/autoware/build/pose2twist/CMakeFiles/edit_cache.dir
+/home/sws/autoware/build/pose2twist/CMakeFiles/rebuild_cache.dir
+/home/sws/autoware/build/pose2twist/CMakeFiles/list_install_components.dir
+/home/sws/autoware/build/pose2twist/CMakeFiles/install.dir
+/home/sws/autoware/build/pose2twist/CMakeFiles/install/local.dir
+/home/sws/autoware/build/pose2twist/CMakeFiles/install/strip.dir

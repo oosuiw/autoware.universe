@@ -1,0 +1,1 @@
+/home/sws/autoware/build/lidar_centerpoint/ament_cmake_environment_hooks/local_setup.zsh

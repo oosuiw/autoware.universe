@@ -1,0 +1,1 @@
+/home/sws/autoware/build/autoware_planning_msgs/rosidl_cmake/srv/SetPoseWithUuidStamped_Response.msg

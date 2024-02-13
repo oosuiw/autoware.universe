@@ -1,0 +1,1 @@
+/home/sws/autoware/build/autoware_adapi_v1_msgs/rosidl_cmake/localization/srv/InitializeLocalization_Request.msg

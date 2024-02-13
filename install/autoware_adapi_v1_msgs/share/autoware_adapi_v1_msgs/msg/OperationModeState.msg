@@ -1,0 +1,1 @@
+/home/sws/autoware/src/core/autoware_adapi_msgs/autoware_adapi_v1_msgs/operation_mode/msg/OperationModeState.msg

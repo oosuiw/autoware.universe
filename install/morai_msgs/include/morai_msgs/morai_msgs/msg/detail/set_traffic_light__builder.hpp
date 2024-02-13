@@ -1,0 +1,1 @@
+/home/sws/autoware/build/morai_msgs/rosidl_generator_cpp/morai_msgs/msg/detail/set_traffic_light__builder.hpp

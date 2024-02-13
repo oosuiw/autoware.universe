@@ -1,0 +1,1 @@
+/home/sws/autoware/build/mpc_lateral_controller/ament_cmake_environment_hooks/local_setup.sh

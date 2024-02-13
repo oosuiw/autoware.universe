@@ -1,0 +1,1 @@
+/home/sws/autoware/build/morai_msgs/rosidl_generator_cpp/morai_msgs/msg/get_traffic_light_status.hpp

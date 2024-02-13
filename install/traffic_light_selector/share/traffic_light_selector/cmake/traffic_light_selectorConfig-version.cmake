@@ -1,0 +1,1 @@
+/home/sws/autoware/build/traffic_light_selector/ament_cmake_core/traffic_light_selectorConfig-version.cmake

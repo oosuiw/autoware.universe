@@ -1,0 +1,11 @@
+/home/sws/autoware/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:msg/AutowareState.idl
+/home/sws/autoware/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:msg/EmergencyState.idl
+/home/sws/autoware/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:msg/EmergencyStateStamped.idl
+/home/sws/autoware/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:msg/HazardStatus.idl
+/home/sws/autoware/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:msg/HazardStatusStamped.idl
+/home/sws/autoware/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:msg/ServiceLog.idl
+/home/sws/autoware/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:msg/ModeChangeAvailable.idl
+/home/sws/autoware/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:msg/MrmBehaviorStatus.idl
+/home/sws/autoware/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:srv/OperateMrm.idl
+/home/sws/autoware/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:srv/ChangeOperationMode.idl
+/home/sws/autoware/build/tier4_system_msgs/rosidl_adapter/tier4_system_msgs:srv/ChangeAutowareControl.idl

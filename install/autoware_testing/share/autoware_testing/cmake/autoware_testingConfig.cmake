@@ -1,0 +1,1 @@
+/home/sws/autoware/build/autoware_testing/ament_cmake_core/autoware_testingConfig.cmake

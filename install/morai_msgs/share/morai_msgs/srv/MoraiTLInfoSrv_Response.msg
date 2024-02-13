@@ -1,0 +1,1 @@
+/home/sws/autoware/build/morai_msgs/rosidl_cmake/srv/MoraiTLInfoSrv_Response.msg

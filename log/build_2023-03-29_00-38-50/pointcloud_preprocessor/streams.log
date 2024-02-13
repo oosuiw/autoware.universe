@@ -1,0 +1,279 @@
+[0.138s] Invoking command in '/home/sws/autoware/build/pointcloud_preprocessor': AMENT_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/tier4_pcl_extensions:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_point_types:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/tier4_pcl_extensions:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_point_types:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/lanelet2_extension/lib:/home/sws/autoware/install/tier4_pcl_extensions/lib:/home/sws/autoware/install/autoware_utils/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_common_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/sensing/pointcloud_preprocessor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/pointcloud_preprocessor
+[8.333s] -- The C compiler identification is GNU 11.3.0
+[8.333s] -- The CXX compiler identification is GNU 11.3.0
+[8.333s] -- Detecting C compiler ABI info
+[8.333s] -- Detecting C compiler ABI info - done
+[8.333s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.333s] -- Detecting C compile features
+[8.333s] -- Detecting C compile features - done
+[8.333s] -- Detecting CXX compiler ABI info
+[8.334s] -- Detecting CXX compiler ABI info - done
+[8.334s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.334s] -- Detecting CXX compile features
+[8.334s] -- Detecting CXX compile features - done
+[8.334s] -- Found autoware_cmake: 0.1.0 (/home/sws/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[8.334s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[8.334s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.334s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.334s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.334s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.334s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.334s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.334s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.335s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.335s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.335s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.335s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.335s] -- Looking for pthread.h
+[8.335s] -- Looking for pthread.h - found
+[8.335s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.335s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.335s] -- Found Threads: TRUE  
+[8.335s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[8.335s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[8.335s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.336s] -- Checking for module 'eigen3'
+[8.337s] --   Found eigen3, version 3.4.0
+[8.338s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[8.338s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[8.338s] -- Checking for module 'flann'
+[8.338s] --   Found flann, version 1.9.1
+[8.338s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[8.338s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[8.338s] -- Checking for module 'libusb-1.0'
+[8.338s] --   Found libusb-1.0, version 1.0.25
+[8.338s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[8.338s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.338s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.339s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[8.339s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.339s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.519s] -- Found Qhull version 8.0.2
+[8.802s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.084s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[9.086s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[9.087s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[9.089s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[9.093s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[9.094s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[9.095s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[9.096s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[9.098s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[9.100s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[9.102s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[9.104s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[9.106s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[9.109s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[9.111s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[9.113s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[9.115s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[9.117s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[9.119s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[9.121s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[9.122s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[9.123s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[9.124s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[9.127s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[9.129s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[9.922s] -- Found mrt_cmake_modules: 1.0.9 (/opt/ros/humble/share/mrt_cmake_modules/cmake)
+[10.094s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: wserialization thread random serialization log_setup prg_exec_monitor wave system chrono filesystem locale timer date_time regex graph program_options unit_test_framework log atomic iostreams 
+[10.440s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[10.594s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[10.594s] -- Found OpenMP: TRUE (found version "4.5")  
+[10.615s] -- Found pugixml: /usr/lib/x86_64-linux-gnu/libpugixml.so  
+[10.651s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[10.657s] -- Found GeographicLib: /usr/lib/x86_64-linux-gnu/libGeographic.so  
+[11.883s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.895s] -- Found OpenCV: /usr (found version "4.5.4") 
+[11.903s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[11.923s] -- Using header-only CGAL
+[11.926s] -- Targetting Unix Makefiles
+[11.926s] -- Using /usr/bin/c++ compiler.
+[11.933s] -- Found GMP: /usr/lib/x86_64-linux-gnu/libgmp.so  
+[11.938s] -- Found MPFR: /usr/lib/x86_64-linux-gnu/libmpfr.so  
+[11.949s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.48")  
+[11.950s] -- Boost include dirs: /usr/include
+[11.950s] -- Boost libraries:    
+[11.951s] -- Using gcc version 4 or later. Adding -frounding-math
+[20.828s] -- Added test 'copyright' to check source files copyright and LICENSE
+[20.832s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[20.835s] -- Configured cppcheck include dirs: /home/sws/autoware/src/universe/autoware.universe/sensing/pointcloud_preprocessor/include;$<BUILD_INTERFACE:/home/sws/autoware/src/universe/autoware.universe/sensing/pointcloud_preprocessor/include>
+[20.835s] -- Configured cppcheck exclude dirs and/or files: 
+[20.837s] -- Added test 'lint_cmake' to check CMake code style
+[20.838s] -- Added test 'xmllint' to check XML markup files
+[20.845s] -- Configuring done
+[21.078s] -- Generating done
+[21.083s] -- Build files have been written to: /home/sws/autoware/build/pointcloud_preprocessor
+[21.118s] Invoked command in '/home/sws/autoware/build/pointcloud_preprocessor' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/tier4_pcl_extensions:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_point_types:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/tier4_pcl_extensions:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_point_types:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/lanelet2_extension/lib:/home/sws/autoware/install/tier4_pcl_extensions/lib:/home/sws/autoware/install/autoware_utils/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_common_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/sensing/pointcloud_preprocessor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/pointcloud_preprocessor
+[21.119s] Invoking command in '/home/sws/autoware/build/pointcloud_preprocessor': AMENT_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/tier4_pcl_extensions:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_point_types:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/tier4_pcl_extensions:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_point_types:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/lanelet2_extension/lib:/home/sws/autoware/install/tier4_pcl_extensions/lib:/home/sws/autoware/install/autoware_utils/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_common_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sws/autoware/build/pointcloud_preprocessor -- -j16 -l16
+[46.636s] [  1%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter_base.dir/src/filter.cpp.o[0m
+[58.651s] [  3%] [32m[1mLinking CXX shared library libpointcloud_preprocessor_filter_base.so[0m
+[59.471s] [  3%] Built target pointcloud_preprocessor_filter_base
+[59.516s] [  5%] [32mBuilding CXX object CMakeFiles/blockage_diag_node.dir/rclcpp_components/node_main_blockage_diag_node.cpp.o[0m
+[64.676s] [  7%] [32m[1mLinking CXX executable blockage_diag_node[0m
+[64.839s] [  7%] Built target blockage_diag_node
+[64.869s] [  8%] [32mBuilding CXX object CMakeFiles/polygon_remover_node.dir/rclcpp_components/node_main_polygon_remover_node.cpp.o[0m
+[69.950s] [ 10%] [32m[1mLinking CXX executable polygon_remover_node[0m
+[70.120s] [ 10%] Built target polygon_remover_node
+[70.169s] [ 12%] [32mBuilding CXX object CMakeFiles/vector_map_inside_area_filter_node.dir/rclcpp_components/node_main_vector_map_inside_area_filter_node.cpp.o[0m
+[75.285s] [ 14%] [32m[1mLinking CXX executable vector_map_inside_area_filter_node[0m
+[75.459s] [ 14%] Built target vector_map_inside_area_filter_node
+[75.504s] [ 16%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/utility/utilities.cpp.o[0m
+[89.533s] [ 17%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/concatenate_data/concatenate_data_nodelet.cpp.o[0m
+[92.375s] [ 19%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/crop_box_filter/crop_box_filter_nodelet.cpp.o[0m
+[121.643s] [ 21%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/downsample_filter/voxel_grid_downsample_filter_nodelet.cpp.o[0m
+[129.964s] [ 23%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/downsample_filter/random_downsample_filter_nodelet.cpp.o[0m
+[158.418s] [ 25%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/downsample_filter/approximate_downsample_filter_nodelet.cpp.o[0m
+[159.432s] [ 26%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/outlier_filter/ring_outlier_filter_nodelet.cpp.o[0m
+[190.527s] [ 28%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/outlier_filter/voxel_grid_outlier_filter_nodelet.cpp.o[0m
+[219.268s] [ 30%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/outlier_filter/radius_search_2d_outlier_filter_nodelet.cpp.o[0m
+[225.288s] [ 32%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/outlier_filter/dual_return_outlier_filter_nodelet.cpp.o[0m
+[254.939s] [ 33%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/passthrough_filter/passthrough_filter_nodelet.cpp.o[0m
+[279.750s] [ 35%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/passthrough_filter/passthrough_filter_uint16_nodelet.cpp.o[0m
+[282.410s] [ 37%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/passthrough_filter/passthrough_uint16.cpp.o[0m
+[294.486s] [ 39%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/pointcloud_accumulator/pointcloud_accumulator_nodelet.cpp.o[0m
+[325.048s] [ 41%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/vector_map_filter/lanelet2_map_filter_nodelet.cpp.o[0m
+[355.093s] [ 42%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/distortion_corrector/distortion_corrector.cpp.o[0m
+[386.150s] [ 44%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/blockage_diag/blockage_diag_nodelet.cpp.o[0m
+[417.954s] [ 46%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/polygon_remover/polygon_remover.cpp.o[0m
+[456.304s] [ 48%] [32mBuilding CXX object CMakeFiles/pointcloud_preprocessor_filter.dir/src/vector_map_filter/vector_map_inside_area_filter.cpp.o[0m
+[502.542s] [ 50%] [32m[1mLinking CXX shared library libpointcloud_preprocessor_filter.so[0m
+[506.517s] [ 50%] Built target pointcloud_preprocessor_filter
+[506.552s] [ 51%] [32mBuilding CXX object CMakeFiles/vector_map_filter_node.dir/rclcpp_components/node_main_vector_map_filter_node.cpp.o[0m
+[506.552s] [ 53%] [32mBuilding CXX object CMakeFiles/distortion_corrector_node.dir/rclcpp_components/node_main_distortion_corrector_node.cpp.o[0m
+[513.425s] [ 55%] [32m[1mLinking CXX executable vector_map_filter_node[0m
+[513.719s] [ 55%] Built target vector_map_filter_node
+[514.141s] [ 57%] [32m[1mLinking CXX executable distortion_corrector_node[0m
+[514.545s] [ 57%] Built target distortion_corrector_node
+[514.658s] [ 58%] [32mBuilding CXX object CMakeFiles/pointcloud_accumulator_node.dir/rclcpp_components/node_main_pointcloud_accumulator_node.cpp.o[0m
+[522.198s] [ 60%] [32m[1mLinking CXX executable pointcloud_accumulator_node[0m
+[522.498s] [ 60%] Built target pointcloud_accumulator_node
+[522.603s] [ 62%] [32mBuilding CXX object CMakeFiles/passthrough_filter_uint16_node.dir/rclcpp_components/node_main_passthrough_filter_uint16_node.cpp.o[0m
+[529.318s] [ 64%] [32m[1mLinking CXX executable passthrough_filter_uint16_node[0m
+[529.742s] [ 64%] Built target passthrough_filter_uint16_node
+[529.875s] [ 66%] [32mBuilding CXX object CMakeFiles/passthrough_filter_node.dir/rclcpp_components/node_main_passthrough_filter_node.cpp.o[0m
+[536.122s] [ 67%] [32m[1mLinking CXX executable passthrough_filter_node[0m
+[536.486s] [ 67%] Built target passthrough_filter_node
+[536.596s] [ 69%] [32mBuilding CXX object CMakeFiles/dual_return_outlier_filter_node.dir/rclcpp_components/node_main_dual_return_outlier_filter_node.cpp.o[0m
+[542.029s] [ 71%] [32m[1mLinking CXX executable dual_return_outlier_filter_node[0m
+[542.180s] [ 71%] Built target dual_return_outlier_filter_node
+[542.228s] [ 73%] [32mBuilding CXX object CMakeFiles/radius_search_2d_outlier_filter_node.dir/rclcpp_components/node_main_radius_search_2d_outlier_filter_node.cpp.o[0m
+[547.381s] [ 75%] [32m[1mLinking CXX executable radius_search_2d_outlier_filter_node[0m
+[547.487s] [ 75%] Built target radius_search_2d_outlier_filter_node
+[547.516s] [ 76%] [32mBuilding CXX object CMakeFiles/voxel_grid_outlier_filter_node.dir/rclcpp_components/node_main_voxel_grid_outlier_filter_node.cpp.o[0m
+[550.940s] [ 78%] [32m[1mLinking CXX executable voxel_grid_outlier_filter_node[0m
+[551.044s] [ 78%] Built target voxel_grid_outlier_filter_node
+[551.065s] [ 80%] [32mBuilding CXX object CMakeFiles/ring_outlier_filter_node.dir/rclcpp_components/node_main_ring_outlier_filter_node.cpp.o[0m
+[555.188s] [ 82%] [32m[1mLinking CXX executable ring_outlier_filter_node[0m
+[555.340s] [ 82%] Built target ring_outlier_filter_node
+[555.371s] [ 83%] [32mBuilding CXX object CMakeFiles/approximate_downsample_filter_node.dir/rclcpp_components/node_main_approximate_downsample_filter_node.cpp.o[0m
+[560.617s] [ 85%] [32m[1mLinking CXX executable approximate_downsample_filter_node[0m
+[560.774s] [ 85%] Built target approximate_downsample_filter_node
+[560.805s] [ 87%] [32mBuilding CXX object CMakeFiles/random_downsample_filter_node.dir/rclcpp_components/node_main_random_downsample_filter_node.cpp.o[0m
+[566.056s] [ 89%] [32m[1mLinking CXX executable random_downsample_filter_node[0m
+[566.209s] [ 89%] Built target random_downsample_filter_node
+[566.239s] [ 91%] [32mBuilding CXX object CMakeFiles/voxel_grid_downsample_filter_node.dir/rclcpp_components/node_main_voxel_grid_downsample_filter_node.cpp.o[0m
+[571.479s] [ 92%] [32m[1mLinking CXX executable voxel_grid_downsample_filter_node[0m
+[571.642s] [ 92%] Built target voxel_grid_downsample_filter_node
+[571.673s] [ 94%] [32mBuilding CXX object CMakeFiles/crop_box_filter_node.dir/rclcpp_components/node_main_crop_box_filter_node.cpp.o[0m
+[576.970s] [ 96%] [32m[1mLinking CXX executable crop_box_filter_node[0m
+[577.136s] [ 96%] Built target crop_box_filter_node
+[577.168s] [ 98%] [32mBuilding CXX object CMakeFiles/concatenate_data_node.dir/rclcpp_components/node_main_concatenate_data_node.cpp.o[0m
+[582.541s] [100%] [32m[1mLinking CXX executable concatenate_data_node[0m
+[582.704s] [100%] Built target concatenate_data_node
+[582.760s] Invoked command in '/home/sws/autoware/build/pointcloud_preprocessor' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/tier4_pcl_extensions:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_point_types:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/tier4_pcl_extensions:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_point_types:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/lanelet2_extension/lib:/home/sws/autoware/install/tier4_pcl_extensions/lib:/home/sws/autoware/install/autoware_utils/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_common_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sws/autoware/build/pointcloud_preprocessor -- -j16 -l16
+[584.205s] Invoking command in '/home/sws/autoware/build/pointcloud_preprocessor': AMENT_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/tier4_pcl_extensions:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_point_types:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/tier4_pcl_extensions:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_point_types:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/lanelet2_extension/lib:/home/sws/autoware/install/tier4_pcl_extensions/lib:/home/sws/autoware/install/autoware_utils/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_common_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sws/autoware/build/pointcloud_preprocessor
+[604.500s] -- Install configuration: "Release"
+[604.500s] -- Execute custom install script
+[604.500s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/concatenate_data_node
+[604.500s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/crop_box_filter_node
+[604.500s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/voxel_grid_downsample_filter_node
+[604.501s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/random_downsample_filter_node
+[604.501s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/approximate_downsample_filter_node
+[604.501s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/ring_outlier_filter_node
+[604.501s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/voxel_grid_outlier_filter_node
+[604.501s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/radius_search_2d_outlier_filter_node
+[604.501s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/dual_return_outlier_filter_node
+[604.501s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/passthrough_filter_node
+[604.501s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/passthrough_filter_uint16_node
+[604.501s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/pointcloud_accumulator_node
+[604.502s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/vector_map_filter_node
+[604.502s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/distortion_corrector_node
+[604.502s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/blockage_diag_node
+[604.502s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/polygon_remover_node
+[604.505s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/lib/pointcloud_preprocessor/vector_map_inside_area_filter_node
+[604.505s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/blockage_diag/blockage_diag_nodelet.hpp
+[604.505s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/concatenate_data/concatenate_data_nodelet.hpp
+[604.505s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/crop_box_filter/crop_box_filter_nodelet.hpp
+[604.505s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/distortion_corrector/distortion_corrector.hpp
+[604.505s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/downsample_filter/approximate_downsample_filter_nodelet.hpp
+[604.506s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/downsample_filter/random_downsample_filter_nodelet.hpp
+[604.506s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/downsample_filter/voxel_grid_downsample_filter_nodelet.hpp
+[604.506s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/filter.hpp
+[604.506s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/outlier_filter/dual_return_outlier_filter_nodelet.hpp
+[604.506s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/outlier_filter/radius_search_2d_outlier_filter_nodelet.hpp
+[604.506s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/outlier_filter/ring_outlier_filter_nodelet.hpp
+[604.506s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/outlier_filter/voxel_grid_outlier_filter_nodelet.hpp
+[604.507s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/passthrough_filter/passthrough_filter_nodelet.hpp
+[604.507s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/passthrough_filter/passthrough_filter_uint16_nodelet.hpp
+[604.507s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/passthrough_filter/passthrough_uint16.hpp
+[604.507s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/pointcloud_accumulator/pointcloud_accumulator_nodelet.hpp
+[604.507s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/polygon_remover/polygon_remover.hpp
+[604.507s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/utility/utilities.hpp
+[604.508s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/vector_map_filter/lanelet2_map_filter_nodelet.hpp
+[604.508s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_preprocessor/vector_map_filter/vector_map_inside_area_filter.hpp
+[604.508s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/blockage_diag/blockage_diag_nodelet.hpp
+[604.508s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/concatenate_data/concatenate_data_nodelet.hpp
+[604.508s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/crop_box_filter/crop_box_filter_nodelet.hpp
+[604.508s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/distortion_corrector/distortion_corrector.hpp
+[604.509s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/downsample_filter/approximate_downsample_filter_nodelet.hpp
+[604.509s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/downsample_filter/random_downsample_filter_nodelet.hpp
+[604.509s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/downsample_filter/voxel_grid_downsample_filter_nodelet.hpp
+[604.509s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/filter.hpp
+[604.509s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/outlier_filter/dual_return_outlier_filter_nodelet.hpp
+[604.509s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/outlier_filter/radius_search_2d_outlier_filter_nodelet.hpp
+[604.509s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/outlier_filter/ring_outlier_filter_nodelet.hpp
+[604.509s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/outlier_filter/voxel_grid_outlier_filter_nodelet.hpp
+[604.510s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/passthrough_filter/passthrough_filter_nodelet.hpp
+[604.510s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/passthrough_filter/passthrough_filter_uint16_nodelet.hpp
+[604.510s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/passthrough_filter/passthrough_uint16.hpp
+[604.510s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/pointcloud_accumulator/pointcloud_accumulator_nodelet.hpp
+[604.510s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/polygon_remover/polygon_remover.hpp
+[604.510s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/utility/utilities.hpp
+[604.510s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/vector_map_filter/lanelet2_map_filter_nodelet.hpp
+[604.511s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/include/pointcloud_preprocessor/vector_map_filter/vector_map_inside_area_filter.hpp
+[604.511s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/environment/library_path.sh
+[604.511s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/environment/library_path.dsv
+[604.511s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/lib/libpointcloud_preprocessor_filter.so
+[604.511s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/launch/blockage_diag.launch.xml
+[604.511s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/launch/dual_return_outlier_filter.launch.xml
+[604.511s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/launch/polygon_remover.launch.py
+[604.512s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/launch/preprocessor.launch.py
+[604.512s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/launch/preprocessor.launch.xml
+[604.512s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/launch/random_downsample_filter.launch.xml
+[604.512s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/launch/ring_passthrough_filter.launch.xml
+[604.512s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/ament_index/resource_index/package_run_dependencies/pointcloud_preprocessor
+[604.512s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/ament_index/resource_index/parent_prefix_path/pointcloud_preprocessor
+[604.512s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/environment/ament_prefix_path.sh
+[604.513s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/environment/ament_prefix_path.dsv
+[604.513s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/environment/path.sh
+[604.513s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/environment/path.dsv
+[604.513s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/local_setup.bash
+[604.513s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/local_setup.sh
+[604.513s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/local_setup.zsh
+[604.513s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/local_setup.dsv
+[604.513s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/package.dsv
+[604.513s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/ament_index/resource_index/packages/pointcloud_preprocessor
+[604.513s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/ament_index/resource_index/rclcpp_components/pointcloud_preprocessor
+[604.514s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/cmake/ament_cmake_export_targets-extras.cmake
+[604.514s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/cmake/ament_cmake_export_dependencies-extras.cmake
+[604.514s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/cmake/ament_cmake_export_include_directories-extras.cmake
+[604.514s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/cmake/ament_cmake_export_libraries-extras.cmake
+[604.514s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/cmake/pointcloud_preprocessorConfig.cmake
+[604.514s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/cmake/pointcloud_preprocessorConfig-version.cmake
+[604.514s] -- Symlinking: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/package.xml
+[604.514s] -- Installing: /home/sws/autoware/install/pointcloud_preprocessor/lib/libpointcloud_preprocessor_filter_base.so
+[604.514s] -- Set runtime path of "/home/sws/autoware/install/pointcloud_preprocessor/lib/libpointcloud_preprocessor_filter_base.so" to ""
+[604.514s] -- Installing: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/cmake/export_pointcloud_preprocessorExport.cmake
+[604.515s] -- Installing: /home/sws/autoware/install/pointcloud_preprocessor/share/pointcloud_preprocessor/cmake/export_pointcloud_preprocessorExport-release.cmake
+[604.543s] Invoked command in '/home/sws/autoware/build/pointcloud_preprocessor' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/tier4_pcl_extensions:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_point_types:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/tier4_autoware_utils:/home/sws/autoware/install/lanelet2_extension:/home/sws/autoware/install/tier4_pcl_extensions:/home/sws/autoware/install/autoware_utils:/home/sws/autoware/install/autoware_point_types:/home/sws/autoware/install/autoware_auto_vehicle_msgs:/home/sws/autoware/install/autoware_planning_msgs:/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_planning_msgs:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/tier4_debug_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_common_msgs:/home/sws/autoware/install/autoware_auto_mapping_msgs:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/tier4_autoware_utils/lib:/home/sws/autoware/install/lanelet2_extension/lib:/home/sws/autoware/install/tier4_pcl_extensions/lib:/home/sws/autoware/install/autoware_utils/lib:/home/sws/autoware/install/autoware_auto_vehicle_msgs/lib:/home/sws/autoware/install/autoware_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_planning_msgs/lib:/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/tier4_debug_msgs/lib:/home/sws/autoware/install/autoware_common_msgs/lib:/home/sws/autoware/install/autoware_auto_mapping_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sws/autoware/build/pointcloud_preprocessor

@@ -1,0 +1,42 @@
+[0.061s] Invoking command in '/home/sws/autoware/build/imu_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/sensor_component/external/sensor_component_description/imu_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/imu_description
+[9.876s] -- The C compiler identification is GNU 11.3.0
+[9.876s] -- The CXX compiler identification is GNU 11.3.0
+[9.876s] -- Detecting C compiler ABI info
+[9.876s] -- Detecting C compiler ABI info - done
+[9.876s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.876s] -- Detecting C compile features
+[9.876s] -- Detecting C compile features - done
+[9.876s] -- Detecting CXX compiler ABI info
+[9.876s] -- Detecting CXX compiler ABI info - done
+[9.876s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.877s] -- Detecting CXX compile features
+[9.877s] -- Detecting CXX compile features - done
+[9.877s] -- Found ament_cmake_auto: 1.3.3 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[9.877s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[9.877s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.877s] -- Configuring done
+[9.877s] -- Generating done
+[9.877s] -- Build files have been written to: /home/sws/autoware/build/imu_description
+[9.910s] Invoked command in '/home/sws/autoware/build/imu_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/sensor_component/external/sensor_component_description/imu_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/imu_description
+[9.913s] Invoking command in '/home/sws/autoware/build/imu_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/imu_description -- -j16 -l16
+[10.941s] Invoked command in '/home/sws/autoware/build/imu_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/imu_description -- -j16 -l16
+[10.966s] Invoking command in '/home/sws/autoware/build/imu_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/imu_description
+[12.698s] -- Install configuration: "Release"
+[12.699s] -- Execute custom install script
+[12.700s] -- Symlinking: /home/sws/autoware/install/imu_description/share/imu_description/urdf/imu.xacro
+[12.700s] -- Symlinking: /home/sws/autoware/install/imu_description/share/ament_index/resource_index/package_run_dependencies/imu_description
+[12.700s] -- Symlinking: /home/sws/autoware/install/imu_description/share/ament_index/resource_index/parent_prefix_path/imu_description
+[12.700s] -- Symlinking: /home/sws/autoware/install/imu_description/share/imu_description/environment/ament_prefix_path.sh
+[12.700s] -- Symlinking: /home/sws/autoware/install/imu_description/share/imu_description/environment/ament_prefix_path.dsv
+[12.700s] -- Symlinking: /home/sws/autoware/install/imu_description/share/imu_description/environment/path.sh
+[12.700s] -- Symlinking: /home/sws/autoware/install/imu_description/share/imu_description/environment/path.dsv
+[12.700s] -- Symlinking: /home/sws/autoware/install/imu_description/share/imu_description/local_setup.bash
+[12.700s] -- Symlinking: /home/sws/autoware/install/imu_description/share/imu_description/local_setup.sh
+[12.701s] -- Symlinking: /home/sws/autoware/install/imu_description/share/imu_description/local_setup.zsh
+[12.701s] -- Symlinking: /home/sws/autoware/install/imu_description/share/imu_description/local_setup.dsv
+[12.701s] -- Symlinking: /home/sws/autoware/install/imu_description/share/imu_description/package.dsv
+[12.701s] -- Symlinking: /home/sws/autoware/install/imu_description/share/ament_index/resource_index/packages/imu_description
+[12.701s] -- Symlinking: /home/sws/autoware/install/imu_description/share/imu_description/cmake/imu_descriptionConfig.cmake
+[12.701s] -- Symlinking: /home/sws/autoware/install/imu_description/share/imu_description/cmake/imu_descriptionConfig-version.cmake
+[12.701s] -- Symlinking: /home/sws/autoware/install/imu_description/share/imu_description/package.xml
+[12.733s] Invoked command in '/home/sws/autoware/build/imu_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/imu_description

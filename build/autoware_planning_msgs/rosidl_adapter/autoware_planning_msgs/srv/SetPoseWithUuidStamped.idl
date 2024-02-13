@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from autoware_planning_msgs/srv/SetPoseWithUuidStamped.srv
+// generated code does not contain a copyright notice
+
+#include "autoware_common_msgs/msg/ResponseStatus.idl"
+#include "autoware_planning_msgs/msg/PoseWithUuidStamped.idl"
+
+module autoware_planning_msgs {
+  module srv {
+    struct SetPoseWithUuidStamped_Request {
+      autoware_planning_msgs::msg::PoseWithUuidStamped data;
+    };
+    struct SetPoseWithUuidStamped_Response {
+      autoware_common_msgs::msg::ResponseStatus status;
+    };
+  };
+};

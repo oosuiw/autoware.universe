@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/sws/autoware/build/image_projection_based_fusion/libimage_projection_based_fusion.so" "/home/sws/autoware/build/image_projection_based_fusion/libpointpainting_lib.so" "TARGETS" "image_projection_based_fusion" "pointpainting_lib" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

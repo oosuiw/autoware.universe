@@ -1,0 +1,1 @@
+/home/sws/autoware/build/interpolation/ament_cmake_core/interpolationConfig-version.cmake

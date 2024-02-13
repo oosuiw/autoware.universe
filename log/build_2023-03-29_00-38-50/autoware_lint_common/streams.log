@@ -1,0 +1,32 @@
+[0.221s] Invoking command in '/home/sws/autoware/build/autoware_lint_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/core/autoware_common/autoware_lint_common -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/autoware_lint_common
+[0.538s] -- Found ament_cmake_core: 1.3.3 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.746s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.958s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.988s] -- Found ament_cmake_export_dependencies: 1.3.3 (/opt/ros/humble/share/ament_cmake_export_dependencies/cmake)
+[1.004s] -- Found ament_cmake_test: 1.3.3 (/opt/ros/humble/share/ament_cmake_test/cmake)
+[1.246s] -- Configuring done
+[1.255s] -- Generating done
+[1.305s] -- Build files have been written to: /home/sws/autoware/build/autoware_lint_common
+[1.314s] Invoked command in '/home/sws/autoware/build/autoware_lint_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/core/autoware_common/autoware_lint_common -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/autoware_lint_common
+[1.315s] Invoking command in '/home/sws/autoware/build/autoware_lint_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/autoware_lint_common -- -j16 -l16
+[5.042s] Invoked command in '/home/sws/autoware/build/autoware_lint_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/autoware_lint_common -- -j16 -l16
+[5.285s] Invoking command in '/home/sws/autoware/build/autoware_lint_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/autoware_lint_common
+[17.537s] -- Install configuration: "Release"
+[17.537s] -- Execute custom install script
+[17.538s] -- Symlinking: /home/sws/autoware/install/autoware_lint_common/share/ament_index/resource_index/package_run_dependencies/autoware_lint_common
+[17.538s] -- Symlinking: /home/sws/autoware/install/autoware_lint_common/share/ament_index/resource_index/parent_prefix_path/autoware_lint_common
+[17.538s] -- Symlinking: /home/sws/autoware/install/autoware_lint_common/share/autoware_lint_common/environment/ament_prefix_path.sh
+[17.538s] -- Symlinking: /home/sws/autoware/install/autoware_lint_common/share/autoware_lint_common/environment/ament_prefix_path.dsv
+[17.538s] -- Symlinking: /home/sws/autoware/install/autoware_lint_common/share/autoware_lint_common/environment/path.sh
+[17.538s] -- Symlinking: /home/sws/autoware/install/autoware_lint_common/share/autoware_lint_common/environment/path.dsv
+[17.538s] -- Symlinking: /home/sws/autoware/install/autoware_lint_common/share/autoware_lint_common/local_setup.bash
+[17.538s] -- Symlinking: /home/sws/autoware/install/autoware_lint_common/share/autoware_lint_common/local_setup.sh
+[17.538s] -- Symlinking: /home/sws/autoware/install/autoware_lint_common/share/autoware_lint_common/local_setup.zsh
+[17.538s] -- Symlinking: /home/sws/autoware/install/autoware_lint_common/share/autoware_lint_common/local_setup.dsv
+[17.538s] -- Symlinking: /home/sws/autoware/install/autoware_lint_common/share/autoware_lint_common/package.dsv
+[17.538s] -- Symlinking: /home/sws/autoware/install/autoware_lint_common/share/ament_index/resource_index/packages/autoware_lint_common
+[17.538s] -- Symlinking: /home/sws/autoware/install/autoware_lint_common/share/autoware_lint_common/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.539s] -- Symlinking: /home/sws/autoware/install/autoware_lint_common/share/autoware_lint_common/cmake/autoware_lint_commonConfig.cmake
+[17.539s] -- Symlinking: /home/sws/autoware/install/autoware_lint_common/share/autoware_lint_common/cmake/autoware_lint_commonConfig-version.cmake
+[17.539s] -- Symlinking: /home/sws/autoware/install/autoware_lint_common/share/autoware_lint_common/package.xml
+[17.723s] Invoked command in '/home/sws/autoware/build/autoware_lint_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/autoware_lint_common

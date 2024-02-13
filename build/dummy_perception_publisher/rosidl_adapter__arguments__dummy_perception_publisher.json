@@ -1,0 +1,7 @@
+{
+  "package_name": "dummy_perception_publisher",
+  "non_idl_tuples": [
+    "/home/sws/autoware/src/universe/autoware.universe/simulator/dummy_perception_publisher:msg/InitialState.msg",
+    "/home/sws/autoware/src/universe/autoware.universe/simulator/dummy_perception_publisher:msg/Object.msg"
+  ]
+}

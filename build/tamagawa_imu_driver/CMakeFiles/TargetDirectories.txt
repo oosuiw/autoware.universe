@@ -1,0 +1,11 @@
+/home/sws/autoware/build/tamagawa_imu_driver/CMakeFiles/uninstall.dir
+/home/sws/autoware/build/tamagawa_imu_driver/CMakeFiles/tamagawa_imu_driver_uninstall.dir
+/home/sws/autoware/build/tamagawa_imu_driver/CMakeFiles/tag_serial_driver.dir
+/home/sws/autoware/build/tamagawa_imu_driver/CMakeFiles/tag_can_driver.dir
+/home/sws/autoware/build/tamagawa_imu_driver/CMakeFiles/test.dir
+/home/sws/autoware/build/tamagawa_imu_driver/CMakeFiles/edit_cache.dir
+/home/sws/autoware/build/tamagawa_imu_driver/CMakeFiles/rebuild_cache.dir
+/home/sws/autoware/build/tamagawa_imu_driver/CMakeFiles/list_install_components.dir
+/home/sws/autoware/build/tamagawa_imu_driver/CMakeFiles/install.dir
+/home/sws/autoware/build/tamagawa_imu_driver/CMakeFiles/install/local.dir
+/home/sws/autoware/build/tamagawa_imu_driver/CMakeFiles/install/strip.dir

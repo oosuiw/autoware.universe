@@ -1,0 +1,1 @@
+/home/sws/autoware/build/tier4_api_msgs/rosidl_generator_py/tier4_api_msgs/__init__.py

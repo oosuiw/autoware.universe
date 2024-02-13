@@ -1,0 +1,6 @@
+setup.py
+dummy_perception_publisher/__init__.py
+dummy_perception_publisher.egg-info/PKG-INFO
+dummy_perception_publisher.egg-info/SOURCES.txt
+dummy_perception_publisher.egg-info/dependency_links.txt
+dummy_perception_publisher.egg-info/top_level.txt

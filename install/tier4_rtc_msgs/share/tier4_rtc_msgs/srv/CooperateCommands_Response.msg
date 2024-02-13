@@ -1,0 +1,1 @@
+/home/sws/autoware/build/tier4_rtc_msgs/rosidl_cmake/srv/CooperateCommands_Response.msg

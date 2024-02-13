@@ -1,0 +1,1 @@
+/home/sws/autoware/build/morai_msgs/rosidl_cmake/srv/MoraiSyncModeCtrlCmdSrv_Response.msg

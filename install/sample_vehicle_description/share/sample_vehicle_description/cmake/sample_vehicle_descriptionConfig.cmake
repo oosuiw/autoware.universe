@@ -1,0 +1,1 @@
+/home/sws/autoware/build/sample_vehicle_description/ament_cmake_core/sample_vehicle_descriptionConfig.cmake

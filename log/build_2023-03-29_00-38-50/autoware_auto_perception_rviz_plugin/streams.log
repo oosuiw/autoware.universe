@@ -1,0 +1,129 @@
+[0.021s] Invoking command in '/home/sws/autoware/build/autoware_auto_perception_rviz_plugin': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/common/autoware_auto_perception_rviz_plugin -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/autoware_auto_perception_rviz_plugin
+[1.742s] -- The C compiler identification is GNU 11.3.0
+[1.742s] -- The CXX compiler identification is GNU 11.3.0
+[1.742s] -- Detecting C compiler ABI info
+[1.743s] -- Detecting C compiler ABI info - done
+[1.743s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.743s] -- Detecting C compile features
+[1.743s] -- Detecting C compile features - done
+[1.743s] -- Detecting CXX compiler ABI info
+[1.743s] -- Detecting CXX compiler ABI info - done
+[1.743s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.743s] -- Detecting CXX compile features
+[1.743s] -- Detecting CXX compile features - done
+[1.743s] -- Found autoware_cmake: 0.1.0 (/home/sws/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[1.743s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.744s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.744s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.744s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.744s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.744s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.744s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.945s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.948s] -- Found OGRE
+[1.948s] --   static     : OFF
+[1.948s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.948s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.948s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.948s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.948s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.949s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.949s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.949s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.949s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.949s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.949s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.955s] -- Could not find freeimage library
+[1.984s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.992s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.096s] -- Found X11: /usr/include   
+[2.097s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.241s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.241s] -- Looking for gethostbyname
+[2.318s] -- Looking for gethostbyname - found
+[2.319s] -- Looking for connect
+[2.393s] -- Looking for connect - found
+[2.393s] -- Looking for remove
+[2.456s] -- Looking for remove - found
+[2.457s] -- Looking for shmat
+[2.530s] -- Looking for shmat - found
+[2.530s] -- Looking for IceConnectionNumber in ICE
+[2.601s] -- Looking for IceConnectionNumber in ICE - found
+[2.605s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[2.605s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[2.711s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.830s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.833s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.938s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.977s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.044s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.057s] -- Looking for pthread.h
+[3.146s] -- Looking for pthread.h - found
+[3.146s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.291s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.292s] -- Found Threads: TRUE  
+[3.611s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.611s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.065s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.084s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.086s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.086s] -- Configured cppcheck include dirs: /home/sws/autoware/src/universe/autoware.universe/common/autoware_auto_perception_rviz_plugin/include
+[5.086s] -- Configured cppcheck exclude dirs and/or files: 
+[5.087s] -- Added test 'lint_cmake' to check CMake code style
+[5.088s] -- Added test 'xmllint' to check XML markup files
+[5.091s] -- Configuring done
+[5.114s] -- Generating done
+[5.117s] -- Build files have been written to: /home/sws/autoware/build/autoware_auto_perception_rviz_plugin
+[5.133s] Invoked command in '/home/sws/autoware/build/autoware_auto_perception_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/common/autoware_auto_perception_rviz_plugin -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/autoware_auto_perception_rviz_plugin
+[5.134s] Invoking command in '/home/sws/autoware/build/autoware_auto_perception_rviz_plugin': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sws/autoware/build/autoware_auto_perception_rviz_plugin -- -j16 -l16
+[9.465s] [  8%] [34m[1mGenerating include/object_detection/moc_tracked_objects_display.cpp[0m
+[9.465s] [ 16%] [34m[1mGenerating include/object_detection/moc_predicted_objects_display.cpp[0m
+[9.465s] [ 25%] [34m[1mGenerating include/object_detection/moc_detected_objects_display.cpp[0m
+[9.466s] [ 33%] [32mBuilding CXX object CMakeFiles/autoware_auto_perception_rviz_plugin.dir/src/common/color_alpha_property.cpp.o[0m
+[9.466s] [ 41%] [32mBuilding CXX object CMakeFiles/autoware_auto_perception_rviz_plugin.dir/src/object_detection/predicted_objects_display.cpp.o[0m
+[31.529s] [ 50%] [32mBuilding CXX object CMakeFiles/autoware_auto_perception_rviz_plugin.dir/src/object_detection/tracked_objects_display.cpp.o[0m
+[53.234s] [ 58%] [32mBuilding CXX object CMakeFiles/autoware_auto_perception_rviz_plugin.dir/src/object_detection/detected_objects_display.cpp.o[0m
+[76.581s] [ 66%] [32mBuilding CXX object CMakeFiles/autoware_auto_perception_rviz_plugin.dir/include/object_detection/moc_predicted_objects_display.cpp.o[0m
+[94.533s] [ 75%] [32mBuilding CXX object CMakeFiles/autoware_auto_perception_rviz_plugin.dir/include/object_detection/moc_tracked_objects_display.cpp.o[0m
+[114.787s] [ 83%] [32mBuilding CXX object CMakeFiles/autoware_auto_perception_rviz_plugin.dir/include/object_detection/moc_detected_objects_display.cpp.o[0m
+[137.447s] [ 91%] [32mBuilding CXX object CMakeFiles/autoware_auto_perception_rviz_plugin.dir/src/object_detection/object_polygon_detail.cpp.o[0m
+[149.784s] [100%] [32m[1mLinking CXX shared library libautoware_auto_perception_rviz_plugin.so[0m
+[151.777s] [100%] Built target autoware_auto_perception_rviz_plugin
+[151.831s] Invoked command in '/home/sws/autoware/build/autoware_auto_perception_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sws/autoware/build/autoware_auto_perception_rviz_plugin -- -j16 -l16
+[151.907s] Invoking command in '/home/sws/autoware/build/autoware_auto_perception_rviz_plugin': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sws/autoware/build/autoware_auto_perception_rviz_plugin
+[157.587s] -- Install configuration: "Release"
+[157.588s] -- Execute custom install script
+[157.588s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/autoware_auto_perception_rviz_plugin//plugins_description.xml
+[157.588s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/include/common/color_alpha_property.hpp
+[157.588s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/include/object_detection/detected_objects_display.hpp
+[157.588s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/include/object_detection/object_polygon_detail.hpp
+[157.588s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/include/object_detection/object_polygon_display_base.hpp
+[157.588s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/include/object_detection/predicted_objects_display.hpp
+[157.588s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/include/object_detection/tracked_objects_display.hpp
+[157.589s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/include/visibility_control.hpp
+[157.589s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/autoware_auto_perception_rviz_plugin/environment/library_path.sh
+[157.589s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/autoware_auto_perception_rviz_plugin/environment/library_path.dsv
+[157.589s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/lib/libautoware_auto_perception_rviz_plugin.so
+[157.602s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/autoware_auto_perception_rviz_plugin/icons/classes/DetectedObjects.png
+[157.602s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/autoware_auto_perception_rviz_plugin/icons/classes/PredictedObjects.png
+[157.602s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/autoware_auto_perception_rviz_plugin/icons/classes/TrackedObjects.png
+[157.602s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/ament_index/resource_index/package_run_dependencies/autoware_auto_perception_rviz_plugin
+[157.603s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/ament_index/resource_index/parent_prefix_path/autoware_auto_perception_rviz_plugin
+[157.603s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/autoware_auto_perception_rviz_plugin/environment/ament_prefix_path.sh
+[157.603s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/autoware_auto_perception_rviz_plugin/environment/ament_prefix_path.dsv
+[157.603s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/autoware_auto_perception_rviz_plugin/environment/path.sh
+[157.603s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/autoware_auto_perception_rviz_plugin/environment/path.dsv
+[157.603s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/autoware_auto_perception_rviz_plugin/local_setup.bash
+[157.603s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/autoware_auto_perception_rviz_plugin/local_setup.sh
+[157.603s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/autoware_auto_perception_rviz_plugin/local_setup.zsh
+[157.603s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/autoware_auto_perception_rviz_plugin/local_setup.dsv
+[157.603s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/autoware_auto_perception_rviz_plugin/package.dsv
+[157.603s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/ament_index/resource_index/packages/autoware_auto_perception_rviz_plugin
+[157.603s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/ament_index/resource_index/rviz_common__pluginlib__plugin/autoware_auto_perception_rviz_plugin
+[157.603s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/autoware_auto_perception_rviz_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+[157.603s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/autoware_auto_perception_rviz_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[157.604s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/autoware_auto_perception_rviz_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[157.604s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/autoware_auto_perception_rviz_plugin/cmake/autoware_auto_perception_rviz_pluginConfig.cmake
+[157.604s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/autoware_auto_perception_rviz_plugin/cmake/autoware_auto_perception_rviz_pluginConfig-version.cmake
+[157.604s] -- Symlinking: /home/sws/autoware/install/autoware_auto_perception_rviz_plugin/share/autoware_auto_perception_rviz_plugin/package.xml
+[157.614s] Invoked command in '/home/sws/autoware/build/autoware_auto_perception_rviz_plugin' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_geometry_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_auto_perception_msgs:/home/sws/autoware/install/autoware_lint_common:/home/sws/autoware/install/autoware_auto_geometry_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sws/autoware/install/autoware_auto_perception_msgs/lib:/home/sws/autoware/install/autoware_auto_geometry_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/sws/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sws/autoware/build/autoware_auto_perception_rviz_plugin

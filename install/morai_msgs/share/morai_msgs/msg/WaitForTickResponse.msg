@@ -1,0 +1,1 @@
+/home/sws/autoware/src/universe/external/morai_msgs/msg/WaitForTickResponse.msg

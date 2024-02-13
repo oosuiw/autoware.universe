@@ -1,0 +1,68 @@
+[0.059s] Invoking command in '/home/sws/autoware/build/tier4_pcl_extensions': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/sensing/tier4_pcl_extensions -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/tier4_pcl_extensions
+[0.974s] -- The C compiler identification is GNU 11.3.0
+[0.974s] -- The CXX compiler identification is GNU 11.3.0
+[0.974s] -- Detecting C compiler ABI info
+[0.974s] -- Detecting C compiler ABI info - done
+[0.974s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.974s] -- Detecting C compile features
+[0.974s] -- Detecting C compile features - done
+[0.975s] -- Detecting CXX compiler ABI info
+[0.975s] -- Detecting CXX compiler ABI info - done
+[0.975s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.975s] -- Detecting CXX compile features
+[0.976s] -- Detecting CXX compile features - done
+[0.976s] -- Found autoware_cmake: 0.1.0 (/home/sws/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[0.976s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.976s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.126s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.155s] -- Checking for module 'eigen3'
+[1.169s] --   Found eigen3, version 3.4.0
+[1.203s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.203s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.232s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.235s] -- looking for PCL_COMMON
+[1.241s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.242s] -- Found PCL: pcl_common;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization  
+[1.253s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.270s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.273s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.274s] -- Configured cppcheck include dirs: /home/sws/autoware/src/universe/autoware.universe/sensing/tier4_pcl_extensions/include
+[1.274s] -- Configured cppcheck exclude dirs and/or files: 
+[1.275s] -- Added test 'lint_cmake' to check CMake code style
+[1.277s] -- Added test 'xmllint' to check XML markup files
+[1.284s] -- Configuring done
+[1.300s] -- Generating done
+[1.301s] -- Build files have been written to: /home/sws/autoware/build/tier4_pcl_extensions
+[1.332s] Invoked command in '/home/sws/autoware/build/tier4_pcl_extensions' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/sensing/tier4_pcl_extensions -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/tier4_pcl_extensions
+[1.333s] Invoking command in '/home/sws/autoware/build/tier4_pcl_extensions': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/tier4_pcl_extensions -- -j16 -l16
+[3.202s] [ 50%] [32mBuilding CXX object CMakeFiles/tier4_pcl_extensions.dir/src/voxel_grid_nearest_centroid.cpp.o[0m
+[44.139s] [100%] [32m[1mLinking CXX shared library libtier4_pcl_extensions.so[0m
+[44.251s] [100%] Built target tier4_pcl_extensions
+[44.283s] Invoked command in '/home/sws/autoware/build/tier4_pcl_extensions' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/tier4_pcl_extensions -- -j16 -l16
+[44.325s] Invoking command in '/home/sws/autoware/build/tier4_pcl_extensions': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/tier4_pcl_extensions
+[48.746s] -- Install configuration: "Release"
+[48.746s] -- Execute custom install script
+[48.746s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/include/tier4_pcl_extensions/voxel_grid_nearest_centroid.hpp
+[48.746s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/include/tier4_pcl_extensions/voxel_grid_nearest_centroid_impl.hpp
+[48.746s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/library_path.sh
+[48.746s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/library_path.dsv
+[48.746s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/lib/libtier4_pcl_extensions.so
+[48.746s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/share/ament_index/resource_index/package_run_dependencies/tier4_pcl_extensions
+[48.746s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/share/ament_index/resource_index/parent_prefix_path/tier4_pcl_extensions
+[48.747s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/ament_prefix_path.sh
+[48.747s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/ament_prefix_path.dsv
+[48.747s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/path.sh
+[48.747s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/environment/path.dsv
+[48.747s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/local_setup.bash
+[48.747s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/local_setup.sh
+[48.747s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/local_setup.zsh
+[48.747s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/local_setup.dsv
+[48.747s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/package.dsv
+[48.747s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/share/ament_index/resource_index/packages/tier4_pcl_extensions
+[48.747s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/cmake/ament_cmake_export_dependencies-extras.cmake
+[48.748s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/cmake/ament_cmake_export_include_directories-extras.cmake
+[48.748s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/cmake/ament_cmake_export_libraries-extras.cmake
+[48.748s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/cmake/tier4_pcl_extensionsConfig.cmake
+[48.748s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/cmake/tier4_pcl_extensionsConfig-version.cmake
+[48.748s] -- Symlinking: /home/sws/autoware/install/tier4_pcl_extensions/share/tier4_pcl_extensions/package.xml
+[48.791s] Invoked command in '/home/sws/autoware/build/tier4_pcl_extensions' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/tier4_pcl_extensions

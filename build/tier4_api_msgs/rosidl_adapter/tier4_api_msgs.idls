@@ -1,0 +1,11 @@
+/home/sws/autoware/build/tier4_api_msgs/rosidl_adapter/tier4_api_msgs:msg/AwapiAutowareStatus.idl
+/home/sws/autoware/build/tier4_api_msgs/rosidl_adapter/tier4_api_msgs:msg/AwapiVehicleStatus.idl
+/home/sws/autoware/build/tier4_api_msgs/rosidl_adapter/tier4_api_msgs:msg/CrosswalkStatus.idl
+/home/sws/autoware/build/tier4_api_msgs/rosidl_adapter/tier4_api_msgs:msg/DoorControlCommand.idl
+/home/sws/autoware/build/tier4_api_msgs/rosidl_adapter/tier4_api_msgs:msg/DoorStatus.idl
+/home/sws/autoware/build/tier4_api_msgs/rosidl_adapter/tier4_api_msgs:msg/Euler.idl
+/home/sws/autoware/build/tier4_api_msgs/rosidl_adapter/tier4_api_msgs:msg/IntersectionStatus.idl
+/home/sws/autoware/build/tier4_api_msgs/rosidl_adapter/tier4_api_msgs:msg/LaneChangeStatus.idl
+/home/sws/autoware/build/tier4_api_msgs/rosidl_adapter/tier4_api_msgs:msg/ObstacleAvoidanceStatus.idl
+/home/sws/autoware/build/tier4_api_msgs/rosidl_adapter/tier4_api_msgs:msg/StopCommand.idl
+/home/sws/autoware/build/tier4_api_msgs/rosidl_adapter/tier4_api_msgs:msg/VelocityLimit.idl

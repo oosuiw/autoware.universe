@@ -1,0 +1,5 @@
+/home/sws/autoware/build/tier4_v2x_msgs/rosidl_adapter/tier4_v2x_msgs:msg/InfrastructureCommand.idl
+/home/sws/autoware/build/tier4_v2x_msgs/rosidl_adapter/tier4_v2x_msgs:msg/InfrastructureCommandArray.idl
+/home/sws/autoware/build/tier4_v2x_msgs/rosidl_adapter/tier4_v2x_msgs:msg/KeyValue.idl
+/home/sws/autoware/build/tier4_v2x_msgs/rosidl_adapter/tier4_v2x_msgs:msg/VirtualTrafficLightState.idl
+/home/sws/autoware/build/tier4_v2x_msgs/rosidl_adapter/tier4_v2x_msgs:msg/VirtualTrafficLightStateArray.idl

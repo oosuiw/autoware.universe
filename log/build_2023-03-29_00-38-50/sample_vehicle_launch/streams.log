@@ -1,0 +1,42 @@
+[0.010s] Invoking command in '/home/sws/autoware/build/sample_vehicle_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/vehicle/sample_vehicle_launch/sample_vehicle_launch -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/sample_vehicle_launch
+[1.459s] -- The C compiler identification is GNU 11.3.0
+[1.459s] -- The CXX compiler identification is GNU 11.3.0
+[1.459s] -- Detecting C compiler ABI info
+[1.459s] -- Detecting C compiler ABI info - done
+[1.459s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.459s] -- Detecting C compile features
+[1.459s] -- Detecting C compile features - done
+[1.473s] -- Detecting CXX compiler ABI info
+[1.473s] -- Detecting CXX compiler ABI info - done
+[1.473s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.473s] -- Detecting CXX compile features
+[1.473s] -- Detecting CXX compile features - done
+[1.473s] -- Found ament_cmake_auto: 1.3.3 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.473s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.473s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.473s] -- Configuring done
+[1.473s] -- Generating done
+[1.474s] -- Build files have been written to: /home/sws/autoware/build/sample_vehicle_launch
+[1.507s] Invoked command in '/home/sws/autoware/build/sample_vehicle_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/vehicle/sample_vehicle_launch/sample_vehicle_launch -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/sample_vehicle_launch
+[1.507s] Invoking command in '/home/sws/autoware/build/sample_vehicle_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/sample_vehicle_launch -- -j16 -l16
+[1.610s] Invoked command in '/home/sws/autoware/build/sample_vehicle_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/sample_vehicle_launch -- -j16 -l16
+[2.032s] Invoking command in '/home/sws/autoware/build/sample_vehicle_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/sample_vehicle_launch
+[2.853s] -- Install configuration: "Release"
+[2.853s] -- Execute custom install script
+[2.853s] -- Symlinking: /home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/launch/vehicle_interface.launch.xml
+[2.853s] -- Symlinking: /home/sws/autoware/install/sample_vehicle_launch/share/ament_index/resource_index/package_run_dependencies/sample_vehicle_launch
+[2.853s] -- Symlinking: /home/sws/autoware/install/sample_vehicle_launch/share/ament_index/resource_index/parent_prefix_path/sample_vehicle_launch
+[2.854s] -- Symlinking: /home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/environment/ament_prefix_path.sh
+[2.854s] -- Symlinking: /home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/environment/ament_prefix_path.dsv
+[2.854s] -- Symlinking: /home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/environment/path.sh
+[2.854s] -- Symlinking: /home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/environment/path.dsv
+[2.854s] -- Symlinking: /home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/local_setup.bash
+[2.854s] -- Symlinking: /home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/local_setup.sh
+[2.854s] -- Symlinking: /home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/local_setup.zsh
+[2.856s] -- Symlinking: /home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/local_setup.dsv
+[2.856s] -- Symlinking: /home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/package.dsv
+[2.856s] -- Symlinking: /home/sws/autoware/install/sample_vehicle_launch/share/ament_index/resource_index/packages/sample_vehicle_launch
+[2.856s] -- Symlinking: /home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/cmake/sample_vehicle_launchConfig.cmake
+[2.856s] -- Symlinking: /home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/cmake/sample_vehicle_launchConfig-version.cmake
+[2.856s] -- Symlinking: /home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/package.xml
+[2.863s] Invoked command in '/home/sws/autoware/build/sample_vehicle_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/sample_vehicle_launch

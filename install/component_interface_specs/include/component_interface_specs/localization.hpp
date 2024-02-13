@@ -1,0 +1,1 @@
+/home/sws/autoware/src/universe/autoware.universe/common/component_interface_specs/include/component_interface_specs/localization.hpp

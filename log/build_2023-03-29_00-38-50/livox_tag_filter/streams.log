@@ -1,0 +1,181 @@
+[0.033s] Invoking command in '/home/sws/autoware/build/livox_tag_filter': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/sensing/livox/livox_tag_filter -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/livox_tag_filter
+[15.388s] -- The C compiler identification is GNU 11.3.0
+[15.388s] -- The CXX compiler identification is GNU 11.3.0
+[15.388s] -- Detecting C compiler ABI info
+[15.388s] -- Detecting C compiler ABI info - done
+[15.389s] -- Check for working C compiler: /usr/bin/cc - skipped
+[15.389s] -- Detecting C compile features
+[15.389s] -- Detecting C compile features - done
+[15.389s] -- Detecting CXX compiler ABI info
+[15.389s] -- Detecting CXX compiler ABI info - done
+[15.389s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[15.389s] -- Detecting CXX compile features
+[15.389s] -- Detecting CXX compile features - done
+[15.389s] -- Found autoware_cmake: 0.1.0 (/home/sws/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[15.389s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[15.390s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[15.390s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[15.390s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[15.390s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[15.390s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.390s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.390s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[15.390s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[15.390s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[15.390s] -- Found FastRTPS: /opt/ros/humble/include  
+[15.390s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.390s] -- Looking for pthread.h
+[15.391s] -- Looking for pthread.h - found
+[15.391s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.391s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.391s] -- Found Threads: TRUE  
+[15.391s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.391s] -- Checking for module 'eigen3'
+[15.391s] --   Found eigen3, version 3.4.0
+[15.391s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[15.391s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[15.391s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[15.392s] -- Checking for module 'flann'
+[15.392s] --   Found flann, version 1.9.1
+[15.392s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[15.392s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[15.392s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[15.392s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[15.392s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[15.392s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[15.392s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[15.392s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[15.393s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[15.393s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[15.393s] -- Found X11: /usr/include   
+[15.393s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[15.393s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[15.393s] -- Looking for gethostbyname
+[15.393s] -- Looking for gethostbyname - found
+[15.393s] -- Looking for connect
+[15.393s] -- Looking for connect - found
+[15.393s] -- Looking for remove
+[15.393s] -- Looking for remove - found
+[15.393s] -- Looking for shmat
+[15.393s] -- Looking for shmat - found
+[15.394s] -- Looking for IceConnectionNumber in ICE
+[15.394s] -- Looking for IceConnectionNumber in ICE - found
+[15.394s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[15.394s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[15.394s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[15.395s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[15.395s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[15.395s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[15.395s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[15.406s] -- Found utf8cpp: /usr/include/utf8cpp  
+[15.407s] -- Checking for module 'libusb-1.0'
+[15.407s] --   Found libusb-1.0, version 1.0.25
+[15.407s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[15.407s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[15.408s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[15.408s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[15.408s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[15.408s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[15.409s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[15.409s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[15.409s] -- Found Qhull version 8.0.2
+[15.409s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[15.409s] -- looking for PCL_COMMON
+[15.409s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[15.409s] -- looking for PCL_KDTREE
+[15.409s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[15.409s] -- looking for PCL_OCTREE
+[15.409s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[15.410s] -- looking for PCL_SEARCH
+[15.410s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[15.410s] -- looking for PCL_SAMPLE_CONSENSUS
+[15.410s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[15.410s] -- looking for PCL_FILTERS
+[15.410s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[15.410s] -- looking for PCL_2D
+[15.410s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[15.411s] -- looking for PCL_GEOMETRY
+[15.411s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[15.411s] -- looking for PCL_IO
+[15.411s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[15.411s] -- looking for PCL_FEATURES
+[15.411s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[15.411s] -- looking for PCL_ML
+[15.411s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[15.411s] -- looking for PCL_SEGMENTATION
+[15.411s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[15.412s] -- looking for PCL_VISUALIZATION
+[15.412s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[15.412s] -- looking for PCL_SURFACE
+[15.412s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[15.412s] -- looking for PCL_REGISTRATION
+[15.412s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[15.412s] -- looking for PCL_KEYPOINTS
+[15.412s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[15.412s] -- looking for PCL_TRACKING
+[15.412s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[15.413s] -- looking for PCL_RECOGNITION
+[15.413s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[15.413s] -- looking for PCL_STEREO
+[15.413s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[15.413s] -- looking for PCL_APPS
+[15.413s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[15.413s] -- looking for PCL_IN_HAND_SCANNER
+[15.413s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[15.413s] -- looking for PCL_MODELER
+[15.413s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[15.413s] -- looking for PCL_POINT_CLOUD_EDITOR
+[15.414s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[15.414s] -- looking for PCL_OUTOFCORE
+[15.414s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[15.414s] -- looking for PCL_PEOPLE
+[15.414s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[15.414s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[15.414s] -- Added test 'copyright' to check source files copyright and LICENSE
+[15.414s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.415s] -- Configured cppcheck include dirs: /home/sws/autoware/src/universe/autoware.universe/sensing/livox/livox_tag_filter/include
+[15.415s] -- Configured cppcheck exclude dirs and/or files: 
+[15.415s] -- Added test 'lint_cmake' to check CMake code style
+[15.415s] -- Added test 'xmllint' to check XML markup files
+[15.415s] -- Configuring done
+[15.415s] -- Generating done
+[15.415s] -- Build files have been written to: /home/sws/autoware/build/livox_tag_filter
+[15.415s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[15.438s] Invoked command in '/home/sws/autoware/build/livox_tag_filter' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/sensing/livox/livox_tag_filter -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/livox_tag_filter
+[15.452s] Invoking command in '/home/sws/autoware/build/livox_tag_filter': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/livox_tag_filter -- -j16 -l16
+[22.082s] [ 25%] [32mBuilding CXX object CMakeFiles/livox_tag_filter_node.dir/rclcpp_components/node_main_livox_tag_filter_node.cpp.o[0m
+[22.083s] [ 50%] [32mBuilding CXX object CMakeFiles/livox_tag_filter.dir/src/livox_tag_filter_node/livox_tag_filter_node.cpp.o[0m
+[22.083s] [ 75%] [32m[1mLinking CXX executable livox_tag_filter_node[0m
+[22.083s] [ 75%] Built target livox_tag_filter_node
+[35.443s] [100%] [32m[1mLinking CXX shared library liblivox_tag_filter.so[0m
+[35.856s] [100%] Built target livox_tag_filter
+[35.868s] Invoked command in '/home/sws/autoware/build/livox_tag_filter' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/livox_tag_filter -- -j16 -l16
+[35.939s] Invoking command in '/home/sws/autoware/build/livox_tag_filter': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/livox_tag_filter
+[48.956s] -- Install configuration: "Release"
+[48.957s] -- Execute custom install script
+[48.957s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/lib/livox_tag_filter/livox_tag_filter_node
+[48.957s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/include/livox_tag_filter/livox_tag_filter_node.hpp
+[48.957s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/share/livox_tag_filter/environment/library_path.sh
+[48.958s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/share/livox_tag_filter/environment/library_path.dsv
+[48.958s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/lib/liblivox_tag_filter.so
+[48.958s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/share/livox_tag_filter/launch/livox_tag_filter.launch.xml
+[48.958s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/share/ament_index/resource_index/package_run_dependencies/livox_tag_filter
+[48.958s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/share/ament_index/resource_index/parent_prefix_path/livox_tag_filter
+[48.958s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/share/livox_tag_filter/environment/ament_prefix_path.sh
+[48.958s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/share/livox_tag_filter/environment/ament_prefix_path.dsv
+[48.958s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/share/livox_tag_filter/environment/path.sh
+[48.958s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/share/livox_tag_filter/environment/path.dsv
+[48.958s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/share/livox_tag_filter/local_setup.bash
+[48.958s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/share/livox_tag_filter/local_setup.sh
+[48.959s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/share/livox_tag_filter/local_setup.zsh
+[48.959s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/share/livox_tag_filter/local_setup.dsv
+[48.959s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/share/livox_tag_filter/package.dsv
+[48.959s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/share/ament_index/resource_index/packages/livox_tag_filter
+[48.959s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/share/ament_index/resource_index/rclcpp_components/livox_tag_filter
+[48.959s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/share/livox_tag_filter/cmake/ament_cmake_export_dependencies-extras.cmake
+[48.959s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/share/livox_tag_filter/cmake/ament_cmake_export_include_directories-extras.cmake
+[48.959s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/share/livox_tag_filter/cmake/ament_cmake_export_libraries-extras.cmake
+[48.959s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/share/livox_tag_filter/cmake/livox_tag_filterConfig.cmake
+[48.959s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/share/livox_tag_filter/cmake/livox_tag_filterConfig-version.cmake
+[48.959s] -- Symlinking: /home/sws/autoware/install/livox_tag_filter/share/livox_tag_filter/package.xml
+[48.972s] Invoked command in '/home/sws/autoware/build/livox_tag_filter' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/livox_tag_filter

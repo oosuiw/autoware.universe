@@ -1,0 +1,25 @@
+{
+  "package_name": "autoware_adapi_v1_msgs",
+  "non_idl_tuples": [
+    "/home/sws/autoware/src/core/autoware_adapi_msgs/autoware_adapi_v1_msgs:common/msg/ResponseStatus.msg",
+    "/home/sws/autoware/src/core/autoware_adapi_msgs/autoware_adapi_v1_msgs:localization/msg/LocalizationInitializationState.msg",
+    "/home/sws/autoware/src/core/autoware_adapi_msgs/autoware_adapi_v1_msgs:localization/srv/InitializeLocalization.srv",
+    "/home/sws/autoware/src/core/autoware_adapi_msgs/autoware_adapi_v1_msgs:routing/msg/RouteState.msg",
+    "/home/sws/autoware/src/core/autoware_adapi_msgs/autoware_adapi_v1_msgs:routing/msg/Route.msg",
+    "/home/sws/autoware/src/core/autoware_adapi_msgs/autoware_adapi_v1_msgs:routing/msg/RouteData.msg",
+    "/home/sws/autoware/src/core/autoware_adapi_msgs/autoware_adapi_v1_msgs:routing/msg/RoutePrimitive.msg",
+    "/home/sws/autoware/src/core/autoware_adapi_msgs/autoware_adapi_v1_msgs:routing/msg/RouteSegment.msg",
+    "/home/sws/autoware/src/core/autoware_adapi_msgs/autoware_adapi_v1_msgs:routing/srv/ClearRoute.srv",
+    "/home/sws/autoware/src/core/autoware_adapi_msgs/autoware_adapi_v1_msgs:routing/srv/SetRoute.srv",
+    "/home/sws/autoware/src/core/autoware_adapi_msgs/autoware_adapi_v1_msgs:routing/srv/SetRoutePoints.srv",
+    "/home/sws/autoware/src/core/autoware_adapi_msgs/autoware_adapi_v1_msgs:operation_mode/msg/OperationModeState.msg",
+    "/home/sws/autoware/src/core/autoware_adapi_msgs/autoware_adapi_v1_msgs:operation_mode/srv/ChangeOperationMode.srv",
+    "/home/sws/autoware/src/core/autoware_adapi_msgs/autoware_adapi_v1_msgs:motion/msg/MotionState.msg",
+    "/home/sws/autoware/src/core/autoware_adapi_msgs/autoware_adapi_v1_msgs:motion/srv/AcceptStart.srv",
+    "/home/sws/autoware/src/core/autoware_adapi_msgs/autoware_adapi_v1_msgs:planning/msg/SteeringFactor.msg",
+    "/home/sws/autoware/src/core/autoware_adapi_msgs/autoware_adapi_v1_msgs:planning/msg/SteeringFactorArray.msg",
+    "/home/sws/autoware/src/core/autoware_adapi_msgs/autoware_adapi_v1_msgs:planning/msg/VelocityFactor.msg",
+    "/home/sws/autoware/src/core/autoware_adapi_msgs/autoware_adapi_v1_msgs:planning/msg/VelocityFactorArray.msg",
+    "/home/sws/autoware/src/core/autoware_adapi_msgs/autoware_adapi_v1_msgs:system/msg/MrmState.msg"
+  ]
+}

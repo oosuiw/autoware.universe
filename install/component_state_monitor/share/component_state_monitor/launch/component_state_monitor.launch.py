@@ -1,0 +1,1 @@
+/home/sws/autoware/src/universe/autoware.universe/system/component_state_monitor/launch/component_state_monitor.launch.py

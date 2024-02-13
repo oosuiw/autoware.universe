@@ -1,0 +1,1 @@
+/home/sws/autoware/src/universe/external/tier4_autoware_msgs/tier4_planning_msgs/msg/LaneChangeStatus.msg

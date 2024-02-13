@@ -1,0 +1,55 @@
+[0.047s] Invoking command in '/home/sws/autoware/build/autoware_testing': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/common/autoware_testing -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/autoware_testing
+[1.410s] -- The C compiler identification is GNU 11.3.0
+[1.410s] -- The CXX compiler identification is GNU 11.3.0
+[1.410s] -- Detecting C compiler ABI info
+[1.410s] -- Detecting C compiler ABI info - done
+[1.410s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.410s] -- Detecting C compile features
+[1.410s] -- Detecting C compile features - done
+[1.410s] -- Detecting CXX compiler ABI info
+[1.410s] -- Detecting CXX compiler ABI info - done
+[1.410s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.411s] -- Detecting CXX compile features
+[1.411s] -- Detecting CXX compile features - done
+[1.411s] -- Found autoware_cmake: 0.1.0 (/home/sws/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[1.411s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.411s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.411s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.415s] -- Found launch_testing_ament_cmake: 1.0.4 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[1.418s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.453s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[1.472s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[1.472s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.473s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.473s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.507s] -- Found PythonExtra: .so  
+[1.516s] -- Added test 'lint_cmake' to check CMake code style
+[1.518s] -- Configuring done
+[1.523s] -- Generating done
+[1.525s] -- Build files have been written to: /home/sws/autoware/build/autoware_testing
+[1.536s] Invoked command in '/home/sws/autoware/build/autoware_testing' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/common/autoware_testing -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/autoware_testing
+[1.547s] Invoking command in '/home/sws/autoware/build/autoware_testing': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/autoware_testing -- -j16 -l16
+[2.186s] Invoked command in '/home/sws/autoware/build/autoware_testing' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/autoware_testing -- -j16 -l16
+[2.224s] Invoking command in '/home/sws/autoware/build/autoware_testing': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/autoware_testing
+[2.848s] -- Install configuration: "Release"
+[2.848s] -- Execute custom install script
+[2.848s] -- Symlinking: /home/sws/autoware/install/autoware_testing/share/autoware_testing/cmake/add_smoke_test.cmake
+[2.848s] -- Symlinking: /home/sws/autoware/install/autoware_testing/share/autoware_testing/autoware_testing/__init__.py
+[2.848s] -- Symlinking: /home/sws/autoware/install/autoware_testing/share/autoware_testing/autoware_testing/smoke_test.py
+[2.848s] -- Symlinking: /home/sws/autoware/install/autoware_testing/share/ament_index/resource_index/package_run_dependencies/autoware_testing
+[2.848s] -- Symlinking: /home/sws/autoware/install/autoware_testing/share/ament_index/resource_index/parent_prefix_path/autoware_testing
+[2.848s] -- Symlinking: /home/sws/autoware/install/autoware_testing/share/autoware_testing/environment/ament_prefix_path.sh
+[2.848s] -- Symlinking: /home/sws/autoware/install/autoware_testing/share/autoware_testing/environment/ament_prefix_path.dsv
+[2.848s] -- Symlinking: /home/sws/autoware/install/autoware_testing/share/autoware_testing/environment/path.sh
+[2.848s] -- Symlinking: /home/sws/autoware/install/autoware_testing/share/autoware_testing/environment/path.dsv
+[2.848s] -- Symlinking: /home/sws/autoware/install/autoware_testing/share/autoware_testing/local_setup.bash
+[2.848s] -- Symlinking: /home/sws/autoware/install/autoware_testing/share/autoware_testing/local_setup.sh
+[2.848s] -- Symlinking: /home/sws/autoware/install/autoware_testing/share/autoware_testing/local_setup.zsh
+[2.849s] -- Symlinking: /home/sws/autoware/install/autoware_testing/share/autoware_testing/local_setup.dsv
+[2.849s] -- Symlinking: /home/sws/autoware/install/autoware_testing/share/autoware_testing/package.dsv
+[2.849s] -- Symlinking: /home/sws/autoware/install/autoware_testing/share/ament_index/resource_index/packages/autoware_testing
+[2.849s] -- Symlinking: /home/sws/autoware/install/autoware_testing/share/autoware_testing/cmake/autoware_testing-extras.cmake
+[2.849s] -- Symlinking: /home/sws/autoware/install/autoware_testing/share/autoware_testing/cmake/autoware_testingConfig.cmake
+[2.849s] -- Symlinking: /home/sws/autoware/install/autoware_testing/share/autoware_testing/cmake/autoware_testingConfig-version.cmake
+[2.849s] -- Symlinking: /home/sws/autoware/install/autoware_testing/share/autoware_testing/package.xml
+[2.909s] Invoked command in '/home/sws/autoware/build/autoware_testing' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/autoware_testing

@@ -1,0 +1,1 @@
+/home/sws/autoware/src/universe/autoware.universe/simulator/simple_planning_simulator/launch/simple_planning_simulator.launch.py

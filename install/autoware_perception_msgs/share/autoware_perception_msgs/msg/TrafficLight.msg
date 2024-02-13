@@ -1,0 +1,1 @@
+/home/sws/autoware/src/core/autoware_msgs/autoware_perception_msgs/msg/TrafficLight.msg

@@ -1,0 +1,1 @@
+/home/sws/autoware/build/tier4_system_msgs/rosidl_generator_cpp/tier4_system_msgs/msg/detail/hazard_status__struct.hpp

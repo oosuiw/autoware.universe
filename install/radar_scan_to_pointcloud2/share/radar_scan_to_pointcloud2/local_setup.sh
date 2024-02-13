@@ -1,0 +1,1 @@
+/home/sws/autoware/build/radar_scan_to_pointcloud2/ament_cmake_environment_hooks/local_setup.sh

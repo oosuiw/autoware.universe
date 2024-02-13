@@ -1,0 +1,6 @@
+setup.py
+morai_msgs/__init__.py
+morai_msgs.egg-info/PKG-INFO
+morai_msgs.egg-info/SOURCES.txt
+morai_msgs.egg-info/dependency_links.txt
+morai_msgs.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+/home/sws/autoware/install/trtexec_vendor/bin/trtexec
+/home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/environment/trtexec_vendor.sh
+/home/sws/autoware/install/trtexec_vendor/share/ament_index/resource_index/package_run_dependencies/trtexec_vendor
+/home/sws/autoware/install/trtexec_vendor/share/ament_index/resource_index/parent_prefix_path/trtexec_vendor
+/home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/environment/ament_prefix_path.sh
+/home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/environment/ament_prefix_path.dsv
+/home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/environment/path.sh
+/home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/environment/path.dsv
+/home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/local_setup.bash
+/home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/local_setup.sh
+/home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/local_setup.zsh
+/home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/local_setup.dsv
+/home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/package.dsv
+/home/sws/autoware/install/trtexec_vendor/share/ament_index/resource_index/packages/trtexec_vendor
+/home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/cmake/trtexec_vendorConfig.cmake
+/home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/cmake/trtexec_vendorConfig-version.cmake
+/home/sws/autoware/install/trtexec_vendor/share/trtexec_vendor/package.xml

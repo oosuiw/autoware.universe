@@ -1,0 +1,16 @@
+/home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/launch/vehicle_interface.launch.xml
+/home/sws/autoware/install/sample_vehicle_launch/share/ament_index/resource_index/package_run_dependencies/sample_vehicle_launch
+/home/sws/autoware/install/sample_vehicle_launch/share/ament_index/resource_index/parent_prefix_path/sample_vehicle_launch
+/home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/environment/ament_prefix_path.sh
+/home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/environment/ament_prefix_path.dsv
+/home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/environment/path.sh
+/home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/environment/path.dsv
+/home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/local_setup.bash
+/home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/local_setup.sh
+/home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/local_setup.zsh
+/home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/local_setup.dsv
+/home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/package.dsv
+/home/sws/autoware/install/sample_vehicle_launch/share/ament_index/resource_index/packages/sample_vehicle_launch
+/home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/cmake/sample_vehicle_launchConfig.cmake
+/home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/cmake/sample_vehicle_launchConfig-version.cmake
+/home/sws/autoware/install/sample_vehicle_launch/share/sample_vehicle_launch/package.xml

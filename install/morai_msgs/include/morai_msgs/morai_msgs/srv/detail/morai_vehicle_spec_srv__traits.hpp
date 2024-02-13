@@ -1,0 +1,1 @@
+/home/sws/autoware/build/morai_msgs/rosidl_generator_cpp/morai_msgs/srv/detail/morai_vehicle_spec_srv__traits.hpp

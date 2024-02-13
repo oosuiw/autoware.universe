@@ -1,0 +1,82 @@
+[0.080s] Invoking command in '/home/sws/autoware/build/radar_threshold_filter': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/sensing/radar_threshold_filter -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/radar_threshold_filter
+[10.890s] -- The C compiler identification is GNU 11.3.0
+[10.890s] -- The CXX compiler identification is GNU 11.3.0
+[10.890s] -- Detecting C compiler ABI info
+[10.890s] -- Detecting C compiler ABI info - done
+[10.890s] -- Check for working C compiler: /usr/bin/cc - skipped
+[10.890s] -- Detecting C compile features
+[10.890s] -- Detecting C compile features - done
+[10.890s] -- Detecting CXX compiler ABI info
+[10.890s] -- Detecting CXX compiler ABI info - done
+[10.890s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[10.891s] -- Detecting CXX compile features
+[10.891s] -- Detecting CXX compile features - done
+[10.891s] -- Found autoware_cmake: 0.1.0 (/home/sws/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[10.891s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[10.891s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[10.891s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[10.891s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[10.891s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[10.891s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.891s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.891s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.891s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.892s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[10.892s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.892s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.892s] -- Looking for pthread.h
+[10.892s] -- Looking for pthread.h - found
+[10.892s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.892s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.892s] -- Found Threads: TRUE  
+[10.892s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.892s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.892s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.893s] -- Configured cppcheck include dirs: /home/sws/autoware/src/universe/autoware.universe/sensing/radar_threshold_filter/include
+[10.893s] -- Configured cppcheck exclude dirs and/or files: 
+[10.893s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.893s] -- Configured cpplint exclude dirs and/or files: 
+[10.893s] -- Added test 'lint_cmake' to check CMake code style
+[10.893s] -- Added test 'xmllint' to check XML markup files
+[10.893s] -- Configuring done
+[10.893s] -- Generating done
+[10.893s] -- Build files have been written to: /home/sws/autoware/build/radar_threshold_filter
+[10.912s] Invoked command in '/home/sws/autoware/build/radar_threshold_filter' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/sensing/radar_threshold_filter -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/radar_threshold_filter
+[10.918s] Invoking command in '/home/sws/autoware/build/radar_threshold_filter': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/radar_threshold_filter -- -j16 -l16
+[30.659s] [ 25%] [32mBuilding CXX object CMakeFiles/radar_threshold_filter_node_component.dir/src/radar_threshold_filter_node/radar_threshold_filter_node.cpp.o[0m
+[30.660s] [ 50%] [32m[1mLinking CXX shared library libradar_threshold_filter_node_component.so[0m
+[30.661s] [ 50%] Built target radar_threshold_filter_node_component
+[30.661s] [ 75%] [32mBuilding CXX object CMakeFiles/radar_threshold_filter_node.dir/rclcpp_components/node_main_radar_threshold_filter_node.cpp.o[0m
+[34.267s] [100%] [32m[1mLinking CXX executable radar_threshold_filter_node[0m
+[34.448s] [100%] Built target radar_threshold_filter_node
+[34.463s] Invoked command in '/home/sws/autoware/build/radar_threshold_filter' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/radar_threshold_filter -- -j16 -l16
+[34.600s] Invoking command in '/home/sws/autoware/build/radar_threshold_filter': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/radar_threshold_filter
+[36.062s] -- Install configuration: "Release"
+[36.062s] -- Execute custom install script
+[36.063s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/lib/radar_threshold_filter/radar_threshold_filter_node
+[36.063s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/include/radar_threshold_filter/radar_threshold_filter_node.hpp
+[36.063s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/radar_threshold_filter/environment/library_path.sh
+[36.063s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/radar_threshold_filter/environment/library_path.dsv
+[36.063s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/lib/libradar_threshold_filter_node_component.so
+[36.063s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/radar_threshold_filter/config/radar_threshold_filter.param.yaml
+[36.063s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/radar_threshold_filter/launch/radar_threshold_filter.launch.xml
+[36.063s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/ament_index/resource_index/package_run_dependencies/radar_threshold_filter
+[36.063s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/ament_index/resource_index/parent_prefix_path/radar_threshold_filter
+[36.063s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/radar_threshold_filter/environment/ament_prefix_path.sh
+[36.063s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/radar_threshold_filter/environment/ament_prefix_path.dsv
+[36.064s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/radar_threshold_filter/environment/path.sh
+[36.064s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/radar_threshold_filter/environment/path.dsv
+[36.064s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/radar_threshold_filter/local_setup.bash
+[36.064s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/radar_threshold_filter/local_setup.sh
+[36.064s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/radar_threshold_filter/local_setup.zsh
+[36.064s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/radar_threshold_filter/local_setup.dsv
+[36.064s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/radar_threshold_filter/package.dsv
+[36.064s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/ament_index/resource_index/packages/radar_threshold_filter
+[36.064s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/ament_index/resource_index/rclcpp_components/radar_threshold_filter
+[36.064s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/radar_threshold_filter/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.064s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/radar_threshold_filter/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.065s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/radar_threshold_filter/cmake/ament_cmake_export_libraries-extras.cmake
+[36.065s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/radar_threshold_filter/cmake/radar_threshold_filterConfig.cmake
+[36.065s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/radar_threshold_filter/cmake/radar_threshold_filterConfig-version.cmake
+[36.065s] -- Symlinking: /home/sws/autoware/install/radar_threshold_filter/share/radar_threshold_filter/package.xml
+[36.095s] Invoked command in '/home/sws/autoware/build/radar_threshold_filter' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/radar_threshold_filter

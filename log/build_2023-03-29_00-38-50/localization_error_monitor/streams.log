@@ -1,0 +1,76 @@
+[0.047s] Invoking command in '/home/sws/autoware/build/localization_error_monitor': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/localization/localization_error_monitor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/localization_error_monitor
+[4.936s] -- The C compiler identification is GNU 11.3.0
+[4.936s] -- The CXX compiler identification is GNU 11.3.0
+[4.936s] -- Detecting C compiler ABI info
+[4.936s] -- Detecting C compiler ABI info - done
+[4.937s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.937s] -- Detecting C compile features
+[4.937s] -- Detecting C compile features - done
+[4.937s] -- Detecting CXX compiler ABI info
+[4.937s] -- Detecting CXX compiler ABI info - done
+[4.937s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.937s] -- Detecting CXX compile features
+[4.937s] -- Detecting CXX compile features - done
+[4.937s] -- Found autoware_cmake: 0.1.0 (/home/sws/autoware/install/autoware_cmake/share/autoware_cmake/cmake)
+[4.937s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.937s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.938s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.938s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.938s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.938s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.938s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.938s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.938s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.938s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.938s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.938s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.938s] -- Looking for pthread.h
+[4.939s] -- Looking for pthread.h - found
+[4.939s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.939s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.939s] -- Found Threads: TRUE  
+[4.939s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.939s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.939s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.939s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.939s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.939s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.939s] -- Configured cppcheck include dirs: /home/sws/autoware/src/universe/autoware.universe/localization/localization_error_monitor/include
+[4.940s] -- Configured cppcheck exclude dirs and/or files: 
+[4.941s] -- Added test 'lint_cmake' to check CMake code style
+[4.941s] -- Added test 'xmllint' to check XML markup files
+[4.941s] -- Configuring done
+[4.941s] -- Generating done
+[4.941s] -- Build files have been written to: /home/sws/autoware/build/localization_error_monitor
+[4.953s] Invoked command in '/home/sws/autoware/build/localization_error_monitor' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/universe/autoware.universe/localization/localization_error_monitor -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/localization_error_monitor
+[4.954s] Invoking command in '/home/sws/autoware/build/localization_error_monitor': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/localization_error_monitor -- -j16 -l16
+[7.451s] [ 33%] [32mBuilding CXX object CMakeFiles/localization_error_monitor.dir/src/main.cpp.o[0m
+[14.412s] [ 66%] [32mBuilding CXX object CMakeFiles/localization_error_monitor.dir/src/node.cpp.o[0m
+[44.520s] [100%] [32m[1mLinking CXX executable localization_error_monitor[0m
+[44.814s] [100%] Built target localization_error_monitor
+[44.830s] Invoked command in '/home/sws/autoware/build/localization_error_monitor' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/localization_error_monitor -- -j16 -l16
+[44.862s] Invoking command in '/home/sws/autoware/build/localization_error_monitor': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/localization_error_monitor
+[54.810s] -- Install configuration: "Release"
+[54.810s] -- Execute custom install script
+[54.810s] -- Symlinking: /home/sws/autoware/install/localization_error_monitor/include/localization_error_monitor/node.hpp
+[54.810s] -- Symlinking: /home/sws/autoware/install/localization_error_monitor/lib/localization_error_monitor/localization_error_monitor
+[54.810s] -- Symlinking: /home/sws/autoware/install/localization_error_monitor/share/localization_error_monitor/config/localization_error_monitor.param.yaml
+[54.810s] -- Symlinking: /home/sws/autoware/install/localization_error_monitor/share/localization_error_monitor/launch/localization_error_monitor.launch.xml
+[54.810s] -- Symlinking: /home/sws/autoware/install/localization_error_monitor/share/ament_index/resource_index/package_run_dependencies/localization_error_monitor
+[54.810s] -- Symlinking: /home/sws/autoware/install/localization_error_monitor/share/ament_index/resource_index/parent_prefix_path/localization_error_monitor
+[54.811s] -- Symlinking: /home/sws/autoware/install/localization_error_monitor/share/localization_error_monitor/environment/ament_prefix_path.sh
+[54.811s] -- Symlinking: /home/sws/autoware/install/localization_error_monitor/share/localization_error_monitor/environment/ament_prefix_path.dsv
+[54.811s] -- Symlinking: /home/sws/autoware/install/localization_error_monitor/share/localization_error_monitor/environment/path.sh
+[54.811s] -- Symlinking: /home/sws/autoware/install/localization_error_monitor/share/localization_error_monitor/environment/path.dsv
+[54.811s] -- Symlinking: /home/sws/autoware/install/localization_error_monitor/share/localization_error_monitor/local_setup.bash
+[54.811s] -- Symlinking: /home/sws/autoware/install/localization_error_monitor/share/localization_error_monitor/local_setup.sh
+[54.811s] -- Symlinking: /home/sws/autoware/install/localization_error_monitor/share/localization_error_monitor/local_setup.zsh
+[54.811s] -- Symlinking: /home/sws/autoware/install/localization_error_monitor/share/localization_error_monitor/local_setup.dsv
+[54.812s] -- Symlinking: /home/sws/autoware/install/localization_error_monitor/share/localization_error_monitor/package.dsv
+[54.812s] -- Symlinking: /home/sws/autoware/install/localization_error_monitor/share/ament_index/resource_index/packages/localization_error_monitor
+[54.812s] -- Symlinking: /home/sws/autoware/install/localization_error_monitor/share/localization_error_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[54.812s] -- Symlinking: /home/sws/autoware/install/localization_error_monitor/share/localization_error_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[54.812s] -- Symlinking: /home/sws/autoware/install/localization_error_monitor/share/localization_error_monitor/cmake/localization_error_monitorConfig.cmake
+[54.812s] -- Symlinking: /home/sws/autoware/install/localization_error_monitor/share/localization_error_monitor/cmake/localization_error_monitorConfig-version.cmake
+[54.812s] -- Symlinking: /home/sws/autoware/install/localization_error_monitor/share/localization_error_monitor/package.xml
+[54.855s] Invoked command in '/home/sws/autoware/build/localization_error_monitor' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_cmake:/home/sws/autoware/install/autoware_lint_common:/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/localization_error_monitor

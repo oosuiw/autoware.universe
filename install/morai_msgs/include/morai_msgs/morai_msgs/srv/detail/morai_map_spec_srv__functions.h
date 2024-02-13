@@ -1,0 +1,1 @@
+/home/sws/autoware/build/morai_msgs/rosidl_generator_c/morai_msgs/srv/detail/morai_map_spec_srv__functions.h

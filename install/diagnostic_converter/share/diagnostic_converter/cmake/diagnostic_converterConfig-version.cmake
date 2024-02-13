@@ -1,0 +1,1 @@
+/home/sws/autoware/build/diagnostic_converter/ament_cmake_core/diagnostic_converterConfig-version.cmake

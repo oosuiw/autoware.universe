@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/sws/autoware/build/simple_planning_simulator/libsimple_planning_simulator.so" "TARGETS" "simple_planning_simulator" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

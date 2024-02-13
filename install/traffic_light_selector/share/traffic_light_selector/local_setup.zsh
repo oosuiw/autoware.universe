@@ -1,0 +1,1 @@
+/home/sws/autoware/build/traffic_light_selector/ament_cmake_environment_hooks/local_setup.zsh

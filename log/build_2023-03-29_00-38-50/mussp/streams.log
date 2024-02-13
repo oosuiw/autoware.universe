@@ -1,0 +1,59 @@
+[0.036s] Invoking command in '/home/sws/autoware/build/mussp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/universe/external/muSSP -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/mussp
+[4.765s] -- The C compiler identification is GNU 11.3.0
+[4.766s] -- The CXX compiler identification is GNU 11.3.0
+[4.774s] -- Detecting C compiler ABI info
+[4.774s] -- Detecting C compiler ABI info - done
+[4.774s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.774s] -- Detecting C compile features
+[4.774s] -- Detecting C compile features - done
+[4.774s] -- Detecting CXX compiler ABI info
+[4.774s] -- Detecting CXX compiler ABI info - done
+[4.774s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.774s] -- Detecting CXX compile features
+[4.775s] -- Detecting CXX compile features - done
+[4.775s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[4.775s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[4.775s] -- Found OpenMP: TRUE (found version "4.5")  
+[4.775s] -- Found ament_cmake_auto: 1.3.3 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[4.775s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.775s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.775s] -- Configuring done
+[4.775s] -- Generating done
+[4.775s] -- Build files have been written to: /home/sws/autoware/build/mussp
+[4.815s] Invoked command in '/home/sws/autoware/build/mussp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sws/autoware/src/universe/external/muSSP -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sws/autoware/install/mussp
+[4.815s] Invoking command in '/home/sws/autoware/build/mussp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/mussp -- -j16 -l16
+[5.416s] [ 20%] [32mBuilding CXX object CMakeFiles/mussp.dir/muSSP/Graph.cpp.o[0m
+[5.416s] [ 40%] [32mBuilding CXX object CMakeFiles/mussp.dir/muSSP/Node.cpp.o[0m
+[5.416s] [ 60%] [32mBuilding CXX object CMakeFiles/mussp.dir/muSSP/Sink.cpp.o[0m
+[5.416s] [ 80%] [32mBuilding CXX object CMakeFiles/mussp.dir/muSSP/mussp.cpp.o[0m
+[18.206s] [100%] [32m[1mLinking CXX shared library libmussp.so[0m
+[18.501s] [100%] Built target mussp
+[18.546s] Invoked command in '/home/sws/autoware/build/mussp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sws/autoware/build/mussp -- -j16 -l16
+[19.091s] Invoking command in '/home/sws/autoware/build/mussp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/mussp
+[24.998s] -- Install configuration: "Release"
+[24.998s] -- Execute custom install script
+[24.998s] -- Symlinking: /home/sws/autoware/install/mussp/include/mussp/Graph.h
+[24.998s] -- Symlinking: /home/sws/autoware/install/mussp/include/mussp/Node.h
+[24.998s] -- Symlinking: /home/sws/autoware/install/mussp/include/mussp/Sink.h
+[24.998s] -- Symlinking: /home/sws/autoware/install/mussp/include/mussp/mussp.h
+[24.998s] -- Symlinking: /home/sws/autoware/install/mussp/share/mussp/environment/library_path.sh
+[24.998s] -- Symlinking: /home/sws/autoware/install/mussp/share/mussp/environment/library_path.dsv
+[24.998s] -- Symlinking: /home/sws/autoware/install/mussp/lib/libmussp.so
+[24.998s] -- Symlinking: /home/sws/autoware/install/mussp/share/ament_index/resource_index/package_run_dependencies/mussp
+[24.998s] -- Symlinking: /home/sws/autoware/install/mussp/share/ament_index/resource_index/parent_prefix_path/mussp
+[24.998s] -- Symlinking: /home/sws/autoware/install/mussp/share/mussp/environment/ament_prefix_path.sh
+[24.998s] -- Symlinking: /home/sws/autoware/install/mussp/share/mussp/environment/ament_prefix_path.dsv
+[24.998s] -- Symlinking: /home/sws/autoware/install/mussp/share/mussp/environment/path.sh
+[24.999s] -- Symlinking: /home/sws/autoware/install/mussp/share/mussp/environment/path.dsv
+[24.999s] -- Symlinking: /home/sws/autoware/install/mussp/share/mussp/local_setup.bash
+[24.999s] -- Symlinking: /home/sws/autoware/install/mussp/share/mussp/local_setup.sh
+[24.999s] -- Symlinking: /home/sws/autoware/install/mussp/share/mussp/local_setup.zsh
+[24.999s] -- Symlinking: /home/sws/autoware/install/mussp/share/mussp/local_setup.dsv
+[24.999s] -- Symlinking: /home/sws/autoware/install/mussp/share/mussp/package.dsv
+[24.999s] -- Symlinking: /home/sws/autoware/install/mussp/share/ament_index/resource_index/packages/mussp
+[24.999s] -- Symlinking: /home/sws/autoware/install/mussp/share/mussp/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.999s] -- Symlinking: /home/sws/autoware/install/mussp/share/mussp/cmake/ament_cmake_export_libraries-extras.cmake
+[24.999s] -- Symlinking: /home/sws/autoware/install/mussp/share/mussp/cmake/musspConfig.cmake
+[25.000s] -- Symlinking: /home/sws/autoware/install/mussp/share/mussp/cmake/musspConfig-version.cmake
+[25.000s] -- Symlinking: /home/sws/autoware/install/mussp/share/mussp/package.xml
+[25.110s] Invoked command in '/home/sws/autoware/build/mussp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sws/autoware/build/mussp

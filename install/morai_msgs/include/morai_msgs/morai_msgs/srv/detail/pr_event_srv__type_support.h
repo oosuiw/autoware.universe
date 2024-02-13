@@ -1,0 +1,1 @@
+/home/sws/autoware/build/morai_msgs/rosidl_generator_c/morai_msgs/srv/detail/pr_event_srv__type_support.h

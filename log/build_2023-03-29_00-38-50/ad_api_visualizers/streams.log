@@ -1,0 +1,26 @@
+[1.026s] Invoking command in '/home/sws/autoware/build/ad_api_visualizers': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_adapi_v1_msgs LD_LIBRARY_PATH=/home/sws/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/build/ad_api_visualizers/prefix_override:/home/sws/autoware/install/ad_api_visualizers/lib/python3.10/site-packages:/home/sws/autoware/install/autoware_adapi_v1_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sws/autoware/build/ad_api_visualizers/build --no-deps install_data
+[1.999s] running develop
+[2.000s] running egg_info
+[2.001s] creating ad_api_visualizers.egg-info
+[2.011s] writing ad_api_visualizers.egg-info/PKG-INFO
+[2.011s] writing dependency_links to ad_api_visualizers.egg-info/dependency_links.txt
+[2.011s] writing entry points to ad_api_visualizers.egg-info/entry_points.txt
+[2.011s] writing requirements to ad_api_visualizers.egg-info/requires.txt
+[2.011s] writing top-level names to ad_api_visualizers.egg-info/top_level.txt
+[2.012s] writing manifest file 'ad_api_visualizers.egg-info/SOURCES.txt'
+[2.012s] reading manifest file 'ad_api_visualizers.egg-info/SOURCES.txt'
+[2.012s] writing manifest file 'ad_api_visualizers.egg-info/SOURCES.txt'
+[2.012s] running build_ext
+[2.012s] Creating /home/sws/autoware/install/ad_api_visualizers/lib/python3.10/site-packages/ad-api-visualizers.egg-link (link to .)
+[2.012s] Installing planning_factors script to /home/sws/autoware/install/ad_api_visualizers/lib/ad_api_visualizers
+[2.012s] 
+[2.012s] Installed /home/sws/autoware/build/ad_api_visualizers
+[2.012s] running install_data
+[2.012s] creating /home/sws/autoware/install/ad_api_visualizers/share/ament_index
+[2.012s] creating /home/sws/autoware/install/ad_api_visualizers/share/ament_index/resource_index
+[2.013s] creating /home/sws/autoware/install/ad_api_visualizers/share/ament_index/resource_index/packages
+[2.013s] copying resource/ad_api_visualizers -> /home/sws/autoware/install/ad_api_visualizers/share/ament_index/resource_index/packages
+[2.013s] copying package.xml -> /home/sws/autoware/install/ad_api_visualizers/share/ad_api_visualizers
+[2.013s] creating /home/sws/autoware/install/ad_api_visualizers/share/ad_api_visualizers/launch
+[2.013s] copying launch/ad_api_visualizers.launch.xml -> /home/sws/autoware/install/ad_api_visualizers/share/ad_api_visualizers/launch
+[2.020s] Invoked command in '/home/sws/autoware/build/ad_api_visualizers' returned '0': AMENT_PREFIX_PATH=/home/sws/autoware/install/autoware_adapi_v1_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sws/autoware/install/autoware_adapi_v1_msgs LD_LIBRARY_PATH=/home/sws/autoware/install/autoware_adapi_v1_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sws/autoware/build/ad_api_visualizers/prefix_override:/home/sws/autoware/install/ad_api_visualizers/lib/python3.10/site-packages:/home/sws/autoware/install/autoware_adapi_v1_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sws/autoware/build/ad_api_visualizers/build --no-deps install_data

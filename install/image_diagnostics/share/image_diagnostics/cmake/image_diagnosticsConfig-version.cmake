@@ -1,0 +1,1 @@
+/home/sws/autoware/build/image_diagnostics/ament_cmake_core/image_diagnosticsConfig-version.cmake

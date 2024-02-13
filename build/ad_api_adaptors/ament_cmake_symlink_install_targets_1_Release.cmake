@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/sws/autoware/build/ad_api_adaptors/initial_pose_adaptor" "/home/sws/autoware/build/ad_api_adaptors/routing_adaptor" "TARGETS" "initial_pose_adaptor" "routing_adaptor" "DESTINATION" "lib/ad_api_adaptors")

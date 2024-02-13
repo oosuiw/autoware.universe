@@ -1,0 +1,1 @@
+/home/sws/autoware/build/autoware_planning_msgs/rosidl_generator_cpp/autoware_planning_msgs/srv/set_pose_with_uuid_stamped.hpp
